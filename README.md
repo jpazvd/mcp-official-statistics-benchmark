@@ -35,7 +35,7 @@ paper/generated/numbers.tex (130 macros), tab*.tex, paper/figures/fig*.pdf
 paper/paper.pdf
 ```
 
-The paper's text, tables and figures take every result from the generated files, so no result is typed by hand. To trace a number, find its macro in `paper/paper.tex` (for example `\unCheaper`), then its definition in `paper/code/assets.py`. That definition reads a field of `unicefmcp/frontier/summary.json` or `unicefmcp/models/summary.json`, and the field is computed in `analysis/frontier_summary.py` or `analysis/models_summary.py`.
+The paper's text, tables and figures take every result from the generated files, so no result is typed by hand. Only design constants (sample sizes, dates, tool counts) and the figures from earlier comparisons cited in the motivation are written out. To trace a number, find its macro in `paper/paper.tex` (for example `\unCheaper`), then its definition in `paper/code/assets.py`. That definition reads a field of `unicefmcp/frontier/summary.json`, `unicefmcp/models/summary.json` or `unicefmcp/out/effects.csv`. The field is computed in `analysis/frontier_summary.py`, `analysis/models_summary.py` or `analysis/effects.py` (the fixed-effects models, clustered standard errors and wild cluster bootstrap).
 
 ## Repository layout
 
