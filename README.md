@@ -18,7 +18,7 @@ make all                          # analysis -> paper numbers, tables and figure
 make check                        # same, then fails if any committed output changed
 ```
 
-`make all` takes about a minute and needs no network access. It needs a LaTeX distribution with `latexmk`, `natbib`, `booktabs`, `tabularx` and `enumitem` for the final step. `make check` is the replication test. It rebuilds everything from the saved server responses and agent transcripts, then compares the result with the committed outputs using `git diff`. On the reference machine every output, from the first CSV to the paper's macros and tables, is reproduced byte for byte. The PDF and the images are excluded from the comparison, because they embed build timestamps.
+`make all` takes about a minute and needs no network access. It needs a LaTeX distribution with `latexmk`, `natbib`, `booktabs`, `tabularx` and `enumitem` for the final step. `make check` is the replication test. It rebuilds everything from the saved server responses and agent transcripts, then compares the result with the committed outputs using `git diff`. On the reference machine every output, from the first CSV to the paper's macros and tables, is reproduced byte for byte. The build date is fixed (`SOURCE_DATE_EPOCH` in the Makefile), so on one machine repeated builds of the PDF and figures are byte-identical too. They are still excluded from the comparison, because other versions of LaTeX, fonts or matplotlib produce visually identical files with different bytes.
 
 ## How a number gets into the paper
 

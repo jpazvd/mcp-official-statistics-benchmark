@@ -12,6 +12,11 @@
 PY ?= python3 -I
 A  := analysis
 
+# Fixed build date, so rebuilt PDFs (paper and figures) are byte-identical rather than differing only in their
+# embedded timestamps. matplotlib and pdfTeX both read SOURCE_DATE_EPOCH; 1793059200 = 2026-10-27 00:00 UTC.
+export SOURCE_DATE_EPOCH := 1793059200
+export FORCE_SOURCE_DATE := 1
+
 # order matters: each step reads what the previous ones wrote
 ROUND1   := compare metadata_compare
 UNIVERSE := unicef_compare unicef_ihme_map
