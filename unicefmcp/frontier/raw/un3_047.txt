@@ -1,0 +1,1 @@
+{"variable":{"dcid":"undata/unicef/WS_SCH_S.WASH_SERVICE--SS_B__WASH_SERVICE_TYPE--SAN","name":"Proportion of schools with sanitation services [WASH service=Basic sanitation services, WASH service type=Sanitation]","typeOf":["StatisticalVariable"]},"entityMetadata":{"columns":["dcid","name","typeOf"]},"data":{}}

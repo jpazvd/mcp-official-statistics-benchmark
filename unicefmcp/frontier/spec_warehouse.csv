@@ -1,0 +1,112 @@
+sid,step,tool,args,alt_args,target,iso3
+S01,find,find_indicator_candidates,"{""query"": ""Stillbirths""}","{""query"": ""Stillbirths""}",CME_SB,
+S01,data,query_data,"{""flowRef"": ""UNICEF/CME/1.0"", ""key"": ""NGA.CME_SB._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,CME_SB,NGA
+S02,find,find_indicator_candidates,"{""query"": ""Annual rate of reduction in under-five mortality rate""}","{""query"": ""Annual rate of reduction in mortality rate""}",CME_ARR_U5MR,
+S02,data,query_data,"{""flowRef"": ""UNICEF/CME/1.0"", ""key"": ""NGA.CME_ARR_U5MR._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,CME_ARR_U5MR,NGA
+S03,find,find_indicator_candidates,"{""query"": ""Live Births Surviving to Age 1""}","{""query"": ""Live births surviving to age 1""}",DM_BRTS_SURVIVING_1,
+S03,data,query_data,"{""flowRef"": ""UNICEF/DM/1.0"", ""key"": ""NGA.DM_BRTS_SURVIVING_1._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,DM_BRTS_SURVIVING_1,NGA
+S04,find,find_indicator_candidates,"{""query"": ""Life expectancy""}","{""query"": ""Life expectancy""}",DM_LIFE_EXP,
+S04,data,query_data,"{""flowRef"": ""UNICEF/DM/1.0"", ""key"": ""NGA.DM_LIFE_EXP._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,DM_LIFE_EXP,NGA
+S05,find,find_indicator_candidates,"{""query"": ""Percentage of children (aged 24-59 months) with whom any adult household member has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days""}","{""query"": ""Proportion of children with whom any adult household member has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days""}",ECD_CHLD_24-59M_ADLT_SRC,
+S05,data,query_data,"{""flowRef"": ""UNICEF/ECD/1.0"", ""key"": ""NGA.ECD_CHLD_24-59M_ADLT_SRC._T._T.M24T59._T._T._T._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECD_CHLD_24-59M_ADLT_SRC,NGA
+S06,find,find_indicator_candidates,"{""query"": ""Percentage of children under age 5 left alone or under the supervision of another child younger than 10 years of age for more than 1 hour at least once in the last week""}","{""query"": ""Proportion of children under left alone or under the supervision of another child younger than 10 years of age for more than 1 hour at least once in the last week""}",ECD_CHLD_U5_LFT-ALN,
+S06,data,query_data,"{""flowRef"": ""UNICEF/ECD/1.0"", ""key"": ""NGA.ECD_CHLD_U5_LFT-ALN._T._T.Y0T4._T._T._T._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECD_CHLD_U5_LFT-ALN,NGA
+S07,find,find_indicator_candidates,"{""query"": ""ODA inflow (%GNI)""}","{""query"": ""Official Development Assitance (ODA) inflow as a Proportion of Gross National Income (GNI)""}",ECON_ODA_INFLOW_PTGNI,
+S07,data,query_data,"{""flowRef"": ""UNICEF/ECONOMIC/1.0"", ""key"": ""NGA.ECON_ODA_INFLOW_PTGNI"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECON_ODA_INFLOW_PTGNI,NGA
+S07,data,query_data,"{""flowRef"": ""UNICEF/ECONOMIC/1.0"", ""key"": ""BRA.ECON_ODA_INFLOW_PTGNI"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECON_ODA_INFLOW_PTGNI,BRA
+S07,data,query_data,"{""flowRef"": ""UNICEF/ECONOMIC/1.0"", ""key"": ""SOM.ECON_ODA_INFLOW_PTGNI"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECON_ODA_INFLOW_PTGNI,SOM
+S08,find,find_indicator_candidates,"{""query"": ""ODA inflow (USD)""}","{""query"": ""Official Development Assitance (ODA) inflow in United States dollars""}",ECON_ODA_INFLOW_USD,
+S08,data,query_data,"{""flowRef"": ""UNICEF/ECONOMIC/1.0"", ""key"": ""NGA.ECON_ODA_INFLOW_USD"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECON_ODA_INFLOW_USD,NGA
+S08,data,query_data,"{""flowRef"": ""UNICEF/ECONOMIC/1.0"", ""key"": ""BRA.ECON_ODA_INFLOW_USD"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECON_ODA_INFLOW_USD,BRA
+S08,data,query_data,"{""flowRef"": ""UNICEF/ECONOMIC/1.0"", ""key"": ""SOM.ECON_ODA_INFLOW_USD"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ECON_ODA_INFLOW_USD,SOM
+S09,find,find_indicator_candidates,"{""query"": ""Youth literacy rate for 15-24 years""}","{""query"": ""Literacy rate""}",ED_15-24_LR,
+S09,data,query_data,"{""flowRef"": ""UNICEF/EDUCATION/1.0"", ""key"": ""NGA.ED_15-24_LR._T._T._T._T.PCNT"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ED_15-24_LR,NGA
+S10,find,find_indicator_candidates,"{""query"": ""Out-of-school rate for children of primary school age""}","{""query"": ""Out-of-school rate""}",ED_ROFST_L1,
+S10,data,query_data,"{""flowRef"": ""UNICEF/EDUCATION/1.0"", ""key"": ""NGA.ED_ROFST_L1._T.ISCED11_1._T._T.PCNT"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ED_ROFST_L1,NGA
+S11,find,find_indicator_candidates,"{""query"": ""Early stimulation and responsive care (Functional difficulties)""}","{""query"": ""Proportion of children with whom an adult has engaged in activities to provide early stimulation and responsive care""}",FD_EARLY_STIM,
+S11,data,query_data,"{""flowRef"": ""UNICEF/GLOBAL_DATAFLOW/1.0"", ""key"": ""NGA.FD_EARLY_STIM._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,FD_EARLY_STIM,NGA
+S12,find,find_indicator_candidates,"{""query"": ""Adjusted net attendance rate for children of primary school age""}","{""query"": ""Adjusted net school attendance rate""}",ED_ANAR_L1,
+S12,data,query_data,"{""flowRef"": ""UNICEF/EDUCATION/1.0"", ""key"": ""NGA.ED_ANAR_L1._T.ISCED11_1._T._T.PCNT"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ED_ANAR_L1,NGA
+S12,data,query_data,"{""flowRef"": ""UNICEF/EDUCATION/1.0"", ""key"": ""BRA.ED_ANAR_L1._T.ISCED11_1._T._T.PCNT"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ED_ANAR_L1,BRA
+S12,data,query_data,"{""flowRef"": ""UNICEF/EDUCATION/1.0"", ""key"": ""SOM.ED_ANAR_L1._T.ISCED11_1._T._T.PCNT"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,ED_ANAR_L1,SOM
+S13,find,find_indicator_candidates,"{""query"": ""Legal frameworks that promote, enforce, and monitor gender equality- Area 3: Employment and economic benefits""}","{""query"": ""Legal frameworks that promote, enforce, and monitor gender equality- Area 3: Employment and economic benefits""}",GN_SG_LGL_GENEQEMP,
+S13,data,query_data,"{""flowRef"": ""UNICEF/GENDER/1.0"", ""key"": ""NGA.GN_SG_LGL_GENEQEMP._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,GN_SG_LGL_GENEQEMP,NGA
+S14,find,find_indicator_candidates,"{""query"": ""Proportion of individuals who own a mobile telephone""}","{""query"": ""Proportion of individuals who own a mobile telephone""}",GN_IT_MOB_OWN,
+S14,data,query_data,"{""flowRef"": ""UNICEF/GENDER/1.0"", ""key"": ""NGA.GN_IT_MOB_OWN._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,GN_IT_MOB_OWN,NGA
+S14,data,query_data,"{""flowRef"": ""UNICEF/GENDER/1.0"", ""key"": ""BRA.GN_IT_MOB_OWN._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,GN_IT_MOB_OWN,BRA
+S14,data,query_data,"{""flowRef"": ""UNICEF/GENDER/1.0"", ""key"": ""SOM.GN_IT_MOB_OWN._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,GN_IT_MOB_OWN,SOM
+S15,find,find_indicator_candidates,"{""query"": ""Estimated number of children (aged 0-17 years) who have lost one or both parents due to AIDS""}","{""query"": ""Estimated number of children who have lost one or both parents due to HIV/AIDS""}",HVA_PED_LOST_AIDS,
+S15,data,query_data,"{""flowRef"": ""UNICEF/HIV_AIDS/1.0"", ""key"": ""NGA.HVA_PED_LOST_AIDS.._T._T._T."", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,HVA_PED_LOST_AIDS,NGA
+S15,data,query_data,"{""flowRef"": ""UNICEF/HIV_AIDS/1.0"", ""key"": ""BRA.HVA_PED_LOST_AIDS.._T._T._T."", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,HVA_PED_LOST_AIDS,BRA
+S15,data,query_data,"{""flowRef"": ""UNICEF/HIV_AIDS/1.0"", ""key"": ""SOM.HVA_PED_LOST_AIDS.._T._T._T."", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,HVA_PED_LOST_AIDS,SOM
+S16,find,find_indicator_candidates,"{""query"": ""Estimated number of children living with HIV""}","{""query"": ""Estimated number of children living with HIV""}",HVA_EPI_LHIV,
+S16,data,query_data,"{""flowRef"": ""UNICEF/HIV_AIDS/1.0"", ""key"": ""NGA.HVA_EPI_LHIV.Y15T24._T._T._T."", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,HVA_EPI_LHIV,NGA
+S17,find,find_indicator_candidates,"{""query"": ""Percentage of females who received the last dose of human papillomavirus (HPV) vaccine per national schedule""}","{""query"": ""Proportion of females who received the last dose of human papillomavirus (HPV) vaccine per national schedule""}",IM_HPV,
+S17,data,query_data,"{""flowRef"": ""UNICEF/IMMUNISATION/1.0"", ""key"": ""NGA.IM_HPV.HPV.Y15"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,IM_HPV,NGA
+S18,find,find_indicator_candidates,"{""query"": ""Percentage of surviving infants who received the first dose of DTP-containing vaccine""}","{""query"": ""Proportion of surviving infants who are vaccinated""}",IM_DTP1,
+S18,data,query_data,"{""flowRef"": ""UNICEF/IMMUNISATION/1.0"", ""key"": ""NGA.IM_DTP1.DTP1.M12T23"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,IM_DTP1,NGA
+S18,data,query_data,"{""flowRef"": ""UNICEF/IMMUNISATION/1.0"", ""key"": ""BRA.IM_DTP1.DTP1.M12T23"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,IM_DTP1,BRA
+S18,data,query_data,"{""flowRef"": ""UNICEF/IMMUNISATION/1.0"", ""key"": ""SOM.IM_DTP1.DTP1.M12T23"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,IM_DTP1,SOM
+S19,find,find_indicator_candidates,"{""query"": ""International migrants, by country of destination""}","{""query"": ""International migrants, by country of destination""}",MG_INTNL_MG_CNTRY_DEST,
+S19,data,query_data,"{""flowRef"": ""UNICEF/MG/1.0"", ""key"": ""NGA.MG_INTNL_MG_CNTRY_DEST._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MG_INTNL_MG_CNTRY_DEST,NGA
+S19,data,query_data,"{""flowRef"": ""UNICEF/MG/1.0"", ""key"": ""BRA.MG_INTNL_MG_CNTRY_DEST._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MG_INTNL_MG_CNTRY_DEST,BRA
+S19,data,query_data,"{""flowRef"": ""UNICEF/MG/1.0"", ""key"": ""SOM.MG_INTNL_MG_CNTRY_DEST._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MG_INTNL_MG_CNTRY_DEST,SOM
+S20,find,find_indicator_candidates,"{""query"": ""Internally displaced persons (IDPs)""}","{""query"": ""Internally displaced persons (IDPs)""}",MG_INTERNAL_DISP_PERS,
+S20,data,query_data,"{""flowRef"": ""UNICEF/MG/1.0"", ""key"": ""NGA.MG_INTERNAL_DISP_PERS._T.POP_CONF_VIOLENCE"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MG_INTERNAL_DISP_PERS,NGA
+S20,data,query_data,"{""flowRef"": ""UNICEF/MG/1.0"", ""key"": ""BRA.MG_INTERNAL_DISP_PERS._T.POP_CONF_VIOLENCE"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MG_INTERNAL_DISP_PERS,BRA
+S20,data,query_data,"{""flowRef"": ""UNICEF/MG/1.0"", ""key"": ""SOM.MG_INTERNAL_DISP_PERS._T.POP_CONF_VIOLENCE"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MG_INTERNAL_DISP_PERS,SOM
+S21,find,find_indicator_candidates,"{""query"": ""Coverage of essential health services""}","{""query"": ""Coverage of essential health services""}",MNCH_UHC,
+S21,data,query_data,"{""flowRef"": ""UNICEF/MNCH/1.0"", ""key"": ""NGA.MNCH_UHC._T._T._T._T._T._T."", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MNCH_UHC,NGA
+S22,find,find_indicator_candidates,"{""query"": ""Careseeking for diarrhoea - percentage of children (under age 5) with diarrhoea for whom advice or treatment was sought from a health facility or provider""}","{""query"": ""Proportion of children with diarrhoea for whom advice or treatment was sought from a health facility or provider""}",MNCH_DIARCARE,
+S22,data,query_data,"{""flowRef"": ""UNICEF/MNCH/1.0"", ""key"": ""NGA.MNCH_DIARCARE._T.Y0T4._T._T._T._T."", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,MNCH_DIARCARE,NGA
+S23,find,find_indicator_candidates,"{""query"": ""Weight-for-height >+2 SD (overweight), Modeled Estimates""}","{""query"": ""Proportion of children with overweight (modeled estimates)""}",NT_ANT_WHZ_PO2_MOD,
+S23,data,query_data,"{""flowRef"": ""UNICEF/NUTRITION/1.0"", ""key"": ""NGA.NT_ANT_WHZ_PO2_MOD._T._T._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,NT_ANT_WHZ_PO2_MOD,NGA
+S24,find,find_indicator_candidates,"{""query"": ""Minimum acceptable diet (children aged 6-23 months)""}","{""query"": ""Minimum acceptable diet (children aged 6-23 months)""}",NT_CF_MAD,
+S24,data,query_data,"{""flowRef"": ""UNICEF/NUTRITION/1.0"", ""key"": ""NGA.NT_CF_MAD._T._T._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,NT_CF_MAD,NGA
+S25,find,find_indicator_candidates,"{""query"": ""Percentage of women aged 20 to 24 years who have an account at a bank or other financial institution, by child marriage status""}","{""query"": ""Proportion of women who have an account at a bank or other financial institution""}",PT_CM_BANK,
+S25,data,query_data,"{""flowRef"": ""UNICEF/PT_CM/1.0"", ""key"": ""NGA.PT_CM_BANK._T.Y20T24._T._T._T._T._T._T._T.MRD_NEVER"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,PT_CM_BANK,NGA
+S26,find,find_indicator_candidates,"{""query"": ""Percentage of ever-partnered girls aged 15 to 19 years who have experienced physical and/or sexual violence by a current or former intimate partner in the last 12 months""}","{""query"": ""Proportion of ever-partnered girls and women who have experienced physical and/or sexual violence by a current or former intimate partner in the last 12 months""}",PT_F_PS-SX_V_PTNR_12MNTH,
+S26,data,query_data,"{""flowRef"": ""UNICEF/PT/1.0"", ""key"": ""NGA.PT_F_PS-SX_V_PTNR_12MNTH..Y15T49._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,PT_F_PS-SX_V_PTNR_12MNTH,NGA
+S27,find,find_indicator_candidates,"{""query"": ""Adolescent poverty""}","{""query"": ""Adolescent poverty rate""}",PV_ADOLESCENT,
+S27,data,query_data,"{""flowRef"": ""UNICEF/CHLD_PVTY/1.0"", ""key"": ""NGA.PV_ADOLESCENT.F._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,PV_ADOLESCENT,NGA
+S28,find,find_indicator_candidates,"{""query"": ""Percentage Children suffering exactly one deprivation. Homogeneous moderate standards""}","{""query"": ""Proportion of children suffering deprivations according to homogeneous moderate standards""}",PV_CHLD_DPRV-E1-HS,
+S28,data,query_data,"{""flowRef"": ""UNICEF/CHLD_PVTY/1.0"", ""key"": ""NGA.PV_CHLD_DPRV-E1-HS._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,PV_CHLD_DPRV-E1-HS,NGA
+S28,data,query_data,"{""flowRef"": ""UNICEF/CHLD_PVTY/1.0"", ""key"": ""BRA.PV_CHLD_DPRV-E1-HS._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,PV_CHLD_DPRV-E1-HS,BRA
+S28,data,query_data,"{""flowRef"": ""UNICEF/CHLD_PVTY/1.0"", ""key"": ""SOM.PV_CHLD_DPRV-E1-HS._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,PV_CHLD_DPRV-E1-HS,SOM
+S29,find,find_indicator_candidates,"{""query"": ""Gini Coefficient""}","{""query"": ""Gini coefficient of income inequality""}",SPP_GINI,
+S29,data,query_data,"{""flowRef"": ""UNICEF/SOC_PROTECTION/1.0"", ""key"": ""NGA.SPP_GINI._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,SPP_GINI,NGA
+S29,data,query_data,"{""flowRef"": ""UNICEF/SOC_PROTECTION/1.0"", ""key"": ""BRA.SPP_GINI._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,SPP_GINI,BRA
+S29,data,query_data,"{""flowRef"": ""UNICEF/SOC_PROTECTION/1.0"", ""key"": ""SOM.SPP_GINI._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,SPP_GINI,SOM
+S30,find,find_indicator_candidates,"{""query"": ""Child Poverty Profile""}","{""query"": ""Child Poverty Profile""}",SPP_CHLD_POV_PROF,
+S30,data,query_data,"{""flowRef"": ""UNICEF/SOC_PROTECTION/1.0"", ""key"": ""NGA.SPP_CHLD_POV_PROF._T._T._T.S1"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,SPP_CHLD_POV_PROF,NGA
+S31,find,find_indicator_candidates,"{""query"": ""Proportion of population practising open defecation""}","{""query"": ""Proportion of population practising open defecation""}",WS_PPL_S-OD,
+S31,data,query_data,"{""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0"", ""key"": ""NGA.WS_PPL_S-OD.SAN._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WS_PPL_S-OD,NGA
+S31,data,query_data,"{""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0"", ""key"": ""BRA.WS_PPL_S-OD.SAN._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WS_PPL_S-OD,BRA
+S31,data,query_data,"{""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0"", ""key"": ""SOM.WS_PPL_S-OD.SAN._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WS_PPL_S-OD,SOM
+S32,find,find_indicator_candidates,"{""query"": ""Proportion of schools with basic sanitation services""}","{""query"": ""Proportion of schools with sanitation services""}",WS_SCH_S-B,
+S32,data,query_data,"{""flowRef"": ""UNICEF/WASH_SCHOOLS/1.0"", ""key"": ""NGA.WS_SCH_S-B.SAN._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WS_SCH_S-B,NGA
+S32,data,query_data,"{""flowRef"": ""UNICEF/WASH_SCHOOLS/1.0"", ""key"": ""BRA.WS_SCH_S-B.SAN._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WS_SCH_S-B,BRA
+S32,data,query_data,"{""flowRef"": ""UNICEF/WASH_SCHOOLS/1.0"", ""key"": ""SOM.WS_SCH_S-B.SAN._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WS_SCH_S-B,SOM
+S33,find,find_indicator_candidates,"{""query"": ""Percentage of adolescents (aged 15-19 years) not in education, employment or training""}","{""query"": ""Percentage of adolescents not in education, employment or training""}",WT_ADLS_15-19_ED_NEET,
+S33,data,query_data,"{""flowRef"": ""UNICEF/WT/1.0"", ""key"": ""NGA.WT_ADLS_15-19_ED_NEET._T.Y15T19._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WT_ADLS_15-19_ED_NEET,NGA
+S34,find,find_indicator_candidates,"{""query"": ""Child labour thresholds (economic activity)""}","{""query"": ""Child labour thresholds (economic activity)""}",WT_ADLS_10-17_LBR_ECON,
+S34,data,query_data,"{""flowRef"": ""UNICEF/WT/1.0"", ""key"": ""NGA.WT_ADLS_10-17_LBR_ECON._T.Y10T14._T._T._T._T"", ""startPeriod"": ""2000"", ""endPeriod"": ""2025"", ""format"": ""csv"", ""labels"": ""id""}",,WT_ADLS_10-17_LBR_ECON,NGA
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/CHLD_PVTY/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/CME/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/DM/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/ECD/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/ECONOMIC/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/EDUCATION/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/GENDER/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/GLOBAL_DATAFLOW/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/HIV_AIDS/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/IMMUNISATION/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/MG/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/MNCH/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/NUTRITION/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/PT/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/PT_CM/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/SOC_PROTECTION/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/WASH_SCHOOLS/1.0""}",,,
+,structure,list_dimensions,"{""flowRef"": ""UNICEF/WT/1.0""}",,,

@@ -1,0 +1,128 @@
+indicator_key,iso3,unit,undc,undc_year,wb,wb_year,ihme,ihme_year
+abr,BGD,"births per 1,000 women 15-19",69.713211,2022,73.128,2022,71.4171739419087,2022
+abr,BRA,"births per 1,000 women 15-19",40.172913,2022,42.881,2022,45.0501037848854,2022
+abr,ETH,"births per 1,000 women 15-19",,,71.137,2022,49.074024301005,2022
+abr,IND,"births per 1,000 women 15-19",11.3,2020,14.185,2022,9.1747407035807,2022
+abr,NGA,"births per 1,000 women 15-19",74.629028,2020,87.26,2022,73.5732162759242,2022
+anc1,BGD,% of pregnant women,87.6,2022,75.2,2019,91.9832777347096,2022
+anc1,BRA,% of pregnant women,,,,,98.7670103964211,2022
+anc1,ETH,% of pregnant women,73.6,2019,73.6,2019,76.85403319694821,2022
+anc1,IND,% of pregnant women,85.1,2021,85.1,2021,95.0062814838831,2022
+anc1,NGA,% of pregnant women,69.6,2021,67.0,2018,75.6137368789738,2022
+anc4,BGD,% of pregnant women,34.3,2022,36.9,2019,40.1041376941309,2022
+anc4,BRA,% of pregnant women,92.95800249,2022,92.7,2019,96.7611472101423,2022
+anc4,ETH,% of pregnant women,43.0,2019,43.0,2019,50.58746522871979,2022
+anc4,IND,% of pregnant women,58.5,2021,58.1,2021,58.322146485404204,2022
+anc4,NGA,% of pregnant women,52.4,2024,56.8,2018,50.681543188316205,2022
+anem_w,BGD,% of women 15-49,36.9,2022,36.9,2022,40.76801013726269,2022
+anem_w,BRA,% of women 15-49,20.9,2022,20.9,2022,21.057597817058753,2022
+anem_w,ETH,% of women 15-49,22.2,2022,22.2,2022,29.02714976873888,2022
+anem_w,IND,% of women 15-49,53.2,2022,53.2,2022,54.490531594618844,2022
+anem_w,NGA,% of women 15-49,38.1,2022,38.1,2022,54.50856101150329,2022
+breg,BGD,% children <5 registered,,,56.0,2019,,
+breg,BRA,% children <5 registered,,,,,,
+breg,ETH,% children <5 registered,,,,,,
+breg,IND,% children <5 registered,89.1,2021,89.1,2021,,
+breg,NGA,% children <5 registered,39.7,2024,42.6,2018,,
+chmar,BGD,% women 20-24 married <18,,,50.7,2022,,
+chmar,ETH,% women 20-24 married <18,,,,,,
+chmar,IND,% women 20-24 married <18,,,22.3,2021,,
+chmar,NGA,% women 20-24 married <18,,,33.4,2024,,
+cpr_mod,BGD,% of married women 15-49 (WB) vs % of all women 15-49 (IHME),,,54.7,2022,49.1779450313794,2022
+cpr_mod,BRA,% of married women 15-49 (WB) vs % of all women 15-49 (IHME),,,,,64.89942464632979,2022
+cpr_mod,ETH,% of married women 15-49 (WB) vs % of all women 15-49 (IHME),,,34.618115,2021,25.1491311755274,2022
+cpr_mod,IND,% of married women 15-49 (WB) vs % of all women 15-49 (IHME),,,56.4,2021,42.4885330184259,2022
+cpr_mod,NGA,% of married women 15-49 (WB) vs % of all women 15-49 (IHME),,,18.2,2021,14.1942010159304,2022
+dtp3,BGD,% of target population,97.0,2022,97.0,2022,92.6184852696886,2022
+dtp3,BRA,% of target population,77.0,2022,77.0,2022,75.577865626711,2022
+dtp3,ETH,% of target population,63.0,2022,63.0,2022,53.8951262122646,2022
+dtp3,IND,% of target population,93.0,2022,93.0,2022,87.96983069700079,2022
+dtp3,NGA,% of target population,59.0,2022,59.0,2022,61.057371311419196,2022
+ebf,BGD,% of infants <6 months,53.2855,2022,62.60072,2019,,
+ebf,BRA,% of infants <6 months,45.8,2019,,,,
+ebf,ETH,% of infants <6 months,58.8143,2019,58.81426,2019,,
+ebf,IND,% of infants <6 months,63.6885,2020,58.0,2018,,
+ebf,NGA,% of infants <6 months,34.3633,2021,28.67734,2018,,
+fp_mod,BGD,% of women 15-49 (UNDC/WB) vs % of women with demand (IHME),73.9,2022,73.9,2022,78.40539339671871,2022
+fp_mod,BRA,% of women 15-49 (UNDC/WB) vs % of women with demand (IHME),,,,,90.8602532094759,2022
+fp_mod,ETH,% of women 15-49 (UNDC/WB) vs % of women with demand (IHME),60.6,2021,,,62.07122780262691,2022
+fp_mod,IND,% of women 15-49 (UNDC/WB) vs % of women with demand (IHME),74.3,2019,74.1,2021,72.0445789755149,2022
+fp_mod,NGA,% of women 15-49 (UNDC/WB) vs % of women with demand (IHME),41.9,2021,37.1,2024,39.3360735452562,2022
+imr,BGD,"deaths per 1,000 live births",24.37093206,2022,24.4,2022,26.116103470567698,2022
+imr,BRA,"deaths per 1,000 live births",12.56867099,2022,12.6,2022,11.347047924375907,2022
+imr,ETH,"deaths per 1,000 live births",48.31966639,2022,48.3,2022,42.716433374786256,2022
+imr,IND,"deaths per 1,000 live births",25.67980866,2022,25.7,2022,29.235206964537184,2022
+imr,NGA,"deaths per 1,000 live births",70.16330273,2022,70.2,2022,50.76014101110271,2022
+ipv,BGD,% of ever-partnered women 15-49 (12 months),15.7,2023,,,,
+ipv,BRA,% of ever-partnered women 15-49 (12 months),2.4,2023,,,,
+ipv,ETH,% of ever-partnered women 15-49 (12 months),20.1,2023,,,,
+ipv,IND,% of ever-partnered women 15-49 (12 months),22.4,2023,,,,
+ipv,NGA,% of ever-partnered women 15-49 (12 months),19.6,2023,,,,
+lbw,BGD,% of live births,23.0,2020,23.046702,2020,,
+lbw,BRA,% of live births,8.7,2020,8.698071,2020,,
+lbw,IND,% of live births,27.4,2020,27.435259,2020,,
+le0,BGD,years,73.10251672,2021,74.265,2022,70.93122067905897,2022
+le0,BRA,years,72.38840694,2021,74.872,2022,76.07871365250041,2022
+le0,ETH,years,67.83909086,2021,66.897,2022,64.40880400713495,2022
+le0,IND,years,67.30780612,2021,71.698,2022,71.23456323025704,2022
+le0,NGA,years,63.3974984,2021,54.079,2022,64.30471946462437,2022
+mcv1,BGD,%,96.0,2022,96.0,2022,90.36210927253249,2022
+mcv1,BRA,%,81.0,2022,81.0,2022,93.83565924001729,2022
+mcv1,ETH,%,62.0,2022,62.0,2022,55.742001903364205,2022
+mcv1,IND,%,95.0,2022,95.0,2022,85.0260278443477,2022
+mcv1,NGA,%,51.0,2022,51.0,2022,67.2133249186562,2022
+mcv2,BGD,%,93.0,2022,93.0,2022,84.4891826078799,2022
+mcv2,BRA,%,58.0,2022,58.0,2022,64.7352094751525,2022
+mcv2,ETH,%,52.0,2022,48.0,2022,49.6120676126785,2022
+mcv2,IND,%,90.0,2022,90.0,2022,79.82430268765201,2022
+mcv2,NGA,%,30.0,2022,38.0,2022,42.1418806537216,2022
+mmr,BGD,"maternal deaths per 100,000 live births",130.51897,2022,131.0,2022,239.0034721981448,2022
+mmr,BRA,"maternal deaths per 100,000 live births",103.96809,2022,104.0,2022,66.39299905575766,2022
+mmr,ETH,"maternal deaths per 100,000 live births",207.47857,2022,207.0,2022,338.0616061178987,2022
+mmr,IND,"maternal deaths per 100,000 live births",89.64525,2022,90.0,2022,120.7411437504981,2022
+mmr,NGA,"maternal deaths per 100,000 live births",1016.33674,2022,1016.0,2022,400.9128529429954,2022
+nmr,BGD,"deaths per 1,000 live births",18.03389418,2022,18.0,2022,19.92959689956908,2022
+nmr,BRA,"deaths per 1,000 live births",8.281859452,2022,8.3,2022,7.668292022301792,2022
+nmr,ETH,"deaths per 1,000 live births",26.8653068,2022,26.9,2022,27.18680115251326,2022
+nmr,IND,"deaths per 1,000 live births",18.49408144,2022,18.5,2022,19.63410021549661,2022
+nmr,NGA,"deaths per 1,000 live births",39.33354859,2022,39.3,2022,28.614325226734127,2022
+ovwt,BGD,% of children <5,1.8,2022,1.8,2022,,
+ovwt,BRA,% of children <5,10.1,2022,10.1,2022,,
+ovwt,ETH,% of children <5,2.8,2022,2.8,2022,,
+ovwt,IND,% of children <5,3.1,2022,3.1,2022,,
+ovwt,NGA,% of children <5,1.5,2022,1.5,2022,,
+pop_u5,BGD,persons,16290933.0,2022,,,16094613.96827758,2022
+pop_u5,BRA,persons,13628418.0,2022,,,15112568.885400103,2022
+pop_u5,ETH,persons,18673390.0,2022,,,16099360.358469956,2022
+pop_u5,IND,persons,115769541.0,2022,,,112087158.24089012,2022
+pop_u5,NGA,persons,33327207.0,2022,,,38452575.59439286,2022
+sba,BGD,% of births,69.8,2022,59.0,2019,70.2878149842997,2022
+sba,BRA,% of births,98.3,2022,98.4,2020,99.5369925705326,2022
+sba,ETH,% of births,49.8,2019,49.8,2019,58.3570902965566,2022
+sba,IND,% of births,89.4,2021,89.4,2021,91.6243459474695,2022
+sba,NGA,% of births,50.7,2022,50.7,2022,55.9778580336136,2022
+sbr,BGD,"stillbirths per 1,000 total births (>=28 wks)",20.6324085913461,2022,20.5,2021,15.3964351730147,2022
+sbr,BRA,"stillbirths per 1,000 total births (>=28 wks)",6.46178801397771,2022,7.0,2021,5.9701935221475,2022
+sbr,ETH,"stillbirths per 1,000 total births (>=28 wks)",29.9174674426091,2022,20.6,2021,22.9426029731147,2022
+sbr,IND,"stillbirths per 1,000 total births (>=28 wks)",12.3841019427461,2022,12.2,2021,16.355270472545,2022
+sbr,NGA,"stillbirths per 1,000 total births (>=28 wks)",24.2452608419827,2022,22.5,2021,25.6243036498082,2022
+stunt,BGD,% of children <5,25.9,2022,25.9,2022,,
+stunt,BRA,% of children <5,8.5,2022,8.5,2022,,
+stunt,ETH,% of children <5,35.6,2022,35.6,2022,,
+stunt,IND,% of children <5,33.0,2022,33.0,2022,,
+stunt,NGA,% of children <5,33.5,2022,33.5,2022,,
+tfr,BGD,births per woman,2.1786,2022,2.179,2022,2.05897641719955,2022
+tfr,BRA,births per woman,1.6292,2022,1.629,2022,1.89092242474262,2022
+tfr,ETH,births per woman,4.0818,2022,4.082,2022,4.11454578496659,2022
+tfr,IND,births per woman,1.9936,2022,1.994,2022,1.82857943029077,2022
+tfr,NGA,births per woman,4.5525,2022,4.552,2022,4.63444758122691,2022
+u5mr,BGD,"deaths per 1,000 live births",30.66127834,2022,30.7,2022,31.198757964168525,2022
+u5mr,BRA,"deaths per 1,000 live births",14.58825016,2022,14.6,2022,13.467953351690335,2022
+u5mr,ETH,"deaths per 1,000 live births",68.05999664,2022,68.1,2022,54.85102967238378,2022
+u5mr,IND,"deaths per 1,000 live births",29.5332771,2022,29.5,2022,32.94612827216188,2022
+u5mr,NGA,"deaths per 1,000 live births",117.4552593,2022,117.5,2022,86.65812553482675,2022
+wast,BGD,% of children <5,10.7,2022,10.7,2022,,
+wast,BRA,% of children <5,3.4,2019,3.4,2019,,
+wast,ETH,% of children <5,6.8,2019,6.8,2019,,
+wast,IND,% of children <5,18.7,2020,18.7,2020,,
+wast,NGA,% of children <5,11.6,2021,11.6,2021,,

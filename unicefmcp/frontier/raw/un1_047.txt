@@ -1,0 +1,1 @@
+{"status":"SUCCESS","dcidNameMappings":{"country/SOM":"Somalia"},"dcidPlaceTypeMappings":{"country/SOM":["Country","Country"]}}

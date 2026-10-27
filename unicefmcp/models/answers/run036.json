@@ -1,0 +1,23 @@
+{
+ "found": true,
+ "server_indicator_id": "WB_HCP_ANTENATAL_CARE_4",
+ "series_label": "Percentage of women aged 15-49 years who attended at least four times during pregnancy by any provider (World Bank Human Capital Project, database WB_HCP; REF_AREA=NGA)",
+ "values": {
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "Percentage of women in the same subgroup (UNIT_MEASURE=PT_W_SUB; AGE=Y15T49)",
+ "unit_multiplier": "0 (UNIT_MULT=0, units)",
+ "source_or_custodian": "Human Capital Project, World Bank; underlying source: UN Children's Fund (UNICEF), Maternal, child and newborn health (https://data.unicef.org/dv_index/)",
+ "release_or_vintage": "Version 2, version date 2026-10-14",
+ "uncertainty": null,
+ "status_or_notes": "Values are only available for 6 of the 26 years requested (2000-2025): 2011, 2013, 2017, 2018, 2021, 2024. The series time range on the server is 2010-2024 and it has no values for the other years, including 2000-2010, 2012, 2014-2016, 2019-2020, 2022-2023 and 2025. No uncertainty intervals or flags were returned. Other related series exist on the server but are not an exact match: WB_HNP_SH_STA_ANV4_ZS (pregnant women receiving prenatal care of at least four visits, % of pregnant women, WB_HNP, 1960-2023); I did not retrieve its data.",
+ "definition": "Percentage of women ages 15-49 with a live birth in the last 2 or 5 years who were attended at least four times during their last pregnancy by any provider. This indicator is calculated as the total number of women in this age group who received at least four antenatal visits divided by the total number of women ages 15-49 with a live birth in the last 2 or 5 years, expressed as a percentage. Name in source: Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider.",
+ "licence": "CC BY 4.0 (Creative Commons Attribution 4.0 International, with a mandatory WIPO mediation/UNCITRAL arbitration addition)",
+ "citation": null,
+ "query_or_url": "data360_get_data(database_id=WB_HCP, indicator_id=WB_HCP_ANTENATAL_CARE_4, country_code=NGA, start_year=2000, end_year=2025); API: https://data360api.worldbank.org/data360/data?top=1000&skip=0&DATABASE_ID=WB_HCP&INDICATOR=WB_HCP_ANTENATAL_CARE_4"
+}

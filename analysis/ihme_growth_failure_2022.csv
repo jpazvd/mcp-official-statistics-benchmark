@@ -1,0 +1,61 @@
+indicator_key,iso3,age_group,series,female,male
+stunt,BGD,12 to 23 months,Child Stunting Between -2 Sd And -1 Sd,0.2934738236348976,0.3069255250343238
+stunt,BGD,12 to 23 months,Child Stunting Between -3 Sd And -2 Sd,0.1737455514225252,0.2161275147742247
+stunt,BGD,12 to 23 months,Child Stunting Less Than -3 Sd,0.0677734046214856,0.0983648953823558
+stunt,BGD,2 to 4,Child Stunting Between -2 Sd And -1 Sd,0.3555087828698118,0.3483064303090342
+stunt,BGD,2 to 4,Child Stunting Between -3 Sd And -2 Sd,0.2431064652369801,0.2601146379173763
+stunt,BGD,2 to 4,Child Stunting Less Than -3 Sd,0.0853664652631698,0.1005845123273666
+stunt,BRA,12 to 23 months,Child Stunting Between -2 Sd And -1 Sd,0.1796898111976279,0.2183098646093931
+stunt,BRA,12 to 23 months,Child Stunting Between -3 Sd And -2 Sd,0.0554292094047556,0.0868562994408129
+stunt,BRA,12 to 23 months,Child Stunting Less Than -3 Sd,0.0126930142047585,0.0242367185640972
+stunt,BRA,2 to 4,Child Stunting Between -2 Sd And -1 Sd,0.1914768305222244,0.2082288154857219
+stunt,BRA,2 to 4,Child Stunting Between -3 Sd And -2 Sd,0.0555178995512733,0.0745634313610702
+stunt,BRA,2 to 4,Child Stunting Less Than -3 Sd,0.0115393635319037,0.0190543655026948
+stunt,ETH,12 to 23 months,Child Stunting Between -2 Sd And -1 Sd,0.2770129965230795,0.2642139787185952
+stunt,ETH,12 to 23 months,Child Stunting Between -3 Sd And -2 Sd,0.1996095611283591,0.2272725001423484
+stunt,ETH,12 to 23 months,Child Stunting Less Than -3 Sd,0.1072613321044007,0.1577000447271368
+stunt,ETH,2 to 4,Child Stunting Between -2 Sd And -1 Sd,0.2818859683085847,0.2776872920652806
+stunt,ETH,2 to 4,Child Stunting Between -3 Sd And -2 Sd,0.2423631851664962,0.2522494250092765
+stunt,ETH,2 to 4,Child Stunting Less Than -3 Sd,0.1501631410610122,0.1677026991506414
+stunt,IND,12 to 23 months,Child Stunting Between -2 Sd And -1 Sd,0.2411555013128135,0.2297028808110989
+stunt,IND,12 to 23 months,Child Stunting Between -3 Sd And -2 Sd,0.1939127728390905,0.207185071243932
+stunt,IND,12 to 23 months,Child Stunting Less Than -3 Sd,0.1446437830411315,0.1873695404998032
+stunt,IND,2 to 4,Child Stunting Between -2 Sd And -1 Sd,0.2681588258990841,0.2700101879048869
+stunt,IND,2 to 4,Child Stunting Between -3 Sd And -2 Sd,0.2436043354716478,0.2523285062346834
+stunt,IND,2 to 4,Child Stunting Less Than -3 Sd,0.1804069400138802,0.1827295520430424
+stunt,NGA,12 to 23 months,Child Stunting Between -2 Sd And -1 Sd,0.2338233950084382,0.226751711890613
+stunt,NGA,12 to 23 months,Child Stunting Between -3 Sd And -2 Sd,0.1694486662145497,0.1923875653317525
+stunt,NGA,12 to 23 months,Child Stunting Less Than -3 Sd,0.117216164596373,0.1622115921380507
+stunt,NGA,2 to 4,Child Stunting Between -2 Sd And -1 Sd,0.2530275731898124,0.2511652962382938
+stunt,NGA,2 to 4,Child Stunting Between -3 Sd And -2 Sd,0.2166496057232534,0.2229350564925027
+stunt,NGA,2 to 4,Child Stunting Less Than -3 Sd,0.1626377784800689,0.179765453661027
+wast,BGD,12 to 23 months,Child Wasting Between -2 Sd And -1 Sd,0.2426203936005354,0.265430962005757
+wast,BGD,12 to 23 months,Child Wasting Between -3 Sd And -2 Sd,0.0808577367460336,0.1079177655620748
+wast,BGD,12 to 23 months,Child Wasting Less Than -3 Sd,0.022489237449018,0.035906164833986
+wast,BGD,2 to 4,Child Wasting Between -2 Sd And -1 Sd,0.2883636985136064,0.3078966317511151
+wast,BGD,2 to 4,Child Wasting Between -3 Sd And -2 Sd,0.0853757890711658,0.1064361073527485
+wast,BGD,2 to 4,Child Wasting Less Than -3 Sd,0.0188491676937146,0.0266007168643141
+wast,BRA,12 to 23 months,Child Wasting Between -2 Sd And -1 Sd,0.0727881146617051,0.0747032850688406
+wast,BRA,12 to 23 months,Child Wasting Between -3 Sd And -2 Sd,0.0132769470403721,0.0170783998947513
+wast,BRA,12 to 23 months,Child Wasting Less Than -3 Sd,0.0025002815341441,0.0041039195132753
+wast,BRA,2 to 4,Child Wasting Between -2 Sd And -1 Sd,0.0750827909441654,0.0755731941276518
+wast,BRA,2 to 4,Child Wasting Between -3 Sd And -2 Sd,0.0128571351757313,0.0159941500385747
+wast,BRA,2 to 4,Child Wasting Less Than -3 Sd,0.0022525834983661,0.0035315317574308
+wast,ETH,12 to 23 months,Child Wasting Between -2 Sd And -1 Sd,0.2152928563569308,0.2373250739186045
+wast,ETH,12 to 23 months,Child Wasting Between -3 Sd And -2 Sd,0.0784619887766712,0.0946979395629875
+wast,ETH,12 to 23 months,Child Wasting Less Than -3 Sd,0.025569216497624,0.0331362070560459
+wast,ETH,2 to 4,Child Wasting Between -2 Sd And -1 Sd,0.1949839995745875,0.1939726225454846
+wast,ETH,2 to 4,Child Wasting Between -3 Sd And -2 Sd,0.0634134885186023,0.0723563299378515
+wast,ETH,2 to 4,Child Wasting Less Than -3 Sd,0.0191441109536971,0.0266853129260976
+wast,IND,12 to 23 months,Child Wasting Between -2 Sd And -1 Sd,0.2737109919762787,0.2759119467547901
+wast,IND,12 to 23 months,Child Wasting Between -3 Sd And -2 Sd,0.1490680126247567,0.1603297362098711
+wast,IND,12 to 23 months,Child Wasting Less Than -3 Sd,0.0681185668659076,0.0777904059635497
+wast,IND,2 to 4,Child Wasting Between -2 Sd And -1 Sd,0.281868575604021,0.2856855481251241
+wast,IND,2 to 4,Child Wasting Between -3 Sd And -2 Sd,0.1245520217464743,0.1343006283055488
+wast,IND,2 to 4,Child Wasting Less Than -3 Sd,0.0437660827928196,0.0502135149462682
+wast,NGA,12 to 23 months,Child Wasting Between -2 Sd And -1 Sd,0.2280872139898527,0.2408661188379009
+wast,NGA,12 to 23 months,Child Wasting Between -3 Sd And -2 Sd,0.0988451179887504,0.1163788842679613
+wast,NGA,12 to 23 months,Child Wasting Less Than -3 Sd,0.0394181144327306,0.0512994635384612
+wast,NGA,2 to 4,Child Wasting Between -2 Sd And -1 Sd,0.1833344434791601,0.1846036451359542
+wast,NGA,2 to 4,Child Wasting Between -3 Sd And -2 Sd,0.0587415449163599,0.0671654771661513
+wast,NGA,2 to 4,Child Wasting Less Than -3 Sd,0.0182209919672152,0.0244677715556919

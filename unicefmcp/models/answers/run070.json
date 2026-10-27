@@ -1,0 +1,25 @@
+{
+ "found": true,
+ "server_indicator_id": "MNCH_ANC4",
+ "series_label": "Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider (Nigeria, Sex=Total, Age=15 to 49 years old, Wealth quintile=Total, Residence=Total, Mother's education=Total)",
+ "values": {
+  "2003": 47.4,
+  "2008": 44.8,
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "% (PCNT)",
+ "unit_multiplier": "0 (Units)",
+ "source_or_custodian": "UNICEF SDMX data warehouse, dataflow UNICEF/MNCH/1.0 (Maternal, child and newborn health). Per-year data sources: 2003 Demographic and Health Survey 2003 (MNCH_SRC_393); 2008 DHS 2008 (MNCH_SRC_310); 2011 Multiple Indicator Cluster Survey 2011 (MNCH_SRC_267); 2013 DHS 2013 (MNCH_SRC_751); 2017 MICS 2016-2017 (MNCH_SRC_1608); 2018 DHS 2018 (MNCH_SRC_455); 2021 MICS 2021 (MNCH_SRC_2566); 2024 DHS 2023-2024 (MNCH_SRC_2923, source link 'CRAVE 2024')",
+ "release_or_vintage": null,
+ "uncertainty": null,
+ "status_or_notes": "Only survey years have observations; no values for other years in 2000-2025. All 15-49 observations have OBS_STATUS=RP (Reported), OBS_CONF=F (Free), DATA_SOURCE_PRIORITY=1, TIME_PERIOD_METHOD=EOF (time period = end of fieldwork). LOWER_BOUND/UPPER_BOUND and sample sizes are empty. The flow also holds an AGE=Y15T19 series (e.g. 2017 value 38.2 is RA/Reanalysed by ICEH Pelotas), and wealth-quintile/residence breakdowns, which were excluded.",
+ "definition": "Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider",
+ "licence": null,
+ "citation": null,
+ "query_or_url": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,MNCH,1.0/NGA.MNCH_ANC4...._T._T..?startPeriod=2000&endPeriod=2025&format=csv&labels=both (filtered to AGE=Y15T49)"
+}

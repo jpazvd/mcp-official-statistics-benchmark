@@ -1,0 +1,86 @@
+{
+ "response": {
+  "query": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,CME,1.0/NGA.CME_MRY0T4._T._T?startPeriod=2000&endPeriod=2025&format=csv&labels=id",
+  "server": "<server name and version>",
+  "retrieved": "<UTC timestamp>",
+  "applied_defaults": {},
+  "truncated": false
+ },
+ "series": [
+  {
+   "id": {
+    "custodian_code": "CME_MRY0T4",
+    "server_id": "UNICEF/CME/1.0:NGA.CME_MRY0T4._T._T",
+    "sdg_series": "SH_DYN_MORT"
+   },
+   "name": "Under-five mortality rate",
+   "definition": "Probability of dying between birth and exactly 5 years of age, expressed per 1,000 live births",
+   "methodology": "https://childmortality.org/",
+   "unit": {
+    "code": "D_PER_1000_B",
+    "label": "Deaths per 1,000 live births",
+    "multiplier": 0
+   },
+   "breakdown": {
+    "REF_AREA": [
+     "NGA",
+     "Nigeria"
+    ],
+    "SEX": [
+     "_T",
+     "Total"
+    ],
+    "WEALTH_QUINTILE": [
+     "_T",
+     "Total"
+    ]
+   },
+   "custodian": "UN Inter-agency Group for Child Mortality Estimation (UN IGME)",
+   "provenance": [
+    "UN IGME",
+    "UNICEF Data Warehouse, UNICEF/CME/1.0"
+   ],
+   "release": {
+    "name": "UN IGME, Levels and Trends in Child Mortality, Report 2025",
+    "date": "<release date>",
+    "ingested": "<date>",
+    "status": "current"
+   },
+   "licence": "<licence URL>",
+   "citation": "<recommended citation: custodian, release, access date>",
+   "observation_defaults": {
+    "interval": "90% uncertainty interval",
+    "source": "UN IGME model",
+    "nature": "MD (modelled)"
+   }
+  }
+ ],
+ "observations": {
+  "columns": [
+   "time_period",
+   "value",
+   "lower",
+   "upper"
+  ],
+  "rows": [
+   [
+    "2022",
+    117.455259297469,
+    104.005749030124,
+    132.800081288681
+   ],
+   [
+    "2023",
+    116.816468972674,
+    101.796288011281,
+    134.522310670227
+   ],
+   [
+    "2024",
+    115.649433639974,
+    98.8479874283228,
+    136.188585455153
+   ]
+  ]
+ }
+}

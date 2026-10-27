@@ -1,0 +1,1 @@
+{"variable":{"dcid":"undata/unicef/GN_IT_MOB_OWN","name":"Proportion of individuals who own a mobile telephone","typeOf":["StatisticalVariable"]},"entityMetadata":{"columns":["dcid","name","typeOf"]},"data":{}}

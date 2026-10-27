@@ -1,0 +1,108 @@
+=== by configuration (12 questions each) ===
+                            model_id  runs  answered  sent_k_median  sent_k_total  sent_uncached_k_total  growth_k_median  schema_k_median  schema_resent_k_median  other_growth_k_median  received_median  received_total  thinking_total  turns_median  mcp_calls_median  mcp_calls_total  mcp_chars_median  mcp_chars_total  oversized  years_reported  years_correct  years_ref  values_grounded  meta_mean  accuracy  completeness
+config                                                                                                                                                                                                                                                                                                                                                                                                                                
+haiku-medium       claude-haiku-5-5    12        12            655          8001                   1584            117.4             20.0                    80.7                   32.4             2860           34502           12538           5.5               5.0               62             27007           341683          0             244            244        246              244        7.9     1.000         0.992
+sonnet-low        claude-sonnet-5-5    12        12            587          7023                    575             97.1             14.6                    72.8                   19.6             1483           18166             312           5.0               4.0               47             19267           240575          0             244            244        246              244        7.9     1.000         0.992
+sonnet-medium     claude-sonnet-5-5    12        12            588          7079                   1519             99.3             17.7                    72.8                   21.9             1569           19275             469           5.0               3.5               46             18045           255368          0             244            244        246              244        8.2     1.000         0.992
+sonnet-high       claude-sonnet-5-5    12        12            643          8008                    619            107.3             20.4                    84.4                   26.3             1805           22289             916           5.5               5.0               57             21885           268987          1             244            244        246              244        8.4     1.000         0.992
+opus-low            claude-opus-5-5    12        12            551          6260                   1454             64.1             14.5                    52.9                   15.7             1308           15655             135           5.0               3.0               38             22510           221231          0             245            244        246              245        7.5     0.996         0.992
+opus-medium         claude-opus-5-5    12        12            639          8140                    595            109.4             17.4                    84.3                   21.3             1631           20367             770           5.5               4.0               51             20855           251503          0             244            244        246              244        8.1     1.000         0.992
+opus-high           claude-opus-5-5    12        12            690          8831                    616            113.6             20.0                    94.3                   25.8             1823           21863            1115           6.0               4.0               57             20366           266761          0             244            244        246              244        8.1     1.000         0.992
+opus-medium-rep2    claude-opus-5-5    12        12            563          7549                    550             82.0             14.8                    66.5                   19.9             1608           19148             484           5.0               4.0               47             19958           249006          0             244            244        246              244        8.1     1.000         0.992
+
+=== by server (all configs) ===
+        turns_med  schema_k_med  schema_resent_k_med  sent_k_med  growth_k_med  recv_med  calls_med  chars_med  chars_max  rep  cor  ref     meta
+server                                                                                                                                           
+un            6.0          14.8                 73.9         687         102.5    1728.0        5.0    20112.0      30662  656  656  656  6.43750
+wb            4.0          22.2                 66.5         474          82.6    1605.0        4.0    27262.5      34995  641  640  656  9.96875
+wh            5.0          20.0                 80.7         590         102.5    1610.0        3.0    16590.0      46566  656  656  656  7.68750
+
+=== by server x model family ===
+               growth_k_med  recv_med  chars_med  calls_med
+server model                                               
+un     haiku          106.5    2587.0    20390.5        5.0
+       opus           118.3    1651.5    20112.0        4.0
+       sonnet         102.0    1724.5    18922.0        5.0
+wb     haiku           88.2    2529.5    30968.5        4.0
+       opus            82.0    1543.5    26774.0        4.0
+       sonnet          84.0    1532.0    28017.5        3.5
+wh     haiku          162.2    3126.0    35818.0        5.5
+       opus            78.9    1507.5    14857.5        3.0
+       sonnet         104.6    1610.0    16377.5        3.0
+
+=== wrong or extra years ===
+ run   config qid server             indicator  years_reported  years_correct  wrong_years  extra_years
+  48 opus-low  Q4     wb WB_HNP_SH_STA_ANV4_ZS               7              6          NaN       2000.0
+
+=== values not found verbatim/rounded in server responses ===
+Empty DataFrame
+Columns: [run, config, qid, server, years_reported, values_grounded]
+Index: []
+
+=== series chosen and distinct value sets (values rounded to 0.1) per question x server, 8 runs each ===
+ qid server  series_distinct  value_sets                                                                                                                                       series
+ Q1     un                1           1                                                                                                         undata/sdg/SH_DYN_MORT.AGE--Y0T4 (8)
+ Q1     wb                1           1                                                                                                                       WB_WDI_SH_DYN_MORT (8)
+ Q1     wh                1           1                                                                                                                               CME_MRY0T4 (8)
+ Q2     un                1           1                                                                                                            undata/sdg/SH_STA_MORT.SEX--F (8)
+ Q2     wb                1           1                                                                                                                       WB_WDI_SH_STA_MMRT (8)
+ Q2     wh                1           1                                                                                                                                 MNCH_MMR (8)
+ Q3     un                2           1                                  undata/sdg/SP_ACS_BSRVH2O (6) | undata/unicef/WS_PPL_W_DW.WASH_SERVICE--DWS_ALB__WASH_SERVICE_TYPE--WAT (2)
+ Q3     wb                2           1                                                                                          WB_WDI_SH_H2O_BASW_ZS (7) | WB_HCP_UNICEF_WATER (1)
+ Q3     wh                1           1                                                                                                                             WS_PPL_W-ALB (8)
+ Q4     un                1           1                                                                                                      undata/unicef/MNCH_ANC4.AGE--Y15T49 (8)
+ Q4     wb                4           2 WB_HCP_ANTENATAL_CARE_4 (4) | WB_HCP/WB_HCP_ANTENATAL_CARE_4 (2) | WB_HNP_SH_STA_ANV4_ZS (1) | WB_HCP_ANTENATAL_CARE_4 (database WB_HCP) (1)
+ Q4     wh                1           1                                                                                                                                MNCH_ANC4 (8)
+
+=== share of runs reporting each field, by server ===
+ server                     un    wb    wh
+has_server_indicator_id  1.00  1.00  1.00
+has_series_label         1.00  1.00  1.00
+has_unit                 1.00  1.00  1.00
+has_unit_multiplier      0.00  1.00  0.44
+has_source_or_custodian  1.00  1.00  0.94
+has_release_or_vintage   0.00  0.94  0.16
+has_uncertainty          0.00  0.00  0.22
+has_status_or_notes      1.00  1.00  1.00
+has_definition           0.31  0.97  0.91
+has_licence              0.00  0.94  0.00
+has_citation             0.12  0.12  0.03
+has_query_or_url         1.00  1.00  1.00
+
+=== text fields with < 60% of their words found in the server's responses ===
+ run           config qid server                    variable  value
+  52      opus-medium  Q2     wh grounded_release_or_vintage   0.50
+  88 opus-medium-rep2  Q2     wh grounded_release_or_vintage   0.50
+  84     haiku-medium  Q4     wb            grounded_licence   0.58
+52 grounded_release_or_vintage -> UN MMEIG 2025
+88 grounded_release_or_vintage -> UN MMEIG 2025
+84 grounded_licence -> CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), with an additional mandatory dispute-resolution clause stated in the server metadata
+
+=== repeat stability (opus-medium run twice) ===
+                                         series1                                    series2  same_values  calls1  calls2  chars1  chars2  sent1_k  sent2_k  recv1  recv2  meta1  meta2
+qid server                                                                                                                                                                           
+Q1  wh                               CME_MRY0T4                                 CME_MRY0T4         True       4       3   13200   10269    706.0    551.0   2090   1818      8      8
+    un         undata/sdg/SH_DYN_MORT.AGE--Y0T4           undata/sdg/SH_DYN_MORT.AGE--Y0T4         True       8       6   23337   19805   1052.0    925.0   2210   1802      6      6
+    wb                       WB_WDI_SH_DYN_MORT                         WB_WDI_SH_DYN_MORT         True       4       4   26774   26774    472.0    472.0   1442   1449     10     10
+Q2  wh                                 MNCH_MMR                                   MNCH_MMR         True       3       3   12051   17953    556.0    560.0   1430   1368      9      9
+    un            undata/sdg/SH_STA_MORT.SEX--F              undata/sdg/SH_STA_MORT.SEX--F         True       4       4   18279   18279    800.0    800.0   1629   1614      6      6
+    wb                       WB_WDI_SH_STA_MMRT                         WB_WDI_SH_STA_MMRT         True       4       4   27108   27108    472.0    472.0   1607   1603     10     10
+Q3  wh                             WS_PPL_W-ALB                               WS_PPL_W-ALB         True       3       3   13033   16515    585.0    562.0   1397   1543      7      7
+    un                undata/sdg/SP_ACS_BSRVH2O                  undata/sdg/SP_ACS_BSRVH2O         True       5       5   20112   20112    924.0    923.0   1783   1705      6      6
+    wb                    WB_WDI_SH_H2O_BASW_ZS                      WB_WDI_SH_H2O_BASW_ZS         True       4       4   31725   31725    594.0    564.0   1633   1617     10     10
+Q4  wh                                MNCH_ANC4                                  MNCH_ANC4         True       4       3   27211   21793    700.0    570.0   1806   1472      8      8
+    un      undata/unicef/MNCH_ANC4.AGE--Y15T49        undata/unicef/MNCH_ANC4.AGE--Y15T49         True       4       4   17074   17074    679.0    679.0   1357   1311      7      7
+    wb           WB_HCP/WB_HCP_ANTENATAL_CARE_4  WB_HCP_ANTENATAL_CARE_4 (database WB_HCP)         True       4       4   21599   21599    599.0    470.0   1983   1846     10     10
+
+=== identical calls repeated across runs ===
+        call_signatures  identical_bytes  identical_content
+server                                                     
+un                   18                7                 18
+wb                   26               25                 25
+wh                   24               24                 24
+server                                               tool                                                                                    args  runs  responses  contents chars
+    wb mcp__World_Bank_Data360__data360_search_indicators {"limit": 8, "query": "antenatal care at least four visits", "required_country": "NGA"}     2          2         2  4018
+
+=== responses too large for the client (refused, never entered the context) ===
+ run      config server qid                                     tool   chars                          args
+  25 sonnet-high     wh  Q1 mcp__Unicef_MCP_Yves__get_flow_structure 1301330 {"flowRef": "UNICEF/CME/1.0"}

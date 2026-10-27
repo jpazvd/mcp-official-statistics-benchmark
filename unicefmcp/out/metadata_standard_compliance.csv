@@ -1,0 +1,46 @@
+platform,element,status,evidence
+warehouse,R1,meets,"echoes queryURL with flow, key and period"
+warehouse,R2,missing,no timestamp or server version in responses
+warehouse,R3,meets,"appliedDefaults, maxObs and the padded key are returned"
+warehouse,S1,partial,custodian code and flow key; no SDG series link
+warehouse,S2,partial,definition only from the discovery call; no methodology link
+warehouse,S3,meets,UNIT_MEASURE code and UNIT_MULTIPLIER; labels on request
+warehouse,S4,meets,full SDMX key with _T totals
+warehouse,S5,partial,"DATA_SOURCE mixes custodian, survey and pipe; CUSTODIAN only in nutrition"
+warehouse,S6,partial,release named inside DATA_SOURCE text for some flows; no date or series status
+warehouse,S7,missing,no licence or citation in the payload
+warehouse,O1,partial,DATA_SOURCE on 59% of observations; MNCH as bare codes
+warehouse,O2,partial,"COVERAGE_TIME filled in six flows, nutrition and HIV among them (9% of observations); not in MNCH"
+warehouse,O3,partial,"OBS_STATUS on 49%; none in WASH, gender, education, economic flows"
+warehouse,O4,partial,bounds on 52% of observations; interval level never stated
+warehouse,O5,meets,"observation, series and country notes passed through"
+undc,R1,partial,"variable, place and date reproduce the call; no query returned"
+undc,R2,missing,none
+undc,R3,missing,search returns 10 variables with no total or ranking rule
+undc,S1,partial,SDG code or re-coded UNICEF code inside the variable id
+undc,S2,missing,variable name only
+undc,S3,partial,"unit on every facet, wrong or uninformative for about 1 in 5"
+undc,S4,partial,breakdowns encoded in variable ids; 162 codes lack a total
+undc,S5,missing,"""United Nations"" on every UNICEF facet"
+undc,S6,missing,nothing; withdrawn series served unflagged
+undc,S7,missing,none
+undc,O1,missing,none
+undc,O2,missing,plain years
+undc,O3,missing,none
+undc,O4,missing,bounds dropped
+undc,O5,missing,notes dropped
+data360,R1,partial,indicator and database ids; no query; metadata call gives a generic link
+data360,R2,missing,none (a 'stale' flag only)
+data360,R3,partial,has_more flags rows; period window not stated
+data360,S1,partial,World Bank code; DCS code and SDG number only in metadata notes
+data360,S2,partial,100-character excerpt in search; full definition via the metadata call
+data360,S3,meets,"code, label and UNIT_MULT on every row"
+data360,S4,partial,WDI series carry no dimension fields
+data360,S5,partial,authoring_entity and sources via the metadata call; UNICEF credited on 65 of 117
+data360,S6,partial,"version_date of the World Bank database, not the custodian release"
+data360,S7,partial,licence via the metadata call; citation_requirement null
+data360,O1,partial,survey name in some HCP rows only
+data360,O2,missing,plain years
+data360,O3,missing,none
+data360,O4,missing,none
+data360,O5,missing,none

@@ -1,0 +1,23 @@
+{
+ "found": true,
+ "server_indicator_id": "WB_HCP_ANTENATAL_CARE_4 (database WB_HCP)",
+ "series_label": "Percentage of women aged 15-49 years who attended at least four times during pregnancy by any provider",
+ "values": {
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "Percentage of women in the same subgroup (PT_W_SUB)",
+ "unit_multiplier": "0",
+ "source_or_custodian": "UN Children's Fund (UNICEF), Maternal, child and newborn health (https://data.unicef.org/dv_index/); compiled by the World Bank Human Capital Project",
+ "release_or_vintage": "Version 2, 2026-10-14",
+ "uncertainty": null,
+ "status_or_notes": "Nigeria has data only for survey years. This series covers 2010-2024, so there are no values for 2000-2009, the gap years or 2025. Age is Y15T49. A related series, WB_HNP_SH_STA_ANV4_ZS (Health Nutrition and Population Statistics, 'Pregnant women receiving prenatal care of at least four visits (% of pregnant women)', unit Percent), adds earlier years for Nigeria: 2000: 47.3, 2003: 47.4, 2008: 44.8. Its other values (2011: 56.6, 2013: 51.1, 2017: 49.1, 2018: 56.8) match WB_HCP. It has null values for 2019-2023, so it does not include 2021 or 2024.",
+ "definition": "Percentage of women ages 15\u201349 with a live birth in the last 2 or 5 years who were attended at least four times during their last pregnancy by any provider. This indicator is calculated as the total number of women in this age group who received at least four antenatal visits divided by the total number of women ages 15\u201349 with a live birth in the last 2 or 5 years, expressed as a percentage.",
+ "licence": "CC BY 4.0 (with WIPO mediation/UNCITRAL arbitration addition)",
+ "citation": null,
+ "query_or_url": "https://data360api.worldbank.org/data360/data?top=1000&skip=0&DATABASE_ID=WB_HCP&INDICATOR=WB_HCP_ANTENATAL_CARE_4 (filtered REF_AREA=NGA, 2000-2025)"
+}

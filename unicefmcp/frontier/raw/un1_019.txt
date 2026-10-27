@@ -1,0 +1,4 @@
+1 validation error for call[get_variable_metadata]
+entity_dcids
+  Missing required argument [type=missing_argument, input_value={'variable_dcids': ['unda...ECON_ODA_INFLOW_PTGNI']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing_argument

@@ -1,0 +1,16 @@
+id,tier,element,requirement
+R1,response,Reproducible query,required
+R2,response,Retrieval stamp,required
+R3,response,Completeness statement,required
+S1,series,Identifiers,required
+S2,series,Name and definition,required
+S3,series,Unit,required
+S4,series,Breakdown,required
+S5,series,Custodian and provenance chain,required
+S6,series,Release and currency,required
+S7,series,Licence and citation,required
+O1,observation,Source,required
+O2,observation,Reference period,when published
+O3,observation,Nature and status,required
+O4,observation,Uncertainty,when published
+O5,observation,Footnote,when published

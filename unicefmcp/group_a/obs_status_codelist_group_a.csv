@@ -1,0 +1,42 @@
+id,name,first_flow_seen,codelist_id,codelist_version
+A,Normal value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+B,Time series break,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+D,Definition differs,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+E,Estimated value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+F,Forecast value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+G,Experimental value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+H,Missing value; holiday or weekend,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+I,Imputed value (CCSA definition),UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+J,Derogation,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+K,Data included in another category,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+L,Missing value; data exist but were not collected,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+M,Missing value; data cannot exist,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+N,Not significant,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+O,Missing value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+P,Provisional value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+Q,Missing value; suppressed,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+S,Strike and other special events,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+U,Low reliability,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+V,Unvalidated value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+W,Includes data from another category,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+RA,Reanalysed,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+RP,Reported,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+AD,Adjusted,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+MD,Modelled,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+ER,External Reanalysis,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+LT,Observation value is less than,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+PR,Projection,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+BE,Time series break; estimated value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+BU,Time series break; low reliability,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+PU,Provisional value; low reliability,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+PA,Partial value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+DP,Definition differs; provisional value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+DE,Definition differs; estimated value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+BP,Time series break; provisional value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+EP,Estimated value; provisional value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+EXCL,Excluded,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+BEP,Time series break; estimated value; provisional value,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+PRED,Predicted,UNICEF/CME/1.0,UNICEF:CL_OBS_STATUS,1.0
+A,Normal value,UNICEF/CME_DF_2021_WQ/1.0,UNICEF:CL_OBS_STATUS_CME,1.0
+EX,Excluded from IGME,UNICEF/CME_DF_2021_WQ/1.0,UNICEF:CL_OBS_STATUS_CME,1.0
+IN,Included in IGME,UNICEF/CME_DF_2021_WQ/1.0,UNICEF:CL_OBS_STATUS_CME,1.0

@@ -1,0 +1,19 @@
+dataflow,UN DC re-coding of a DW code with data,"code in DW codelist, no DW data (3 countries)",not in DW codelist,verbatim code with DW data,n_codes
+CME,3,0,0,4,7
+DM,2,0,0,14,16
+ECD,5,1,0,1,7
+ECON,1,2,0,4,7
+ED,6,0,0,0,6
+FD,0,2,0,10,12
+GN,0,2,0,8,10
+HVA,0,4,0,19,23
+IM,1,0,0,6,7
+MG,0,1,0,7,8
+MNCH,1,2,0,30,33
+NT,2,0,0,35,37
+PT,16,0,1,13,30
+PV,4,4,0,2,10
+SPP,0,0,0,9,9
+WS,16,0,0,3,19
+WT,2,0,0,4,6
+TOTAL,59,18,1,169,247

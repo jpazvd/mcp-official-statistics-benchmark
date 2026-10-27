@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the working paper."
+title: "Metadata, cost and accuracy of official statistics served to AI agents: evidence from three MCP servers — replication package"
+authors:
+  - family-names: Azevedo
+    given-names: João Pedro
+    affiliation: UNICEF
+date-released: 2026-10-27
+version: 0.1.0
+keywords: [official statistics, metadata, SDMX, Model Context Protocol, AI agents]

@@ -1,0 +1,12 @@
+metric,value
+DW indicator codes in CL_UNICEF_INDICATOR v1.0,803
+DW codes with descriptions,476
+DW dataflows catalogued (UNICEF + UNPD),40
+DW codes with ≥1 observation for NGA/IND/BRA (national flows),669
+  of which only in GLOBAL_DATAFLOW,0
+UN DC UNICEF codes,247
+  verbatim DW code with data,169
+  UN DC re-coding of a DW code with data,59
+"  in DW codelist, no DW data for the 3 countries",18
+  not in DW codelist,1
+DW codes with data that UN DC does not carry (any form),324

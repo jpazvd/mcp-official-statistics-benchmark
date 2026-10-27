@@ -1,0 +1,13 @@
+qid,server,series_distinct,value_sets,series
+Q1,un,1,1,undata/sdg/SH_DYN_MORT.AGE--Y0T4 (8)
+Q1,wb,1,1,WB_WDI_SH_DYN_MORT (8)
+Q1,wh,1,1,CME_MRY0T4 (8)
+Q2,un,1,1,undata/sdg/SH_STA_MORT.SEX--F (8)
+Q2,wb,1,1,WB_WDI_SH_STA_MMRT (8)
+Q2,wh,1,1,MNCH_MMR (8)
+Q3,un,2,1,undata/sdg/SP_ACS_BSRVH2O (6) | undata/unicef/WS_PPL_W_DW.WASH_SERVICE--DWS_ALB__WASH_SERVICE_TYPE--WAT (2)
+Q3,wb,2,1,WB_WDI_SH_H2O_BASW_ZS (7) | WB_HCP_UNICEF_WATER (1)
+Q3,wh,1,1,WS_PPL_W-ALB (8)
+Q4,un,1,1,undata/unicef/MNCH_ANC4.AGE--Y15T49 (8)
+Q4,wb,4,2,WB_HCP_ANTENATAL_CARE_4 (4) | WB_HCP/WB_HCP_ANTENATAL_CARE_4 (2) | WB_HNP_SH_STA_ANV4_ZS (1) | WB_HCP_ANTENATAL_CARE_4 (database WB_HCP) (1)
+Q4,wh,1,1,MNCH_ANC4 (8)

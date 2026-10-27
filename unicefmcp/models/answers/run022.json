@@ -1,0 +1,25 @@
+{
+ "found": true,
+ "server_indicator_id": "MNCH_ANC4",
+ "series_label": "Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider (Nigeria, total: sex _T, age Y15T49, wealth quintile _T, residence _T)",
+ "values": {
+  "2003": 47.4,
+  "2008": 44.8,
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "% (PCNT)",
+ "unit_multiplier": "0",
+ "source_or_custodian": "UNICEF data warehouse (SDMX), dataflow UNICEF/MNCH/1.0. Each year comes from a different survey source code: MNCH_SRC_393 (2003), MNCH_SRC_310 (2008), MNCH_SRC_267 (2011), MNCH_SRC_751 (2013), MNCH_SRC_1608 (2017), MNCH_SRC_455 (2018), MNCH_SRC_2566 (2021), MNCH_SRC_2923 (2024, source link 'CRAVE 2024'). The server did not name the surveys or the custodian.",
+ "release_or_vintage": null,
+ "uncertainty": null,
+ "status_or_notes": "Only these 8 survey years have data in 2000-2025. All other years, including 2000-2002, 2004-2007, 2009-2010, 2012, 2014-2016, 2019-2020, 2022-2023 and 2025, have no observation. OBS_STATUS is RP for all values. LOWER_BOUND and UPPER_BOUND are empty. The tool reported 'not_a_single_series' because the series mixes data sources, so values are one observation per year across those sources.",
+ "definition": "Percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider",
+ "licence": null,
+ "citation": null,
+ "query_or_url": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,MNCH,1.0/NGA.MNCH_ANC4._T.Y15T49.._T._T..?startPeriod=2000&endPeriod=2025&format=csv&labels=id"
+}

@@ -1,0 +1,9 @@
+config,model_id,runs,answered,sent_k_median,sent_k_total,sent_uncached_k_total,growth_k_median,schema_k_median,schema_resent_k_median,other_growth_k_median,received_median,received_total,thinking_total,turns_median,mcp_calls_median,mcp_calls_total,mcp_chars_median,mcp_chars_total,oversized,years_reported,years_correct,years_ref,values_grounded,meta_mean,accuracy,completeness
+haiku-medium,claude-haiku-5-5,12,12,655,8001,1584,117.4,20.0,80.7,32.4,2860,34502,12538,5.5,5.0,62,27007,341683,0,244,244,246,244,7.9,1.0,0.992
+sonnet-low,claude-sonnet-5-5,12,12,587,7023,575,97.1,14.6,72.8,19.6,1483,18166,312,5.0,4.0,47,19267,240575,0,244,244,246,244,7.9,1.0,0.992
+sonnet-medium,claude-sonnet-5-5,12,12,588,7079,1519,99.3,17.7,72.8,21.9,1569,19275,469,5.0,3.5,46,18045,255368,0,244,244,246,244,8.2,1.0,0.992
+sonnet-high,claude-sonnet-5-5,12,12,643,8008,619,107.3,20.4,84.4,26.3,1805,22289,916,5.5,5.0,57,21885,268987,1,244,244,246,244,8.4,1.0,0.992
+opus-low,claude-opus-5-5,12,12,551,6260,1454,64.1,14.5,52.9,15.7,1308,15655,135,5.0,3.0,38,22510,221231,0,245,244,246,245,7.5,0.996,0.992
+opus-medium,claude-opus-5-5,12,12,639,8140,595,109.4,17.4,84.3,21.3,1631,20367,770,5.5,4.0,51,20855,251503,0,244,244,246,244,8.1,1.0,0.992
+opus-high,claude-opus-5-5,12,12,690,8831,616,113.6,20.0,94.3,25.8,1823,21863,1115,6.0,4.0,57,20366,266761,0,244,244,246,244,8.1,1.0,0.992
+opus-medium-rep2,claude-opus-5-5,12,12,563,7549,550,82.0,14.8,66.5,19.9,1608,19148,484,5.0,4.0,47,19958,249006,0,244,244,246,244,8.1,1.0,0.992

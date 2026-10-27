@@ -1,0 +1,11 @@
+platform,question,calls,errors,chars,chars_excl_setup,observations,chars_per_obs,bounds,obs_status,source,vintage
+UN_System_Data_Commons,U5MR,3,0,20459,8462,25,818,no,no,yes,no
+UN_System_Data_Commons,DTP3,2,0,21949,21949,25,878,no,no,yes,no
+World_Bank_Data360,U5MR,2,0,15201,15201,61,249,no,no,partial/no,no
+World_Bank_Data360,DTP3,3,1,10190,10190,41,249,no,no,partial/no,no
+IHME_GBD,U5MR,1,0,15253,15253,34,449,yes,no,yes,partial
+IHME_GBD,DTP3,1,0,16532,16532,44,376,yes,no,yes,partial
+Unicef_MCP_Yves,U5MR,5,1,13665,13665,25,547,yes,yes,yes,no
+Unicef_MCP_Yves,DTP3,2,0,7350,7350,26,283,no,yes,yes,yes
+Unicef_MCP_Yves (minimal: find + list_dimensions + query_data),U5MR,3,0,10942,10942,25,438,yes,yes,yes,no
+Unicef_MCP_Yves (minimal: find + get_time_series),U5MR,2,0,8811,8811,25,352,no (compact mode drops them),no,partial,no

@@ -1,0 +1,14 @@
+metric,value
+UN DC variables with ≥1 observation (3 countries),244
+variables matched to a DW row,232
+identical (all obs within 0.01%),188
+identical after unit multiplier,6
+identical to rounding (≤1%),2
+differs,36
+no counterpart row,12
+paired observations,6708
+paired observations within 0.01% (raw or unit-scaled),6239
+paired observations with exact string equality,4786
+matched variables where DW latest year is newer than UN DC,40
+matched variables with ≥1 historical year revised by >1%,38
+matched variables with latest common year within 1%,195

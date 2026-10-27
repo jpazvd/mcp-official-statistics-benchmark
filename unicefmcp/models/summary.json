@@ -1,0 +1,71 @@
+{
+ "sessions": 96,
+ "settings": 8,
+ "values_reported": 1953,
+ "values_matched": 1952,
+ "values_extra": 1,
+ "values_grounded": 1953,
+ "bounds_reported": 290,
+ "bounds_grounded": 290,
+ "reference_years_per_setting": 246,
+ "cells": 12,
+ "cells_same_values": 11,
+ "cells_same_series": 9,
+ "meta_spread_max": 5,
+ "repeat_same_series": 12,
+ "repeat_same_values": 12,
+ "repeat_calls_differ": 3,
+ "repeat_sent_change_max_pct": 22,
+ "repeat_sent_median_change_pct": -12,
+ "opus_effort_sent_change_pct": 25,
+ "haiku_vs_sonnet_medium_received": 1.8,
+ "identical_call_signatures": 68,
+ "identical_content": 67,
+ "undc_signatures": 18,
+ "undc_byte_different": 11,
+ "sent_per_received": 356,
+ "baseline_share_pct": 84,
+ "cached_share_pct": 88,
+ "baseline_tokens_per_request": 97000.0,
+ "schema_tokens_median": {
+  "un": 15000.0,
+  "wh": 20000.0,
+  "wb": 22000.0
+ },
+ "tokens_mean": {
+  "wh": {
+   "tokens_sent": 633400.0,
+   "tokens_sent_baseline": 526900.0,
+   "schema_tokens_resent": 78000.0,
+   "other": 28500.0
+  },
+  "un": {
+   "tokens_sent": 750000.0,
+   "tokens_sent_baseline": 636500.0,
+   "schema_tokens_resent": 80200.0,
+   "other": 33300.0
+  },
+  "wb": {
+   "tokens_sent": 519400.0,
+   "tokens_sent_baseline": 432400.0,
+   "schema_tokens_resent": 69700.0,
+   "other": 17200.0
+  }
+ },
+ "requests_median": {
+  "wh": 5.0,
+  "un": 6.0,
+  "wb": 4.0
+ },
+ "chars_per_question_excl_instructions": {
+  "un": 8115.0,
+  "wb": 27262.5,
+  "wh": 16590.0
+ },
+ "instruction_file_chars": 11997.0,
+ "d360_get_metadata_chars": 18612.0,
+ "wh_get_time_series_calls": 54,
+ "wh_query_data_calls": 17,
+ "oversized": 1,
+ "oversized_chars": 1301330
+}

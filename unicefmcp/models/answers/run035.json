@@ -1,0 +1,25 @@
+{
+ "found": true,
+ "server_indicator_id": "undata/unicef/MNCH_ANC4.AGE--Y15T49",
+ "series_label": "Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider [Age=15 to 49 years old]",
+ "values": {
+  "2003": 47.4,
+  "2008": 44.8,
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "Percent",
+ "unit_multiplier": null,
+ "source_or_custodian": "United Nations (provenance undata/p/UNICEF), part of United Nations Statistics Division; url https://data.unicef.org/",
+ "release_or_vintage": null,
+ "uncertainty": null,
+ "status_or_notes": "Only 8 survey-year observations exist for Nigeria in 2000-2025 (facet obsCount 8, dateRange 2003-2024, observationPeriod P1Y); no values for other years. Place: country/NGA. Related disaggregated series (age 15-19, urban/rural, wealth quintiles) also exist for Nigeria but are not requested here.",
+ "definition": "Percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider (from the variable name; no separate definition text was returned)",
+ "licence": null,
+ "citation": null,
+ "query_or_url": "get_observations(variable_dcid=\"undata/unicef/MNCH_ANC4.AGE--Y15T49\", place_dcid=\"country/NGA\", date=\"range\", date_range_start=\"2000\", date_range_end=\"2025\"); found via search_indicators(query=\"antenatal care at least four visits women aged 15-49\", places=[\"Nigeria\"])"
+}

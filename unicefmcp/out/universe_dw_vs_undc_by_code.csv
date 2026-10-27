@@ -1,0 +1,248 @@
+indicator_code,dataflow,undc_name,dw_status,dw_codes_mapped,dw_flows,in_data360,ihme_class
+CME_ARR,CME,Annual rate of reduction in mortality rate,UN DC re-coding of a DW code with data,CME_ARR_10T19;CME_ARR_U5MR,CME;GLOBAL_DATAFLOW,absent,none
+CME_ARR_SBR,CME,Annual rate of reduction in stillbirth rate over previous 20 years,verbatim code with DW data,CME_ARR_SBR,CME;GLOBAL_DATAFLOW,absent,none
+CME_MR,CME,Child mortality rate,UN DC re-coding of a DW code with data,CME_MRM0;CME_MRM1T11;CME_MRM1T59;CME_MRY0;CME_MRY0T4;CME_MRY10T14;CME_MRY10T19;CME_MRY15T19;CME_MRY15T24;CME_MRY1T4;CME_MRY20T24;CME_MRY5T14;CME_MRY5T24;CME_MRY5T9,CME;GLOBAL_DATAFLOW,same concept,same construct (independent GBD estimate)
+CME_PND,CME,Neonatal deaths as a proportion of under-five deaths,verbatim code with DW data,CME_PND,CME;GLOBAL_DATAFLOW,absent,related construct
+CME_SB,CME,Stillbirths,verbatim code with DW data,CME_SB,CME;GLOBAL_DATAFLOW,same concept,same construct (independent GBD estimate)
+CME_SBR,CME,Stillbirth rate,verbatim code with DW data,CME_SBR,CME;GLOBAL_DATAFLOW,same concept,same construct (independent GBD estimate)
+CME_TM,CME,Total child mortality,UN DC re-coding of a DW code with data,CME_TMM0;CME_TMM1T11;CME_TMM1T59;CME_TMY0;CME_TMY0T4;CME_TMY10T14;CME_TMY10T19;CME_TMY15T19;CME_TMY15T24;CME_TMY1T4;CME_TMY20T24;CME_TMY5T14;CME_TMY5T24;CME_TMY5T9,CME;GLOBAL_DATAFLOW,same concept,same construct (independent GBD estimate)
+DM_BRTS,DM,Number of births,verbatim code with DW data,DM_BRTS,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,related only,same construct (independent GBD estimate)
+DM_BRTS_SURVIVING_1,DM,Live births surviving to age 1,verbatim code with DW data,DM_BRTS_SURVIVING_1,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,absent,related construct
+DM_BU_PC_DOU,DM,Built-up area per capita by degree of urbanization,verbatim code with DW data,DM_BU_PC_DOU,DM;DM_PROJECTIONS,absent,none
+DM_DPR_CHD,DM,Child dependency ratio,verbatim code with DW data,DM_DPR_CHD,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,same concept,related construct
+DM_DPR_OLD,DM,Old age dependency ratio,verbatim code with DW data,DM_DPR_OLD,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,same concept,related construct
+DM_DPR_TOT,DM,Total dependency ratio,verbatim code with DW data,DM_DPR_TOT,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,same concept,related construct
+DM_FRATE_TOT,DM,Total fertility rate,verbatim code with DW data,DM_FRATE_TOT,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,same concept,same construct (independent GBD estimate)
+DM_LIFE_EXP,DM,Life expectancy,verbatim code with DW data,DM_LIFE_EXP,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,same concept,same construct (independent GBD estimate)
+DM_NET_MG_RATE,DM,"Net migration rate (per 1,000 population)",verbatim code with DW data,DM_NET_MG_RATE,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,related only,same construct (independent GBD estimate)
+DM_POP,DM,Total population,UN DC re-coding of a DW code with data,DM_POP_15TO24;DM_POP_ADLCNT;DM_POP_TOT;DM_POP_U18;DM_POP_U5,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,same concept,same construct (independent GBD estimate)
+DM_POP_DOU,DM,Percentage of population by degree of urbanization at mid-year,verbatim code with DW data,DM_POP_DOU,DM;DM_PROJECTIONS,related only,none
+DM_POP_DOU_GRT,DM,Annual rate of change of the population by degree of urbanization,verbatim code with DW data,DM_POP_DOU_GRT,DM;DM_PROJECTIONS,related only,none
+DM_POP_GRT,DM,Population annual growth rate,verbatim code with DW data,DM_POP_GRT,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,same concept,related construct
+DM_POP_PROP,DM,Distribution of total population by age,UN DC re-coding of a DW code with data,DM_POP_ADLCNT_PROP;DM_POP_CHILD_PROP,DM;DM_PROJECTIONS;GLOBAL_DATAFLOW,related only,same construct (independent GBD estimate)
+DM_POP_URBN,DM,Percentage of population by urban-rural national definitions at mid-year,verbatim code with DW data,DM_POP_URBN,DM;DM_PROJECTIONS,same concept,none
+DM_POP_U_GRT,DM,Annual rate of change of the population by urban-rural national definitions,verbatim code with DW data,DM_POP_U_GRT,DM;DM_PROJECTIONS,same concept,none
+ECD_CHLD_ADLT_SRC,ECD,Proportion of children with whom any adult household member has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days,UN DC re-coding of a DW code with data,ECD_CHLD_24-59M_ADLT_SRC,ECD;GLOBAL_DATAFLOW,same concept,none
+ECD_CHLD_BKS_HM,ECD,Proportion of children who have 3 or more children's books,UN DC re-coding of a DW code with data,ECD_CHLD_U5_BKS-HM,ECD;GLOBAL_DATAFLOW,same concept,none
+ECD_CHLD_EDU_PGM,ECD,Proportion of children attending an early childhood education programme,UN DC re-coding of a DW code with data,ECD_CHLD_36-59M_EDU-PGM,ECD;GLOBAL_DATAFLOW,same concept,none
+ECD_CHLD_LFT_ALN,ECD,Proportion of children under left alone or under the supervision of another child younger than 10 years of age for more than 1 hour at least once in the last week,UN DC re-coding of a DW code with data,ECD_CHLD_U5_LFT-ALN,ECD;GLOBAL_DATAFLOW,absent,none
+ECD_CHLD_LMPSL,ECD,"Proportion of children aged 24-59 months of age who are developmentally on track in health, learning and psychosocial well-being, by sex",verbatim code with DW data,ECD_CHLD_LMPSL,ECD;GLOBAL_DATAFLOW,same concept,none
+ECD_CHLD_LMPSL_PRXY,ECD,"Percentage of children aged 36-59 months who are developmentally on track in at least three of the following four domains: literacy-numeracy, physical, social-emotional and learning","code in DW codelist, no DW data (3 countries)",ECD_CHLD_LMPSL_PRXY,,related only,none
+ECD_CHLD_PLYTH_HM,ECD,Proportion of children who play with 2 or more types of playthings,UN DC re-coding of a DW code with data,ECD_CHLD_U5_PLYTH-HM,ECD;GLOBAL_DATAFLOW,absent,none
+ECON_GVT_EXP_PTEXP,ECON,Government expenditure by sector (as a percentage on government budget),UN DC re-coding of a DW code with data,ECON_GVT_EDU_EXP_PTEXP;ECON_GVT_HLTH_EXP_PTEXP;ECON_SOC_PRO_EXP_PTEXP,ECONOMIC;GLOBAL_DATAFLOW,same concept,none
+ECON_GVT_EXP_PTGDP,ECON,Government expenditure by sector (as a Proportion of GDP),verbatim code with DW data,ECON_GVT_EDU_EXP_PTGDP;ECON_GVT_HLTH_EXP_PTGDP;ECON_SOC_PRO_EXP_PTGDP,ECONOMIC;GLOBAL_DATAFLOW,same concept,related construct
+ECON_GVT_REV_PTGDP,ECON,Government revenue (as a Proportion of GDP),verbatim code with DW data,ECON_GVT_REV_PTGDP,ECONOMIC;GLOBAL_DATAFLOW,same concept,none
+ECON_ODA_INFLOW_PTGNI,ECON,Official Development Assitance (ODA) inflow as a Proportion of Gross National Income (GNI),verbatim code with DW data,ECON_ODA_INFLOW_PTGNI,ECONOMIC;GLOBAL_DATAFLOW,same concept,none
+ECON_ODA_INFLOW_USD,ECON,Official Development Assitance (ODA) inflow in United States dollars,verbatim code with DW data,ECON_ODA_INFLOW_USD,ECONOMIC;GLOBAL_DATAFLOW,same concept,none
+ECON_ODA_OUTFLOW_PTGNI,ECON,Official Development Assitance (ODA) outflow as a Proportion of Gross National Income (GNI),"code in DW codelist, no DW data (3 countries)",ECON_ODA_OUTFLOW_PTGNI,,same concept,none
+ECON_ODA_OUTFLOW_USD,ECON,Official Development Assitance (ODA) outflow in United States dollars,"code in DW codelist, no DW data (3 countries)",ECON_ODA_OUTFLOW_USD,,same concept,none
+ED_CR,ED,School completion rate,UN DC re-coding of a DW code with data,ED_CR_L1;ED_CR_L2;ED_CR_L3,EDUCATION;GLOBAL_DATAFLOW,same concept,none
+ED_LR,ED,Literacy rate,UN DC re-coding of a DW code with data,ED_15-24_LR,EDUCATION;GLOBAL_DATAFLOW,same concept,none
+ED_MAT,ED,Proportion of students achieving at least a minimum proficiency level in mathematics,UN DC re-coding of a DW code with data,ED_MAT_G23;ED_MAT_L1;ED_MAT_L2,EDUCATION;EDUCATION_UIS_SDG;GLOBAL_DATAFLOW,same concept,none
+ED_READ,ED,Proportion of students achieving at least a minimum proficiency level in reading,UN DC re-coding of a DW code with data,ED_READ_G23;ED_READ_L1;ED_READ_L2,EDUCATION;EDUCATION_UIS_SDG;GLOBAL_DATAFLOW,same concept,none
+ED_ROFST,ED,Out-of-school rate,UN DC re-coding of a DW code with data,ED_ROFST_L1;ED_ROFST_L2;ED_ROFST_L3,EDUCATION;GLOBAL_DATAFLOW,related only,none
+ED_ROFST_ADM,ED,Out-of-school rate (administrative data),UN DC re-coding of a DW code with data,ED_ROFST_L02_ADM;ED_ROFST_L1_ADM;ED_ROFST_L2_ADM;ED_ROFST_L3_ADM,EDUCATION;GLOBAL_DATAFLOW,same concept,none
+FD_ANAR,FD,Adjusted net school attendance rate,verbatim code with DW data,ED_ANAR_L02;ED_ANAR_L1;ED_ANAR_L2;ED_ANAR_L3;FD_ANAR,EDUCATION;EDUCATION_UIS_SDG;FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,related only,none
+FD_EARLY_CH_EDU,FD,Proportion of children who are attending an early childhood education programme,verbatim code with DW data,FD_EARLY_CH_EDU,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,related only,none
+FD_EARLY_STIM,FD,Proportion of children with whom an adult has engaged in activities to provide early stimulation and responsive care,verbatim code with DW data,FD_EARLY_STIM,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,related only,none
+FD_FOUNDATIONAL_LEARNING,FD,Proportion of children who demonstrate foundational numeracy skills and foundational reading skills,verbatim code with DW data,FD_FOUNDATIONAL_LEARNING,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,related only,none
+FD_FUNC_DIFFICULTY,FD,Proportion of children with disabilities,verbatim code with DW data,FD_FUNC_DIFFICULTY,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,absent,none
+FD_NEVER_ATTENDED,FD,Proportion of children who have never attended school,verbatim code with DW data,FD_NEVER_ATTENDED,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,absent,none
+FD_OOS,FD,Proportion of children of school age who are not enrolled in school,verbatim code with DW data,FD_OOS,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,related only,none
+FD_SANITATION_FACILITIES,FD,Proportion of children who live in a household with basic sanitation services on premises,verbatim code with DW data,FD_SANITATION_FACILITIES,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,related only,none
+FD_SEVER_PHY_PUNISH,FD,Proportion of children who experienced severe physical punishment by caregivers,verbatim code with DW data,FD_SEVER_PHY_PUNISH,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,absent,none
+FD_SOCIAL_TRANSFERS,FD,Proportion of children who live in a household that received social transfers and benefits,verbatim code with DW data,FD_SOCIAL_TRANSFERS,FUNCTIONAL_DIFF;GLOBAL_DATAFLOW,related only,none
+FD_STUNTING,FD,Proportion of children with moderate or severe stunting,"code in DW codelist, no DW data (3 countries)",FD_STUNTING,,same concept,none
+FD_UNDERWEIGHT,FD,Proportion of children with moderate or severe underweight,"code in DW codelist, no DW data (3 countries)",FD_UNDERWEIGHT,,same concept,none
+GN_ED_ATTN,GN,Proportion of the populationthat completed at least upper secondary education (ISCED 3),verbatim code with DW data,GN_ED_ATTN,GENDER;GLOBAL_DATAFLOW,same concept,related construct
+GN_FB_BNK_ACCSS,GN,Proportion of the population with an account at a financial institution or mobile money service provider,verbatim code with DW data,GN_FB_BNK_ACCSS,GENDER;GLOBAL_DATAFLOW,same concept,none
+GN_IDX,GN,Social Institutions and Gender Index (SIGI),"code in DW codelist, no DW data (3 countries)",GN_IDX,,related only,none
+GN_IT_MOB_OWN,GN,Proportion of individuals who own a mobile telephone,verbatim code with DW data,GN_IT_MOB_OWN,GENDER;GLOBAL_DATAFLOW,related only,none
+GN_LF_PTCPN,GN,Labour force participation rate,verbatim code with DW data,GN_LF_PTCPN,GENDER;GLOBAL_DATAFLOW,same concept,none
+GN_MTNTY_LV_BNFTS,GN,Maternity leave benefits,verbatim code with DW data,GN_MTNTY_LV_BNFTS,GENDER;GLOBAL_DATAFLOW,related only,none
+GN_PTNTY_LV_BNFTS,GN,Paternity leave benefits,"code in DW codelist, no DW data (3 countries)",GN_PTNTY_LV_BNFTS,,related only,none
+GN_SG_LGL_GENEQEMP,GN,"Legal frameworks that promote, enforce, and monitor gender equality- Area 3: Employment and economic benefits",verbatim code with DW data,GN_SG_LGL_GENEQEMP,GENDER;GLOBAL_DATAFLOW,related only,none
+GN_TIMEUSE,GN,Time use,verbatim code with DW data,GN_TIMEUSE,GENDER;GLOBAL_DATAFLOW,same concept,none
+GN_UNMPLY,GN,Labour force unemployment rate,verbatim code with DW data,GN_UNMPLY,GENDER;GLOBAL_DATAFLOW,same concept,none
+HVA_EPI_DTH_ANN,HVA,Estimated number of annual HIV/AIDS-related deaths,verbatim code with DW data,HVA_EPI_DTH_ANN,GLOBAL_DATAFLOW;HIV_AIDS,related only,same construct (independent GBD estimate)
+HVA_EPI_DTH_RT,HVA,"Estimated rate of annual HIV/AIDS-related deaths (per 100,000 population)",verbatim code with DW data,HVA_EPI_DTH_RT,GLOBAL_DATAFLOW;HIV_AIDS,absent,same construct (independent GBD estimate)
+HVA_EPI_INF_ANN,HVA,Estimated number of new HIV infections,verbatim code with DW data,HVA_EPI_INF_ANN,GLOBAL_DATAFLOW;HIV_AIDS,same concept,same construct (independent GBD estimate)
+HVA_EPI_INF_RT,HVA,"Estimated HIV incidence rate (new infections per 1,000 uninfected population)",verbatim code with DW data,HVA_EPI_INF_RT,GLOBAL_DATAFLOW;HIV_AIDS,related only,same construct (independent GBD estimate)
+HVA_EPI_LHIV,HVA,Estimated number of children living with HIV,verbatim code with DW data,HVA_EPI_LHIV,GLOBAL_DATAFLOW;HIV_AIDS,same concept,same construct (independent GBD estimate)
+HVA_PED_ART_CVG,HVA,Proportion of children and adolescents living with HIV and receiving antiretroviral therapy (ART),verbatim code with DW data,HVA_PED_ART_CVG,GLOBAL_DATAFLOW;HIV_AIDS,related only,none
+HVA_PED_ART_NUM,HVA,Reported number of children and adolescents receiving antiretroviral treatment (ART),verbatim code with DW data,HVA_PED_ART_NUM,GLOBAL_DATAFLOW;HIV_AIDS,absent,none
+HVA_PED_EID_CVG,HVA,Proportion of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,"code in DW codelist, no DW data (3 countries)",HVA_PED_EID_CVG,,absent,none
+HVA_PED_EID_NUM,HVA,Reported number of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,"code in DW codelist, no DW data (3 countries)",HVA_PED_EID_NUM,,absent,none
+HVA_PED_LOST,HVA,Estimated number of children who have lost one or both parents due to all causes,verbatim code with DW data,HVA_PED_LOST,GLOBAL_DATAFLOW;HIV_AIDS,absent,none
+HVA_PED_LOST_AIDS,HVA,Estimated number of children who have lost one or both parents due to HIV/AIDS,verbatim code with DW data,HVA_PED_LOST_AIDS,GLOBAL_DATAFLOW;HIV_AIDS,related only,none
+HVA_PMTCT_ARV_CVG,HVA,Proportion of pregnant women living with HIV receiving effective antiretrovirals (ARVs) for preventing mother-to-child transmission (PMTCT) (excludes single-dose nevirapine),verbatim code with DW data,HVA_PMTCT_ARV_CVG,GLOBAL_DATAFLOW;HIV_AIDS,absent,none
+HVA_PMTCT_ARV_NUM,HVA,Reported number of pregnant women living with HIV receiving anitretrovirals (ARVs) for preventing mother-to-child transmission (PMTCT),verbatim code with DW data,HVA_PMTCT_ARV_NUM,GLOBAL_DATAFLOW;HIV_AIDS,absent,none
+HVA_PMTCT_MTCT,HVA,Mother-to-child HIV transmission rate,verbatim code with DW data,HVA_PMTCT_MTCT,GLOBAL_DATAFLOW;HIV_AIDS,absent,none
+HVA_PMTCT_STAT_CVG,HVA,Proportion of pregnant women presenting at ANC who were tested for HIV or already knew their HIV positive status,"code in DW codelist, no DW data (3 countries)",HVA_PMTCT_STAT_CVG,,absent,none
+HVA_PMTCT_STAT_NUM,HVA,Reported number of pregnant women presenting at antenatal clinics (ANC) who were tested for HIV or already knew their HIV positive status,"code in DW codelist, no DW data (3 countries)",HVA_PMTCT_STAT_NUM,,absent,none
+HVA_PREV_CNDM_MULT,HVA,Per cent of young people (aged 15-24 years) who had more than one sexual partner in the past 12 months reporting the use of a condom during their last sexual intercourse,verbatim code with DW data,HVA_PREV_CNDM_MULT,HIV_AIDS,related only,none
+HVA_PREV_CNDM_REG,HVA,"Per cent of young people (aged 15-24 years) who had sex with a non-marital, non-cohabitating partner in the past 12 months reporting the use of a condom during their last sexual intercourse",verbatim code with DW data,HVA_PREV_CNDM_REG,HIV_AIDS,related only,none
+HVA_PREV_KNOW,HVA,"Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",verbatim code with DW data,HVA_PREV_KNOW,GLOBAL_DATAFLOW;HIV_AIDS,same concept,none
+HVA_PREV_KNOW_TEST,HVA,Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,verbatim code with DW data,HVA_PREV_KNOW_TEST,GLOBAL_DATAFLOW;HIV_AIDS,absent,none
+HVA_PREV_STIGMA,HVA,Per cent of people (aged 15-49 years) expressing discriminatory attitudes towards people living with HIV,verbatim code with DW data,HVA_PREV_STIGMA,HIV_AIDS,absent,none
+HVA_PREV_TEST_RES,HVA,Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,verbatim code with DW data,HVA_PREV_TEST_RES,GLOBAL_DATAFLOW;HIV_AIDS,absent,none
+HVA_PREV_TEST_RES_12,HVA,Per cent of young people (aged 15-24 years) who were tested for HIV in the last 12 months and received the result of the last test,verbatim code with DW data,HVA_PREV_TEST_RES_12,HIV_AIDS,absent,none
+IM_BCG,IM,Proportion of live births who received bacille Calmette-Guerin (vaccine against tuberculosis),verbatim code with DW data,IM_BCG,GLOBAL_DATAFLOW;IMMUNISATION,same concept,same construct (independent GBD estimate)
+IM_HEPBB,IM,Proportion of live births who received hepatitis-B-containing vaccine within 24 hours of birth,verbatim code with DW data,IM_HEPBB,GLOBAL_DATAFLOW;IMMUNISATION,same concept,none
+IM_HPV,IM,Proportion of females who received the last dose of human papillomavirus (HPV) vaccine per national schedule,verbatim code with DW data,IM_HPV,GLOBAL_DATAFLOW;IMMUNISATION,same concept,none
+IM_MCV2,IM,"Proportion of children who received the 2nd dose of measles-containing vaccine, as per administered in the national schedule",verbatim code with DW data,IM_MCV2,GLOBAL_DATAFLOW;IMMUNISATION,same concept,same construct (independent GBD estimate)
+IM_PAB,IM,Proportion of newborns protected at birth against tetanus with tetanus toxoid,verbatim code with DW data,IM_PAB,GLOBAL_DATAFLOW;IMMUNISATION,same concept,none
+IM_VACC,IM,Proportion of surviving infants who are vaccinated,UN DC re-coding of a DW code with data,IM_DTP1;IM_DTP3;IM_HEPB3;IM_HIB3;IM_IPV1;IM_IPV2;IM_IPV3;IM_MCV1;IM_MENGA;IM_PCVC;IM_RCV1;IM_ROTAC,GLOBAL_DATAFLOW;IMMUNISATION,same concept,same construct (independent GBD estimate)
+IM_YFV,IM,Proportion of surviving infants who received yellow fever- containing vaccine (for countries at risk and where the vaccine is in the national schedule),verbatim code with DW data,IM_YFV,GLOBAL_DATAFLOW;IMMUNISATION,absent,none
+MG_INTERNAL_DISP_PERS,MG,Internally displaced persons (IDPs),verbatim code with DW data,MG_INTERNAL_DISP_PERS,GLOBAL_DATAFLOW;MG,same concept,none
+MG_INTNL_MG_CNTRY_DEST,MG,"International migrants, by country of destination",verbatim code with DW data,MG_INTNL_MG_CNTRY_DEST,GLOBAL_DATAFLOW;MG,same concept,none
+MG_NEW_INTERNAL_DISP,MG,New internal displacements,verbatim code with DW data,MG_NEW_INTERNAL_DISP,GLOBAL_DATAFLOW;MG,same concept,none
+MG_RFGS_CNTRY_ASYLM,MG,"Number of refugees, by host country",verbatim code with DW data,MG_RFGS_CNTRY_ASYLM,GLOBAL_DATAFLOW;MG,same concept,none
+MG_RFGS_CNTRY_ASYLM_PER1000,MG,"Refugees by host country, per 1000 population",verbatim code with DW data,MG_RFGS_CNTRY_ASYLM_PER1000,GLOBAL_DATAFLOW;MG,absent,none
+MG_RFGS_CNTRY_ASYLM_PER_USD_GNI,MG,"Refugees by host country, per 1 USD GNI per capita",verbatim code with DW data,MG_RFGS_CNTRY_ASYLM_PER_USD_GNI,GLOBAL_DATAFLOW;MG,absent,none
+MG_RFGS_CNTRY_ORIGIN,MG,"Number of refugees, by country of origin",verbatim code with DW data,MG_RFGS_CNTRY_ORIGIN,GLOBAL_DATAFLOW;MG,same concept,none
+MG_UNRWA_RFGS_CNTRY_ASYLM,MG,"Refugees under UNRWA mandate, by host country","code in DW codelist, no DW data (3 countries)",MG_UNRWA_RFGS_CNTRY_ASYLM,,absent,none
+MNCH_ABR,MNCH,"Adolescent birth rate (number of live births to adolescent women per 1,000 adolescent women)",verbatim code with DW data,MNCH_ABR,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_ADO_ALCOHOL,MNCH,Proportion of adolescents who had at least one alcoholic drink at any time during the last 12 months,verbatim code with DW data,MNCH_ADO_ALCOHOL,GLOBAL_DATAFLOW;MNCH,absent,none
+MNCH_ADO_INSUFF_PHYS,MNCH,Insufficient physical activity among school going adolescents,verbatim code with DW data,MNCH_ADO_INSUFF_PHYS,GLOBAL_DATAFLOW;MNCH,absent,related construct
+MNCH_ADO_TOBACCO,MNCH,Proportion of adolescents who smoked cigarettes or used smoked or smokeless tobacco products at any time during the last month,verbatim code with DW data,MNCH_ADO_TOBACCO,GLOBAL_DATAFLOW;MNCH,related only,related construct
+MNCH_ANC1,MNCH,Antenatal care 1+ visit - percentage of women (aged 15-49 years) attended at least once during pregnancy by skilled health personnel,verbatim code with DW data,MNCH_ANC1,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_ANC4,MNCH,Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider,verbatim code with DW data,MNCH_ANC4,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_BIRTH18,MNCH,Proportion of women who gave birth before age 18,verbatim code with DW data,MNCH_BIRTH18,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_CSEC,MNCH,Proportion of deliveries by cesarean section (trends),verbatim code with DW data,MNCH_CSEC,GLOBAL_DATAFLOW;MNCH,absent,none
+MNCH_CSEC_TND,MNCH,Proportion of deliveries by cesarean section,"code in DW codelist, no DW data (3 countries)",MNCH_CSEC_TND,,absent,none
+MNCH_DEMAND_FP,MNCH,Demand for family planning satisfied with modern methods - percentage of women (aged 15-49 years),verbatim code with DW data,MNCH_DEMAND_FP,GLOBAL_DATAFLOW;MNCH,related only,same construct (independent GBD estimate)
+MNCH_DIARCARE,MNCH,Proportion of children with diarrhoea for whom advice or treatment was sought from a health facility or provider,verbatim code with DW data,MNCH_DIARCARE,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_DIARRHOEAT_TR,MNCH,Proportion of children with diarrhoea who received treatment,UN DC re-coding of a DW code with data,MNCH_ORS;MNCH_ORSZINC;MNCH_ORTCF;MNCH_ZINC,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_INFDEC,MNCH,"Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",verbatim code with DW data,MNCH_INFDEC,GLOBAL_DATAFLOW;MNCH,related only,none
+MNCH_INSTDEL,MNCH,Institutional deliveries - Proportion of deliveries in a health facility,verbatim code with DW data,MNCH_INSTDEL,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_INSTDEL_TND,MNCH,Institutional deliveries - Proportion of deliveries in a health facility (trends),"code in DW codelist, no DW data (3 countries)",MNCH_INSTDEL_TND,,same concept,same construct (independent GBD estimate)
+MNCH_IPTP,MNCH,Proportion of women who received three or more doses of intermittent preventive treatment in pregnancy (ITPp) for malaria during antenatal care visits during their last pregnancy,verbatim code with DW data,MNCH_IPTP,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_ITN,MNCH,Proportion of children who slept under an insecticide-treated mosquito net (ITN) the night prior to the survey,verbatim code with DW data,MNCH_ITN,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_ITN2,MNCH,Proportion of households with at least one insecticide treated mosquito net (ITN) for every two persons and/or indoor residual spraying (IRS) in the past 12 months,verbatim code with DW data,MNCH_ITN2,GLOBAL_DATAFLOW;MNCH,absent,none
+MNCH_ITNOWN,MNCH,Proportion of households with at least one insecticide-treated mosquito net (ITN),verbatim code with DW data,MNCH_ITNOWN,GLOBAL_DATAFLOW;MNCH,absent,none
+MNCH_ITNPREG,MNCH,Pregnant women sleeping under ITN - percentage of pregnant women (aged 15-49 years) who slept under an insecticide-treated net the previous night,verbatim code with DW data,MNCH_ITNPREG,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_LIFE_EXPECTANCY,MNCH,Life expectancy at birth,verbatim code with DW data,MNCH_LIFE_EXPECTANCY,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_LTR_MATERNAL_DEATH,MNCH,Lifetime risk of maternal death (probability that a 15-year-old girl will eventually die from a maternal cause),verbatim code with DW data,MNCH_LTR_MATERNAL_DEATH,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_MATERNAL_DEATHS,MNCH,Estimated number maternal deaths,verbatim code with DW data,MNCH_MATERNAL_DEATHS,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_MLRACT,MNCH,"Proportion of febrile children receiving first-line antimalarial drug (ACT), among those receiving any antimalarial drugs",verbatim code with DW data,MNCH_MLRACT,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_MLRCARE,MNCH,Proportion of children with fever for whom advice or treatment was sought from a health facility or provider,verbatim code with DW data,MNCH_MLRCARE,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_MLRDIAG,MNCH,Proportion of febrile children who had a finger or heel stick for malaria testing,verbatim code with DW data,MNCH_MLRDIAG,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_MMR,MNCH,"Maternal mortality ratio (number of maternal deaths per 100,000 live births)",verbatim code with DW data,MNCH_MMR,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_PNCMOM,MNCH,Postnatal care for mothers - percentage of women (aged 15-49 years) who received postnatal care within 2 days of giving birth,verbatim code with DW data,MNCH_PNCMOM,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_PNCNB,MNCH,Proportion of newborns who have a postnatal contact with a health provider within 2 days of delivery,verbatim code with DW data,MNCH_PNCNB,MNCH,same concept,none
+MNCH_PNEUCARE,MNCH,Proportion of children with acute respiratory infection (ARI) symptoms whom advice or treatment was sought from a health facility or provider,verbatim code with DW data,MNCH_PNEUCARE,GLOBAL_DATAFLOW;MNCH,same concept,none
+MNCH_SAB,MNCH,Proportion of deliveries attended by skilled health personnel,verbatim code with DW data,MNCH_SAB,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_UHC,MNCH,Coverage of essential health services,verbatim code with DW data,MNCH_UHC,GLOBAL_DATAFLOW;MNCH,same concept,same construct (independent GBD estimate)
+MNCH_UHC_RMNCH,MNCH,"Universal health coverage index for reproductive, maternal, newborn and child-health interventions",verbatim code with DW data,MNCH_UHC_RMNCH,GLOBAL_DATAFLOW;MNCH,same concept,related construct
+NT_ANE,NT,Prevalence of anaemia (modeled estimates),UN DC re-coding of a DW code with data,NT_ANE_WOM_15_49_MOD,GLOBAL_DATAFLOW;NUTRITION,same concept,same construct (independent GBD estimate)
+NT_ANT_HAZ_NE2,NT,Proportion of children with stunting,verbatim code with DW data,NT_ANT_HAZ_NE2,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_ANT_HAZ_NE2_MOD,NT,Proportion of children with stunting (modeled estimates),verbatim code with DW data,NT_ANT_HAZ_NE2_MOD,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_ANT_HAZ_NE2_MOD_NUMTH,NT,Children with stunting (modeled estimates),verbatim code with DW data,NT_ANT_HAZ_NE2_MOD_NUMTH,GLOBAL_DATAFLOW;NUTRITION,absent,related construct
+NT_ANT_WAZ_NE2,NT,Proportion of children with underweight,verbatim code with DW data,NT_ANT_WAZ_NE2,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_ANT_WHZ_NE2,NT,Proportion of children with wasting,verbatim code with DW data,NT_ANT_WHZ_NE2,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_ANT_WHZ_NE3,NT,Proportion of children with sever wasting,verbatim code with DW data,NT_ANT_WHZ_NE3,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_ANT_WHZ_PO2,NT,Proportion of children with overweight,verbatim code with DW data,NT_ANT_WHZ_PO2,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_ANT_WHZ_PO2_MOD,NT,Proportion of children with overweight (modeled estimates),verbatim code with DW data,NT_ANT_WHZ_PO2_MOD,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_ANT_WHZ_PO2_MOD_NUMTH,NT,Children with overweight (modeled estimates),verbatim code with DW data,NT_ANT_WHZ_PO2_MOD_NUMTH,GLOBAL_DATAFLOW;NUTRITION,absent,related construct
+NT_BF_CBF,NT,Children receiving coninued breastfeeding,UN DC re-coding of a DW code with data,NT_BF_CBF_12_15;NT_BF_CBF_12_23;NT_BF_CBF_20_23,GLOBAL_DATAFLOW;NUTRITION,absent,related construct
+NT_BF_EBF,NT,Ever breastfed (0-23 months),verbatim code with DW data,NT_BF_EBF,GLOBAL_DATAFLOW;NUTRITION,related only,related construct
+NT_BF_EIBF,NT,Proportion of children who were breastfed within one hour of birth,verbatim code with DW data,NT_BF_EIBF,GLOBAL_DATAFLOW;NUTRITION,absent,related construct
+NT_BF_EXBF,NT,Exclusive breastfeeding (0-5 months),verbatim code with DW data,NT_BF_EXBF,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_BF_EXBF_2D,NT,Proportion of children who were fed exclusively with breast milk for the first two days after birth,verbatim code with DW data,NT_BF_EXBF_2D,GLOBAL_DATAFLOW;NUTRITION,absent,none
+NT_BF_MIXMF,NT,Mixed Milk Feeding (0-5 months),verbatim code with DW data,NT_BF_MIXMF,GLOBAL_DATAFLOW;NUTRITION,absent,related construct
+NT_BW_LBW,NT,Prevalence of low birth weight among new-borns,verbatim code with DW data,NT_BW_LBW,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+NT_BW_WEI,NT,Children with a birth weight,verbatim code with DW data,NT_BW_WEI,GLOBAL_DATAFLOW;NUTRITION,absent,related construct
+NT_CF_ASF,NT,Egg and/or flesh foods consumption (6-23months),verbatim code with DW data,NT_CF_ASF,GLOBAL_DATAFLOW;NUTRITION,absent,none
+NT_CF_FG_0_T_2,NT,Severe food poverty,verbatim code with DW data,NT_CF_FG_0_T_2,GLOBAL_DATAFLOW;NUTRITION,absent,none
+NT_CF_FG_3_T_4,NT,Moderate food poverty,verbatim code with DW data,NT_CF_FG_3_T_4,GLOBAL_DATAFLOW;NUTRITION,absent,none
+NT_CF_ISSSF_FL,NT,"Proportion of infants who consume solid, semisolid or soft foods",verbatim code with DW data,NT_CF_ISSSF_FL,GLOBAL_DATAFLOW;NUTRITION,absent,none
+NT_CF_MAD,NT,Minimum acceptable diet (children aged 6-23 months),verbatim code with DW data,NT_CF_MAD,GLOBAL_DATAFLOW;NUTRITION,same concept,none
+NT_CF_MDD,NT,Minimum diet diversity (children aged 6 to 23 months),verbatim code with DW data,NT_CF_MDD,GLOBAL_DATAFLOW;NUTRITION,related only,none
+NT_CF_MMF,NT,Minimum meal frequency (children aged 6 to 23 months),verbatim code with DW data,NT_CF_MMF,GLOBAL_DATAFLOW;NUTRITION,same concept,none
+NT_CF_ZEROFV,NT,Zero vegetable or fruit consumption (6-23months),verbatim code with DW data,NT_CF_ZEROFV,GLOBAL_DATAFLOW;NUTRITION,absent,none
+NT_DANT_BMI_G25_MOD,NT,Prevalence of overweight among adults - body mass index (BMI) >= 25 (crude estimate),verbatim code with DW data,NT_DANT_BMI_G25_MOD,GLOBAL_DATAFLOW;NUTRITION,same concept,same construct (independent GBD estimate)
+NT_DANT_BMI_G30_MOD_ADJ,NT,Prevalence of obesity among adults - body mass index (BMI) >=  30 (age-standardized estimate),verbatim code with DW data,NT_DANT_BMI_G30_MOD_ADJ,GLOBAL_DATAFLOW;NUTRITION,same concept,same construct (independent GBD estimate)
+NT_DANT_BMI_L18_MOD,NT,Prevalence of underweight among adults - body mass index (BMI) < 18.5 (age-standardized estimate),verbatim code with DW data,NT_DANT_BMI_L18_MOD,GLOBAL_DATAFLOW;NUTRITION,absent,none
+NT_IOD_ANY_TH,NT,Iodized salt consumption (>0 ppm) among all tested households,verbatim code with DW data,NT_IOD_ANY_TH,GLOBAL_DATAFLOW;NUTRITION,same concept,none
+NT_IOD_ANY_TS,NT,Iodized salt consumption (>0 ppm) among all tested households with salt,verbatim code with DW data,NT_IOD_ANY_TS,GLOBAL_DATAFLOW;NUTRITION,same concept,none
+NT_SANT_5_19_BAZ_NE2_MOD,NT,"Percentage of thinness among children aged 5-19 years, BMI < -2 standard deviations below the median (crude estimate)",verbatim code with DW data,NT_SANT_5_19_BAZ_NE2_MOD,NUTRITION,absent,related construct
+NT_SANT_5_19_BAZ_PO1_MOD,NT,"Percentage of overweight among children aged 5-19 years, BMI > +1 standard deviations above the median (crude estimate)",verbatim code with DW data,NT_SANT_5_19_BAZ_PO1_MOD,NUTRITION,absent,related construct
+NT_SANT_5_19_BAZ_PO2_MOD,NT,"Prevalence of obesity among children aged 5-19 years, BMI > +2 standard deviations above the median (crude estimate)",verbatim code with DW data,NT_SANT_5_19_BAZ_PO2_MOD,NUTRITION,absent,related construct
+NT_VAS_S1,NT,Proportion of children receiving a high-dose vitamin A supplement in the first half of the calendar year (January-June),verbatim code with DW data,NT_VAS_S1,GLOBAL_DATAFLOW;NUTRITION,related only,related construct
+NT_VAS_S2,NT,Proportion of children receiving a high-dose vitamin A supplement in the second half of the calendar year (July-December),verbatim code with DW data,NT_VAS_S2,GLOBAL_DATAFLOW;NUTRITION,related only,related construct
+NT_VAS_TWODOSE,NT,Proportion of children receiving two high-dose vitamin A supplements in a calendar year,verbatim code with DW data,NT_VAS_TWODOSE,GLOBAL_DATAFLOW;NUTRITION,same concept,related construct
+PT_ADLS_LBR_HC,PT,Proportion of adolescents engaged in household chores,UN DC re-coding of a DW code with data,PT_ADLS_10-14_LBR_HC,GLOBAL_DATAFLOW;PT,absent,none
+PT_ADLT_PS_NEC,PT,Proportion of adults who think that physical punishment is necessary to raise/educate children,verbatim code with DW data,PT_ADLT_PS_NEC,GLOBAL_DATAFLOW;PT,absent,none
+PT_CHLD_1-14_PS-PSY-V_CGVR_TND,PT,"Percentage of children (aged 1-14 years) who experienced any physical punishment and/or psychological aggression by caregivers (UNICEF analysis, trend)",verbatim code with DW data,PT_CHLD_1-14_PS-PSY-V_CGVR_TND,GLOBAL_DATAFLOW;PT,absent,none
+PT_CHLD_DN,PT,Rate of children in detention,verbatim code with DW data,PT_CHLD_DN,GLOBAL_DATAFLOW;PT,absent,none
+PT_CHLD_LBR_ECON,PT,Proportion of children engaged in child labour (economic activities),UN DC re-coding of a DW code with data,PT_CHLD_5-17_LBR_ECON,GLOBAL_DATAFLOW;PT,same concept,none
+PT_CHLD_LBR_ECON_HC,PT,Proportion of children engaged in child labour (economic activities and household chores),UN DC re-coding of a DW code with data,PT_CHLD_5-17_LBR_ECON-HC,GLOBAL_DATAFLOW;PT,related only,none
+PT_CHLD_PS_PSY_V_CGVR,PT,Proportion of children who experienced any physical punishment and/or psychological aggression by caregivers,UN DC re-coding of a DW code with data,PT_CHLD_1-14_PS-PSY-V_CGVR,GLOBAL_DATAFLOW;PT,absent,none
+PT_CHLD_REG,PT,Proportion of children whose births are registered,UN DC re-coding of a DW code with data,PT_CHLD_Y0T4_REG,GLOBAL_DATAFLOW;PT,same concept,none
+PT_CHLD_RES_CARE,PT,Rate of children in residential care,UN DC re-coding of a DW code with data,PT_CHLD_RES-CARE,GLOBAL_DATAFLOW;PT,absent,none
+PT_CM_BANK,PT,Proportion of women who have an account at a bank or other financial institution,verbatim code with DW data,PT_CM_BANK,PT_CM,related only,none
+PT_CM_BIRTHS18,PT,Proportion of women who gave birth before age 18,verbatim code with DW data,PT_CM_BIRTHS18,PT_CM,related only,none
+PT_CM_BIRTHS20,PT,Proportion of women who gave birth before age 20,verbatim code with DW data,PT_CM_BIRTHS20,PT_CM,related only,none
+PT_CM_DEC_FAMILY,PT,Proportion of women who usually decide (alone or with their spouses) about visits to the women's families,verbatim code with DW data,PT_CM_DEC_FAMILY,PT_CM,related only,none
+PT_CM_EMPLOY_12M,PT,Proportion of women who have had a job in the past 12 months,verbatim code with DW data,PT_CM_EMPLOY_12M,PT_CM,absent,none
+PT_CM_IPV_12M,PT,Proportion of women who experienced intimate partner violence in the past 12 months,verbatim code with DW data,PT_CM_IPV_12M,PT_CM,related only,related construct
+PT_CM_W_BTNG,PT,Proportion of women who believe a husband is justified in beating his wife under certain circumstances,verbatim code with DW data,PT_CM_W_BTNG,PT_CM,related only,none
+PT_FGM_ELIM,PT,Proportion of persons who think that FGM should be eliminated,UN DC re-coding of a DW code with data,PT_F_15-49_FGM_ELIM;PT_M_15-49_FGM_ELIM,GLOBAL_DATAFLOW;PT_FGM,same concept,none
+PT_F_15-19_FGM_TND,PT,Trend in prevalence of female genital mutilation (FGM),verbatim code with DW data,PT_F_15-19_FGM_TND,GLOBAL_DATAFLOW;PT_FGM,related only,none
+PT_F_FGM,PT,Proportion of girls and women who have undergone female genital mutilation (FGM),UN DC re-coding of a DW code with data,PT_F_0-14_FGM;PT_F_15-49_FGM,GLOBAL_DATAFLOW;PT_FGM,same concept,none
+PT_F_MRD_U15,PT,Proportion of women married or in union before age 15,UN DC re-coding of a DW code with data,PT_F_20-24_MRD_U15;PT_F_45-49_MRD_U15,GLOBAL_DATAFLOW;PT_CM,same concept,none
+PT_F_MRD_U15_TND,PT,"Proportion of women who were first married or in union before age 15 (UNICEF analysis, trend)",UN DC re-coding of a DW code with data,PT_F_20-24_MRD_U15_TND,GLOBAL_DATAFLOW;PT_CM,related only,none
+PT_F_MRD_U18_TND,PT,"Proportion of women who were first married or in union before age 18 (UNICEF analysis, trend)",UN DC re-coding of a DW code with data,PT_F_20-24_MRD_U18_TND,GLOBAL_DATAFLOW;PT_CM,related only,none
+PT_F_PS-SX_V_PTNR_12MNTH,PT,Proportion of ever-partnered girls and women who have experienced physical and/or sexual violence by a current or former intimate partner in the last 12 months,verbatim code with DW data,PT_F_PS-SX_V_PTNR_12MNTH,GLOBAL_DATAFLOW;PT,same concept,related construct
+PT_F_TMRD15,PT,Total number of girls and women who were first married or in union before age 15,verbatim code with DW data,PT_F_TMRD15,GLOBAL_DATAFLOW;PT_CM,absent,none
+PT_MRD,PT,Proportion of children and adolescents who are currently married or in union,UN DC re-coding of a DW code with data,PT_F_15-19_MRD;PT_M_15-19_MRD,GLOBAL_DATAFLOW;PT_CM,absent,none
+PT_MRD_U18,PT,Proportion of persons married or in union before age 18,UN DC re-coding of a DW code with data,PT_F_20-24_MRD_U18;PT_F_45-49_MRD_U18;PT_F_TMRD18,GLOBAL_DATAFLOW;PT_CM,same concept,none
+PT_NMRD,PT,Proportion of children and adolescents who were never married or in union,not in DW codelist,,,absent,none
+PT_ST_BUL_30_DYS,PT,Proportion of students who reported being bullied on 1 or more days in the past 30 days,UN DC re-coding of a DW code with data,PT_ST_13-15_BUL_30-DYS,GLOBAL_DATAFLOW;PT,related only,related construct
+PT_SXV_AGE18,PT,Proportion of persons who experienced sexual violence by age 18,UN DC re-coding of a DW code with data,PT_F_18-29_SX-V_AGE-18,GLOBAL_DATAFLOW;PT,same concept,related construct
+PT_W_BTNG,PT,Proportion of persons who consider a husband to be justified in hitting or beating his wife for at least one of the specified reasons,UN DC re-coding of a DW code with data,PT_F_15-49_W-BTNG;PT_M_15-49_W-BTNG,GLOBAL_DATAFLOW;PT,same concept,none
+PV_ADOLESCENT,PV,Adolescent poverty rate,verbatim code with DW data,PV_ADOLESCENT,CHLD_PVTY;GLOBAL_DATAFLOW,absent,none
+PV_CHLD_DEPRV_M,PV,Proportion of children suffering deprivations according to homogeneous moderate standards,UN DC re-coding of a DW code with data,PV_CHLD_DPRV-E1-HS;PV_CHLD_DPRV-E2-HS;PV_CHLD_DPRV-E3-HS;PV_CHLD_DPRV-E4-HS;PV_CHLD_DPRV-E5-HS;PV_CHLD_DPRV-L1-HS;PV_CHLD_DPRV-L2-HS;PV_CHLD_DPRV-L3-HS;PV_CHLD_DPRV-L4-HS;PV_CHLD_DPRV-L5-HS,CHLD_PVTY;GLOBAL_DATAFLOW,absent,none
+PV_CHLD_DEPRV_S,PV,Percentage children suffering deprivations according to homogeneous severe standards,UN DC re-coding of a DW code with data,PV_CHLD_DPRV-S-E1-HS;PV_CHLD_DPRV-S-E2-HS;PV_CHLD_DPRV-S-E3-HS;PV_CHLD_DPRV-S-E4-HS;PV_CHLD_DPRV-S-E5-HS;PV_CHLD_DPRV-S-L1-HS;PV_CHLD_DPRV-S-L2-HS;PV_CHLD_DPRV-S-L3-HS;PV_CHLD_DPRV-S-L4-HS;PV_CHLD_DPRV-S-L5-HS,CHLD_PVTY;GLOBAL_DATAFLOW,absent,none
+PV_CHLD_DPRV_AVG_HS,PV,Average number of deprivations suffered per child according to homogeneous moderate standards,UN DC re-coding of a DW code with data,PV_CHLD_DPRV-AVG-HS,CHLD_PVTY;GLOBAL_DATAFLOW,absent,none
+PV_CHLD_DPRV_AVG_POV_HS,PV,Average number of deprivations for children suffering at least one deprivation according to homogeneous moderate standards,"code in DW codelist, no DW data (3 countries)",PV_CHLD_DPRV-AVG-POV-HS,,absent,none
+PV_CHLD_DPRV_AVG_POV_S_HS,PV,Average number of deprivations for children suffering at least one deprivation according to homogeneous severe standards,"code in DW codelist, no DW data (3 countries)",PV_CHLD_DPRV-AVG-POV-S-HS,,absent,none
+PV_CHLD_DPRV_AVG_S_HS,PV,Average number of deprivations suffered per child according to homogeneous severe standards,UN DC re-coding of a DW code with data,PV_CHLD_DPRV-AVG-S-HS,CHLD_PVTY;GLOBAL_DATAFLOW,absent,none
+PV_CHLD_INCM_PL,PV,Proportion of children living in households with income below the national poverty line,"code in DW codelist, no DW data (3 countries)",PV_CHLD_INCM-PL,,related only,none
+PV_LEVEL,PV,Poverty Level,verbatim code with DW data,PV_LEVEL,CHLD_PVTY;GLOBAL_DATAFLOW,absent,none
+PV_VMIR,PV,Vast Majority Income Ratio,"code in DW codelist, no DW data (3 countries)",PV_VMIR,,absent,none
+SPP_CHLD_POV_PROF,SPP,Child Poverty Profile,verbatim code with DW data,SPP_CHLD_POV_PROF,SOC_PROTECTION,absent,none
+SPP_CHLD_SOC_PROT,SPP,Proportion of children covered by social protection,verbatim code with DW data,SPP_CHLD_SOC_PROT,GLOBAL_DATAFLOW;SOC_PROTECTION,related only,none
+SPP_DIST_SOC_PROT_BNFT,SPP,Distribution of Social Protection Benefits (percent),verbatim code with DW data,SPP_DIST_SOC_PROT_BNFT,SOC_PROTECTION,same concept,none
+SPP_GDPPC,SPP,Gross Domestic Product (GDP) per capita (current United States dollars),verbatim code with DW data,SPP_GDPPC,GLOBAL_DATAFLOW;SOC_PROTECTION,same concept,none
+SPP_GINI,SPP,Gini coefficient of income inequality,verbatim code with DW data,SPP_GINI,GLOBAL_DATAFLOW;SOC_PROTECTION,same concept,none
+SPP_HSLD_INCOME_SHARE,SPP,Share of household income (percent),verbatim code with DW data,SPP_HSLD_INCOME_SHARE,GLOBAL_DATAFLOW;SOC_PROTECTION,same concept,none
+SPP_MOTHERS_CASH_BNF,SPP,Proportion of mothers with newborns receiving cash benefit,verbatim code with DW data,SPP_MOTHERS_CASH_BNF,GLOBAL_DATAFLOW;SOC_PROTECTION,absent,none
+SPP_PALMA,SPP,Palma index of income inequality,verbatim code with DW data,SPP_PALMA,GLOBAL_DATAFLOW;SOC_PROTECTION,related only,none
+SPP_VMI,SPP,Vast majority index of income inequality (VMI),verbatim code with DW data,SPP_VMI,GLOBAL_DATAFLOW;SOC_PROTECTION,absent,none
+WS_HCF_C,WS,Proportion of health care facilities with cleaning services,UN DC re-coding of a DW code with data,WS_HCF_C-B;WS_HCF_C-L;WS_HCF_C-N,GLOBAL_DATAFLOW;WASH_HEALTHCARE_FACILITY,absent,none
+WS_HCF_H,WS,Proportion of health care facilities with hygiene services,UN DC re-coding of a DW code with data,WS_HCF_H-B;WS_HCF_H-L;WS_HCF_H-N,GLOBAL_DATAFLOW;WASH_HEALTHCARE_FACILITY,same concept,none
+WS_HCF_S,WS,Proportion of health care facilities with sanitation services,UN DC re-coding of a DW code with data,WS_HCF_S-B;WS_HCF_S-L;WS_HCF_S-N,GLOBAL_DATAFLOW;WASH_HEALTHCARE_FACILITY,same concept,none
+WS_HCF_W,WS,Proportion of health care facilities with water services,UN DC re-coding of a DW code with data,WS_HCF_W-B;WS_HCF_W-L;WS_HCF_W-N,GLOBAL_DATAFLOW;WASH_HEALTHCARE_FACILITY,same concept,none
+WS_HCF_WM,WS,Proportion of health care facilities with waste management services,UN DC re-coding of a DW code with data,WS_HCF_WM-B;WS_HCF_WM-L;WS_HCF_WM-N,GLOBAL_DATAFLOW;WASH_HEALTHCARE_FACILITY,absent,none
+WS_PPL_HF_HANDWASH,WS,Proportion of population with access to handwashing facilities,UN DC re-coding of a DW code with data,WS_PPL_H-B;WS_PPL_H-L;WS_PPL_H-N,GLOBAL_DATAFLOW;WASH_HOUSEHOLDS,same concept,related construct
+WS_PPL_M_NPART,WS,"Proportion of adolescent girls who did not participate in school, work, or social activities during their last menstrual period",UN DC re-coding of a DW code with data,WS_PPL_M-NPART_AGE_15_19,GLOBAL_DATAFLOW;WASH_HOUSEHOLD_MH,absent,none
+WS_PPL_S,WS,Proportion of population using sanitation services,UN DC re-coding of a DW code with data,WS_PPL_S-ALB;WS_PPL_S-B;WS_PPL_S-L;WS_PPL_S-SM,GLOBAL_DATAFLOW;WASH_HOUSEHOLDS,same concept,related construct
+WS_PPL_SF,WS,Proportion of population using sanitation facilities,UN DC re-coding of a DW code with data,WS_PPL_S-DIS;WS_PPL_S-FST;WS_PPL_S-I;WS_PPL_S-LAT;WS_PPL_S-SEP;WS_PPL_S-SEW;WS_PPL_S-UI,GLOBAL_DATAFLOW;WASH_HOUSEHOLDS,same concept,related construct
+WS_PPL_S_OD,WS,Proportion of population practising open defecation,UN DC re-coding of a DW code with data,WS_PPL_S-OD,GLOBAL_DATAFLOW;WASH_HOUSEHOLDS,same concept,related construct
+WS_PPL_W_DW,WS,Proportion of population using drinking water services,UN DC re-coding of a DW code with data,WS_PPL_W-ALB;WS_PPL_W-B;WS_PPL_W-L;WS_PPL_W-SM,GLOBAL_DATAFLOW;WASH_HOUSEHOLDS,same concept,related construct
+WS_PPL_W_DWSR,WS,Proportion of population using various types of drinking water sources,UN DC re-coding of a DW code with data,WS_PPL_W-AVA;WS_PPL_W-I;WS_PPL_W-NP;WS_PPL_W-P;WS_PPL_W-PRE;WS_PPL_W-QUA;WS_PPL_W-UI,GLOBAL_DATAFLOW;WASH_HOUSEHOLDS,same concept,related construct
+WS_PPL_W_SW,WS,Proportion of population using surface water,UN DC re-coding of a DW code with data,WS_PPL_W-SW,GLOBAL_DATAFLOW;WASH_HOUSEHOLDS,same concept,related construct
+WS_SCH_H,WS,Proportion of schools with hygiene services,UN DC re-coding of a DW code with data,WS_SCH_H-B;WS_SCH_H-L;WS_SCH_H-N,GLOBAL_DATAFLOW;WASH_SCHOOLS,same concept,none
+WS_SCH_H-F,WS,Proportion of schools with handwashing facilities,verbatim code with DW data,WS_SCH_H-F,GLOBAL_DATAFLOW;WASH_SCHOOLS,related only,none
+WS_SCH_S,WS,Proportion of schools with sanitation services,UN DC re-coding of a DW code with data,WS_SCH_S-B;WS_SCH_S-L;WS_SCH_S-N,GLOBAL_DATAFLOW;WASH_SCHOOLS,same concept,none
+WS_SCH_S-I,WS,Proportion of schools with improved sanitation facilities,verbatim code with DW data,WS_SCH_S-I,GLOBAL_DATAFLOW;WASH_SCHOOLS,related only,none
+WS_SCH_W-I,WS,Proportion of schools with improved drinking water sources,verbatim code with DW data,WS_SCH_W-I,GLOBAL_DATAFLOW;WASH_SCHOOLS,related only,none
+WS_SCH_W_DW,WS,Proportion of schools with drinking water services,UN DC re-coding of a DW code with data,WS_SCH_W-B;WS_SCH_W-L;WS_SCH_W-N,GLOBAL_DATAFLOW;WASH_SCHOOLS,same concept,none
+WT_ADLS_10-17_LBR_ECON,WT,Child labour thresholds (economic activity),verbatim code with DW data,WT_ADLS_10-17_LBR_ECON,GLOBAL_DATAFLOW;WT,related only,none
+WT_ADLS_10-17_LBR_HC,WT,Child labour thresholds (household chores),verbatim code with DW data,WT_ADLS_10-17_LBR_HC,GLOBAL_DATAFLOW;WT,absent,none
+WT_ADLS_10-17_TIME_ECON,WT,Time spent in economic activities,verbatim code with DW data,WT_ADLS_10-17_TIME_ECON,GLOBAL_DATAFLOW;WT,related only,none
+WT_ADLS_10-17_TIME_HC,WT,Time spent in household chores,verbatim code with DW data,WT_ADLS_10-17_TIME_HC,GLOBAL_DATAFLOW;WT,absent,none
+WT_ADLS_ED_NEET,WT,"Percentage of adolescents not in education, employment or training",UN DC re-coding of a DW code with data,WT_ADLS_15-19_ED_NEET,GLOBAL_DATAFLOW;WT,related only,none
+WT_ADLS_LAB_FRC_UNEMP,WT,Percentage of adolescents in the labour force who are unemployed,UN DC re-coding of a DW code with data,WT_ADLS_15-19_LAB_FRC_UNEMP,GLOBAL_DATAFLOW;WT,related only,none

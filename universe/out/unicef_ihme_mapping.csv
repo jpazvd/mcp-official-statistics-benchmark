@@ -1,0 +1,248 @@
+indicator_code,dataflow,undc_name,ihme_class,ihme_construct
+CME_ARR,CME,Annual rate of reduction in mortality rate,none,
+CME_ARR_SBR,CME,Annual rate of reduction in stillbirth rate over previous 20 years,none,
+CME_MR,CME,Child mortality rate,same construct (independent GBD estimate),"get_mortality_probability / get_child_mortality_trend (5q0, neonatal, <1 year, 1-4, 5-9, 10-14, 15-19, 20-24, 5-14, 10-19, 10-24 bands; no 1-59-month band)"
+CME_PND,CME,Neonatal deaths as a proportion of under-five deaths,related construct,derivable from neonatal and under-5 deaths; not published
+CME_SB,CME,Stillbirths,same construct (independent GBD estimate),"get_fertility(measure=stillbirth_count, wk_cutoff=28)"
+CME_SBR,CME,Stillbirth rate,same construct (independent GBD estimate),"get_fertility(measure=stillbirth_rate, wk_cutoff=28)"
+CME_TM,CME,Total child mortality,same construct (independent GBD estimate),"get_cause_burden(measure=deaths, all causes, by age band) — death counts"
+DM_BRTS,DM,Number of births,same construct (independent GBD estimate),get_population(measure=live_births)
+DM_BRTS_SURVIVING_1,DM,Live births surviving to age 1,related construct,derivable from live births and <1 mortality; not published
+DM_BU_PC_DOU,DM,Built-up area per capita by degree of urbanization,none,
+DM_DPR_CHD,DM,Child dependency ratio,related construct,derivable from population by age; not published
+DM_DPR_OLD,DM,Old age dependency ratio,related construct,as DM_DPR_CHD
+DM_DPR_TOT,DM,Total dependency ratio,related construct,as DM_DPR_CHD
+DM_FRATE_TOT,DM,Total fertility rate,same construct (independent GBD estimate),get_fertility(measure=tfr)
+DM_LIFE_EXP,DM,Life expectancy,same construct (independent GBD estimate),get_life_expectancy
+DM_NET_MG_RATE,DM,"Net migration rate (per 1,000 population)",same construct (independent GBD estimate),"get_population(measure=migration) — count not rate, sparse"
+DM_POP,DM,Total population,same construct (independent GBD estimate),get_population
+DM_POP_DOU,DM,Percentage of population by degree of urbanization at mid-year,none,
+DM_POP_DOU_GRT,DM,Annual rate of change of the population by degree of urbanization,none,
+DM_POP_GRT,DM,Population annual growth rate,related construct,derivable from population series
+DM_POP_PROP,DM,Distribution of total population by age,same construct (independent GBD estimate),"get_population(age_group=...) — shares derivable, not published"
+DM_POP_URBN,DM,Percentage of population by urban-rural national definitions at mid-year,none,
+DM_POP_U_GRT,DM,Annual rate of change of the population by urban-rural national definitions,none,
+ECD_CHLD_ADLT_SRC,ECD,Proportion of children with whom any adult household member has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days,none,
+ECD_CHLD_BKS_HM,ECD,Proportion of children who have 3 or more children's books,none,
+ECD_CHLD_EDU_PGM,ECD,Proportion of children attending an early childhood education programme,none,
+ECD_CHLD_LFT_ALN,ECD,Proportion of children under left alone or under the supervision of another child younger than 10 years of age for more than 1 hour at least once in the last week,none,
+ECD_CHLD_LMPSL,ECD,"Proportion of children aged 24-59 months of age who are developmentally on track in health, learning and psychosocial well-being, by sex",none,
+ECD_CHLD_LMPSL_PRXY,ECD,"Percentage of children aged 36-59 months who are developmentally on track in at least three of the following four domains: literacy-numeracy, physical, social-emotional and learning",none,
+ECD_CHLD_PLYTH_HM,ECD,Proportion of children who play with 2 or more types of playthings,none,
+ECON_GVT_EXP_PTEXP,ECON,Government expenditure by sector (as a percentage on government budget),none,
+ECON_GVT_EXP_PTGDP,ECON,Government expenditure by sector (as a Proportion of GDP),related construct,none (LDI per capita is the only economic covariate)
+ECON_GVT_REV_PTGDP,ECON,Government revenue (as a Proportion of GDP),none,
+ECON_ODA_INFLOW_PTGNI,ECON,Official Development Assitance (ODA) inflow as a Proportion of Gross National Income (GNI),none,
+ECON_ODA_INFLOW_USD,ECON,Official Development Assitance (ODA) inflow in United States dollars,none,
+ECON_ODA_OUTFLOW_PTGNI,ECON,Official Development Assitance (ODA) outflow as a Proportion of Gross National Income (GNI),none,
+ECON_ODA_OUTFLOW_USD,ECON,Official Development Assitance (ODA) outflow in United States dollars,none,
+ED_CR,ED,School completion rate,none,
+ED_LR,ED,Literacy rate,none,
+ED_MAT,ED,Proportion of students achieving at least a minimum proficiency level in mathematics,none,
+ED_READ,ED,Proportion of students achieving at least a minimum proficiency level in reading,none,
+ED_ROFST,ED,Out-of-school rate,none,
+ED_ROFST_ADM,ED,Out-of-school rate (administrative data),none,
+FD_ANAR,FD,Adjusted net school attendance rate,none,
+FD_EARLY_CH_EDU,FD,Proportion of children who are attending an early childhood education programme,none,
+FD_EARLY_STIM,FD,Proportion of children with whom an adult has engaged in activities to provide early stimulation and responsive care,none,
+FD_FOUNDATIONAL_LEARNING,FD,Proportion of children who demonstrate foundational numeracy skills and foundational reading skills,none,
+FD_FUNC_DIFFICULTY,FD,Proportion of children with disabilities,none,
+FD_NEVER_ATTENDED,FD,Proportion of children who have never attended school,none,
+FD_OOS,FD,Proportion of children of school age who are not enrolled in school,none,
+FD_SANITATION_FACILITIES,FD,Proportion of children who live in a household with basic sanitation services on premises,none,
+FD_SEVER_PHY_PUNISH,FD,Proportion of children who experienced severe physical punishment by caregivers,none,
+FD_SOCIAL_TRANSFERS,FD,Proportion of children who live in a household that received social transfers and benefits,none,
+FD_STUNTING,FD,Proportion of children with moderate or severe stunting,none,
+FD_UNDERWEIGHT,FD,Proportion of children with moderate or severe underweight,none,
+GN_ED_ATTN,GN,Proportion of the populationthat completed at least upper secondary education (ISCED 3),related construct,"get_covariate(Education years per capita) — mean years, not attainment share"
+GN_FB_BNK_ACCSS,GN,Proportion of the population with an account at a financial institution or mobile money service provider,none,
+GN_IDX,GN,Social Institutions and Gender Index (SIGI),none,
+GN_IT_MOB_OWN,GN,Proportion of individuals who own a mobile telephone,none,
+GN_LF_PTCPN,GN,Labour force participation rate,none,
+GN_MTNTY_LV_BNFTS,GN,Maternity leave benefits,none,
+GN_PTNTY_LV_BNFTS,GN,Paternity leave benefits,none,
+GN_SG_LGL_GENEQEMP,GN,"Legal frameworks that promote, enforce, and monitor gender equality- Area 3: Employment and economic benefits",none,
+GN_TIMEUSE,GN,Time use,none,
+GN_UNMPLY,GN,Labour force unemployment rate,none,
+HVA_EPI_DTH_ANN,HVA,Estimated number of annual HIV/AIDS-related deaths,same construct (independent GBD estimate),"get_cause_burden(HIV/AIDS, deaths, by age band) — GBD model vs UNAIDS"
+HVA_EPI_DTH_RT,HVA,"Estimated rate of annual HIV/AIDS-related deaths (per 100,000 population)",same construct (independent GBD estimate),"get_cause_burden(HIV/AIDS, deaths rate)"
+HVA_EPI_INF_ANN,HVA,Estimated number of new HIV infections,same construct (independent GBD estimate),"get_cause_burden(HIV/AIDS, incidence count)"
+HVA_EPI_INF_RT,HVA,"Estimated HIV incidence rate (new infections per 1,000 uninfected population)",same construct (independent GBD estimate),"get_cause_burden(HIV/AIDS, incidence per 100,000 total pop; UNAIDS per 1,000 uninfected)"
+HVA_EPI_LHIV,HVA,Estimated number of children living with HIV,same construct (independent GBD estimate),"get_cause_burden(HIV/AIDS, prevalence count, 0-14)"
+HVA_PED_ART_CVG,HVA,Proportion of children and adolescents living with HIV and receiving antiretroviral therapy (ART),none,
+HVA_PED_ART_NUM,HVA,Reported number of children and adolescents receiving antiretroviral treatment (ART),none,
+HVA_PED_EID_CVG,HVA,Proportion of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,none,
+HVA_PED_EID_NUM,HVA,Reported number of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,none,
+HVA_PED_LOST,HVA,Estimated number of children who have lost one or both parents due to all causes,none,
+HVA_PED_LOST_AIDS,HVA,Estimated number of children who have lost one or both parents due to HIV/AIDS,none,
+HVA_PMTCT_ARV_CVG,HVA,Proportion of pregnant women living with HIV receiving effective antiretrovirals (ARVs) for preventing mother-to-child transmission (PMTCT) (excludes single-dose nevirapine),none,
+HVA_PMTCT_ARV_NUM,HVA,Reported number of pregnant women living with HIV receiving anitretrovirals (ARVs) for preventing mother-to-child transmission (PMTCT),none,
+HVA_PMTCT_MTCT,HVA,Mother-to-child HIV transmission rate,none,
+HVA_PMTCT_STAT_CVG,HVA,Proportion of pregnant women presenting at ANC who were tested for HIV or already knew their HIV positive status,none,
+HVA_PMTCT_STAT_NUM,HVA,Reported number of pregnant women presenting at antenatal clinics (ANC) who were tested for HIV or already knew their HIV positive status,none,
+HVA_PREV_CNDM_MULT,HVA,Per cent of young people (aged 15-24 years) who had more than one sexual partner in the past 12 months reporting the use of a condom during their last sexual intercourse,none,
+HVA_PREV_CNDM_REG,HVA,"Per cent of young people (aged 15-24 years) who had sex with a non-marital, non-cohabitating partner in the past 12 months reporting the use of a condom during their last sexual intercourse",none,
+HVA_PREV_KNOW,HVA,"Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV",none,
+HVA_PREV_KNOW_TEST,HVA,Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,none,
+HVA_PREV_STIGMA,HVA,Per cent of people (aged 15-49 years) expressing discriminatory attitudes towards people living with HIV,none,
+HVA_PREV_TEST_RES,HVA,Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,none,
+HVA_PREV_TEST_RES_12,HVA,Per cent of young people (aged 15-24 years) who were tested for HIV in the last 12 months and received the result of the last test,none,
+IM_BCG,IM,Proportion of live births who received bacille Calmette-Guerin (vaccine against tuberculosis),same construct (independent GBD estimate),get_covariate(BCG lagged five-year coverage)
+IM_HEPBB,IM,Proportion of live births who received hepatitis-B-containing vaccine within 24 hours of birth,none,
+IM_HPV,IM,Proportion of females who received the last dose of human papillomavirus (HPV) vaccine per national schedule,none,
+IM_MCV2,IM,"Proportion of children who received the 2nd dose of measles-containing vaccine, as per administered in the national schedule",same construct (independent GBD estimate),get_covariate(MCV2)
+IM_PAB,IM,Proportion of newborns protected at birth against tetanus with tetanus toxoid,none,
+IM_VACC,IM,Proportion of surviving infants who are vaccinated,same construct (independent GBD estimate),"get_covariate: DTP3, MCV1, Polio3, Hib3, PCV3, RotaC, HepB3, RCV1 (not DTP1, IPV1-3, MenA)"
+IM_YFV,IM,Proportion of surviving infants who received yellow fever- containing vaccine (for countries at risk and where the vaccine is in the national schedule),none,
+MG_INTERNAL_DISP_PERS,MG,Internally displaced persons (IDPs),none,
+MG_INTNL_MG_CNTRY_DEST,MG,"International migrants, by country of destination",none,
+MG_NEW_INTERNAL_DISP,MG,New internal displacements,none,
+MG_RFGS_CNTRY_ASYLM,MG,"Number of refugees, by host country",none,
+MG_RFGS_CNTRY_ASYLM_PER1000,MG,"Refugees by host country, per 1000 population",none,
+MG_RFGS_CNTRY_ASYLM_PER_USD_GNI,MG,"Refugees by host country, per 1 USD GNI per capita",none,
+MG_RFGS_CNTRY_ORIGIN,MG,"Number of refugees, by country of origin",none,
+MG_UNRWA_RFGS_CNTRY_ASYLM,MG,"Refugees under UNRWA mandate, by host country",none,
+MNCH_ABR,MNCH,"Adolescent birth rate (number of live births to adolescent women per 1,000 adolescent women)",same construct (independent GBD estimate),"get_fertility(measure=asfr, 15-19)"
+MNCH_ADO_ALCOHOL,MNCH,Proportion of adolescents who had at least one alcoholic drink at any time during the last 12 months,none,
+MNCH_ADO_INSUFF_PHYS,MNCH,Insufficient physical activity among school going adolescents,related construct,get_risk_exposure(Low physical activity) — adults 25+ only
+MNCH_ADO_TOBACCO,MNCH,Proportion of adolescents who smoked cigarettes or used smoked or smokeless tobacco products at any time during the last month,related construct,"get_risk_exposure(Smoking / Chewing tobacco) prevalence by age band 10-14, 15-19"
+MNCH_ANC1,MNCH,Antenatal care 1+ visit - percentage of women (aged 15-49 years) attended at least once during pregnancy by skilled health personnel,same construct (independent GBD estimate),get_covariate(ANC1 coverage)
+MNCH_ANC4,MNCH,Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider,same construct (independent GBD estimate),get_covariate(ANC4 coverage)
+MNCH_BIRTH18,MNCH,Proportion of women who gave birth before age 18,none,
+MNCH_CSEC,MNCH,Proportion of deliveries by cesarean section (trends),none,
+MNCH_CSEC_TND,MNCH,Proportion of deliveries by cesarean section,none,
+MNCH_DEMAND_FP,MNCH,Demand for family planning satisfied with modern methods - percentage of women (aged 15-49 years),same construct (independent GBD estimate),get_covariate(Demand for contraception satisfied with modern methods)
+MNCH_DIARCARE,MNCH,Proportion of children with diarrhoea for whom advice or treatment was sought from a health facility or provider,none,
+MNCH_DIARRHOEAT_TR,MNCH,Proportion of children with diarrhoea who received treatment,none,
+MNCH_INFDEC,MNCH,"Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",none,
+MNCH_INSTDEL,MNCH,Institutional deliveries - Proportion of deliveries in a health facility,same construct (independent GBD estimate),get_covariate(In-Facility Delivery)
+MNCH_INSTDEL_TND,MNCH,Institutional deliveries - Proportion of deliveries in a health facility (trends),same construct (independent GBD estimate),get_covariate(In-Facility Delivery)
+MNCH_IPTP,MNCH,Proportion of women who received three or more doses of intermittent preventive treatment in pregnancy (ITPp) for malaria during antenatal care visits during their last pregnancy,none,
+MNCH_ITN,MNCH,Proportion of children who slept under an insecticide-treated mosquito net (ITN) the night prior to the survey,none,
+MNCH_ITN2,MNCH,Proportion of households with at least one insecticide treated mosquito net (ITN) for every two persons and/or indoor residual spraying (IRS) in the past 12 months,none,
+MNCH_ITNOWN,MNCH,Proportion of households with at least one insecticide-treated mosquito net (ITN),none,
+MNCH_ITNPREG,MNCH,Pregnant women sleeping under ITN - percentage of pregnant women (aged 15-49 years) who slept under an insecticide-treated net the previous night,none,
+MNCH_LIFE_EXPECTANCY,MNCH,Life expectancy at birth,same construct (independent GBD estimate),get_life_expectancy (female)
+MNCH_LTR_MATERNAL_DEATH,MNCH,Lifetime risk of maternal death (probability that a 15-year-old girl will eventually die from a maternal cause),none,
+MNCH_MATERNAL_DEATHS,MNCH,Estimated number maternal deaths,same construct (independent GBD estimate),"get_cause_burden(Maternal disorders, deaths) — count"
+MNCH_MLRACT,MNCH,"Proportion of febrile children receiving first-line antimalarial drug (ACT), among those receiving any antimalarial drugs",none,
+MNCH_MLRCARE,MNCH,Proportion of children with fever for whom advice or treatment was sought from a health facility or provider,none,
+MNCH_MLRDIAG,MNCH,Proportion of febrile children who had a finger or heel stick for malaria testing,none,
+MNCH_MMR,MNCH,"Maternal mortality ratio (number of maternal deaths per 100,000 live births)",same construct (independent GBD estimate),get_mmr (GBD definition incl. late and HIV-aggravated deaths)
+MNCH_PNCMOM,MNCH,Postnatal care for mothers - percentage of women (aged 15-49 years) who received postnatal care within 2 days of giving birth,same construct (independent GBD estimate),get_covariate(Postnatal Care Visit)
+MNCH_PNCNB,MNCH,Proportion of newborns who have a postnatal contact with a health provider within 2 days of delivery,none,
+MNCH_PNEUCARE,MNCH,Proportion of children with acute respiratory infection (ARI) symptoms whom advice or treatment was sought from a health facility or provider,none,
+MNCH_SAB,MNCH,Proportion of deliveries attended by skilled health personnel,same construct (independent GBD estimate),get_covariate(Skilled Birth Attendance)
+MNCH_UHC,MNCH,Coverage of essential health services,same construct (independent GBD estimate),get_covariate(Universal health coverage index)
+MNCH_UHC_RMNCH,MNCH,"Universal health coverage index for reproductive, maternal, newborn and child-health interventions",related construct,UHC index only (no RMNCH sub-index)
+NT_ANE,NT,Prevalence of anaemia (modeled estimates),same construct (independent GBD estimate),"get_impairment(Anemia, females 15-49) — GBD impairment model vs WHO model"
+NT_ANT_HAZ_NE2,NT,Proportion of children with stunting,related construct,get_risk_exposure(Child stunting) 3 severity categories x age bands; no 0-59-month <-2 SD aggregate
+NT_ANT_HAZ_NE2_MOD,NT,Proportion of children with stunting (modeled estimates),related construct,as NT_ANT_HAZ_NE2
+NT_ANT_HAZ_NE2_MOD_NUMTH,NT,Children with stunting (modeled estimates),related construct,"exposure x population, not published"
+NT_ANT_WAZ_NE2,NT,Proportion of children with underweight,related construct,get_risk_exposure(Child underweight) categories
+NT_ANT_WHZ_NE2,NT,Proportion of children with wasting,related construct,get_risk_exposure(Child wasting) categories
+NT_ANT_WHZ_NE3,NT,Proportion of children with sever wasting,related construct,get_risk_exposure(Child wasting) < -3 SD category
+NT_ANT_WHZ_PO2,NT,Proportion of children with overweight,related construct,"get_risk_exposure(High body-mass index) child bands — IOTF-type cut-offs, not WHZ > +2 SD"
+NT_ANT_WHZ_PO2_MOD,NT,Proportion of children with overweight (modeled estimates),related construct,as NT_ANT_WHZ_PO2
+NT_ANT_WHZ_PO2_MOD_NUMTH,NT,Children with overweight (modeled estimates),related construct,not published
+NT_BF_CBF,NT,Children receiving coninued breastfeeding,related construct,get_risk_exposure(Suboptimal breastfeeding) discontinued breastfeeding 6-23 months
+NT_BF_EBF,NT,Ever breastfed (0-23 months),related construct,discontinued breastfeeding (ever breastfed differs)
+NT_BF_EIBF,NT,Proportion of children who were breastfed within one hour of birth,related construct,none for early initiation; suboptimal breastfeeding covers exclusivity only
+NT_BF_EXBF,NT,Exclusive breastfeeding (0-5 months),related construct,get_risk_exposure(Suboptimal breastfeeding) non-exclusive categories 1-5 months
+NT_BF_EXBF_2D,NT,Proportion of children who were fed exclusively with breast milk for the first two days after birth,none,
+NT_BF_MIXMF,NT,Mixed Milk Feeding (0-5 months),related construct,non-exclusive partial category
+NT_BW_LBW,NT,Prevalence of low birth weight among new-borns,related construct,get_risk_exposure(Low birth weight and short gestation) joint 58-category distribution
+NT_BW_WEI,NT,Children with a birth weight,related construct,as NT_BW_LBW
+NT_CF_ASF,NT,Egg and/or flesh foods consumption (6-23months),none,
+NT_CF_FG_0_T_2,NT,Severe food poverty,none,
+NT_CF_FG_3_T_4,NT,Moderate food poverty,none,
+NT_CF_ISSSF_FL,NT,"Proportion of infants who consume solid, semisolid or soft foods",none,
+NT_CF_MAD,NT,Minimum acceptable diet (children aged 6-23 months),none,
+NT_CF_MDD,NT,Minimum diet diversity (children aged 6 to 23 months),none,
+NT_CF_MMF,NT,Minimum meal frequency (children aged 6 to 23 months),none,
+NT_CF_ZEROFV,NT,Zero vegetable or fruit consumption (6-23months),none,
+NT_DANT_BMI_G25_MOD,NT,Prevalence of overweight among adults - body mass index (BMI) >= 25 (crude estimate),same construct (independent GBD estimate),"get_risk_exposure(High body-mass index, adults) — series 52-54 overweight/obese"
+NT_DANT_BMI_G30_MOD_ADJ,NT,Prevalence of obesity among adults - body mass index (BMI) >=  30 (age-standardized estimate),same construct (independent GBD estimate),get_risk_exposure(High body-mass index) obese series
+NT_DANT_BMI_L18_MOD,NT,Prevalence of underweight among adults - body mass index (BMI) < 18.5 (age-standardized estimate),none,
+NT_IOD_ANY_TH,NT,Iodized salt consumption (>0 ppm) among all tested households,none,
+NT_IOD_ANY_TS,NT,Iodized salt consumption (>0 ppm) among all tested households with salt,none,
+NT_SANT_5_19_BAZ_NE2_MOD,NT,"Percentage of thinness among children aged 5-19 years, BMI < -2 standard deviations below the median (crude estimate)",related construct,no thinness exposure; High BMI child bands only
+NT_SANT_5_19_BAZ_PO1_MOD,NT,"Percentage of overweight among children aged 5-19 years, BMI > +1 standard deviations above the median (crude estimate)",related construct,get_risk_exposure(High body-mass index) 5-19 bands
+NT_SANT_5_19_BAZ_PO2_MOD,NT,"Prevalence of obesity among children aged 5-19 years, BMI > +2 standard deviations above the median (crude estimate)",related construct,get_risk_exposure(High body-mass index) obese 5-19 bands
+NT_VAS_S1,NT,Proportion of children receiving a high-dose vitamin A supplement in the first half of the calendar year (January-June),related construct,"get_risk_exposure(Vitamin A deficiency) — deficiency prevalence, not supplementation coverage"
+NT_VAS_S2,NT,Proportion of children receiving a high-dose vitamin A supplement in the second half of the calendar year (July-December),related construct,as NT_VAS_S1
+NT_VAS_TWODOSE,NT,Proportion of children receiving two high-dose vitamin A supplements in a calendar year,related construct,as NT_VAS_S1
+PT_ADLS_LBR_HC,PT,Proportion of adolescents engaged in household chores,none,
+PT_ADLT_PS_NEC,PT,Proportion of adults who think that physical punishment is necessary to raise/educate children,none,
+PT_CHLD_1-14_PS-PSY-V_CGVR_TND,PT,"Percentage of children (aged 1-14 years) who experienced any physical punishment and/or psychological aggression by caregivers (UNICEF analysis, trend)",none,
+PT_CHLD_DN,PT,Rate of children in detention,none,
+PT_CHLD_LBR_ECON,PT,Proportion of children engaged in child labour (economic activities),none,
+PT_CHLD_LBR_ECON_HC,PT,Proportion of children engaged in child labour (economic activities and household chores),none,
+PT_CHLD_PS_PSY_V_CGVR,PT,Proportion of children who experienced any physical punishment and/or psychological aggression by caregivers,none,
+PT_CHLD_REG,PT,Proportion of children whose births are registered,none,
+PT_CHLD_RES_CARE,PT,Rate of children in residential care,none,
+PT_CM_BANK,PT,Proportion of women who have an account at a bank or other financial institution,none,
+PT_CM_BIRTHS18,PT,Proportion of women who gave birth before age 18,none,
+PT_CM_BIRTHS20,PT,Proportion of women who gave birth before age 20,none,
+PT_CM_DEC_FAMILY,PT,Proportion of women who usually decide (alone or with their spouses) about visits to the women's families,none,
+PT_CM_EMPLOY_12M,PT,Proportion of women who have had a job in the past 12 months,none,
+PT_CM_IPV_12M,PT,Proportion of women who experienced intimate partner violence in the past 12 months,related construct,as PT_F_PS-SX_V_PTNR_12MNTH
+PT_CM_W_BTNG,PT,Proportion of women who believe a husband is justified in beating his wife under certain circumstances,none,
+PT_FGM_ELIM,PT,Proportion of persons who think that FGM should be eliminated,none,
+PT_F_15-19_FGM_TND,PT,Trend in prevalence of female genital mutilation (FGM),none,
+PT_F_FGM,PT,Proportion of girls and women who have undergone female genital mutilation (FGM),none,
+PT_F_MRD_U15,PT,Proportion of women married or in union before age 15,none,
+PT_F_MRD_U15_TND,PT,"Proportion of women who were first married or in union before age 15 (UNICEF analysis, trend)",none,
+PT_F_MRD_U18_TND,PT,"Proportion of women who were first married or in union before age 18 (UNICEF analysis, trend)",none,
+PT_F_PS-SX_V_PTNR_12MNTH,PT,Proportion of ever-partnered girls and women who have experienced physical and/or sexual violence by a current or former intimate partner in the last 12 months,related construct,"get_risk_exposure(Intimate partner violence) — lifetime, all ages"
+PT_F_TMRD15,PT,Total number of girls and women who were first married or in union before age 15,none,
+PT_MRD,PT,Proportion of children and adolescents who are currently married or in union,none,
+PT_MRD_U18,PT,Proportion of persons married or in union before age 18,none,
+PT_NMRD,PT,Proportion of children and adolescents who were never married or in union,none,
+PT_ST_BUL_30_DYS,PT,Proportion of students who reported being bullied on 1 or more days in the past 30 days,related construct,get_risk_exposure(Bullying victimization)
+PT_SXV_AGE18,PT,Proportion of persons who experienced sexual violence by age 18,related construct,get_risk_exposure(Sexual violence against children)
+PT_W_BTNG,PT,Proportion of persons who consider a husband to be justified in hitting or beating his wife for at least one of the specified reasons,none,
+PV_ADOLESCENT,PV,Adolescent poverty rate,none,
+PV_CHLD_DEPRV_M,PV,Proportion of children suffering deprivations according to homogeneous moderate standards,none,
+PV_CHLD_DEPRV_S,PV,Percentage children suffering deprivations according to homogeneous severe standards,none,
+PV_CHLD_DPRV_AVG_HS,PV,Average number of deprivations suffered per child according to homogeneous moderate standards,none,
+PV_CHLD_DPRV_AVG_POV_HS,PV,Average number of deprivations for children suffering at least one deprivation according to homogeneous moderate standards,none,
+PV_CHLD_DPRV_AVG_POV_S_HS,PV,Average number of deprivations for children suffering at least one deprivation according to homogeneous severe standards,none,
+PV_CHLD_DPRV_AVG_S_HS,PV,Average number of deprivations suffered per child according to homogeneous severe standards,none,
+PV_CHLD_INCM_PL,PV,Proportion of children living in households with income below the national poverty line,none,
+PV_LEVEL,PV,Poverty Level,none,
+PV_VMIR,PV,Vast Majority Income Ratio,none,
+SPP_CHLD_POV_PROF,SPP,Child Poverty Profile,none,
+SPP_CHLD_SOC_PROT,SPP,Proportion of children covered by social protection,none,
+SPP_DIST_SOC_PROT_BNFT,SPP,Distribution of Social Protection Benefits (percent),none,
+SPP_GDPPC,SPP,Gross Domestic Product (GDP) per capita (current United States dollars),none,
+SPP_GINI,SPP,Gini coefficient of income inequality,none,
+SPP_HSLD_INCOME_SHARE,SPP,Share of household income (percent),none,
+SPP_MOTHERS_CASH_BNF,SPP,Proportion of mothers with newborns receiving cash benefit,none,
+SPP_PALMA,SPP,Palma index of income inequality,none,
+SPP_VMI,SPP,Vast majority index of income inequality (VMI),none,
+WS_HCF_C,WS,Proportion of health care facilities with cleaning services,none,
+WS_HCF_H,WS,Proportion of health care facilities with hygiene services,none,
+WS_HCF_S,WS,Proportion of health care facilities with sanitation services,none,
+WS_HCF_W,WS,Proportion of health care facilities with water services,none,
+WS_HCF_WM,WS,Proportion of health care facilities with waste management services,none,
+WS_PPL_HF_HANDWASH,WS,Proportion of population with access to handwashing facilities,related construct,get_risk_exposure(No access to handwashing facility) — complement
+WS_PPL_M_NPART,WS,"Proportion of adolescent girls who did not participate in school, work, or social activities during their last menstrual period",none,
+WS_PPL_S,WS,Proportion of population using sanitation services,related construct,get_risk_exposure(Unsafe sanitation) 2 categories
+WS_PPL_SF,WS,Proportion of population using sanitation facilities,related construct,as WS_PPL_S
+WS_PPL_S_OD,WS,Proportion of population practising open defecation,related construct,unsafe sanitation: no facility category
+WS_PPL_W_DW,WS,Proportion of population using drinking water services,related construct,get_risk_exposure(Unsafe water source) 11 source x treatment categories
+WS_PPL_W_DWSR,WS,Proportion of population using various types of drinking water sources,related construct,as WS_PPL_W_DW
+WS_PPL_W_SW,WS,Proportion of population using surface water,related construct,unsafe water: surface water category
+WS_SCH_H,WS,Proportion of schools with hygiene services,none,
+WS_SCH_H-F,WS,Proportion of schools with handwashing facilities,none,
+WS_SCH_S,WS,Proportion of schools with sanitation services,none,
+WS_SCH_S-I,WS,Proportion of schools with improved sanitation facilities,none,
+WS_SCH_W-I,WS,Proportion of schools with improved drinking water sources,none,
+WS_SCH_W_DW,WS,Proportion of schools with drinking water services,none,
+WT_ADLS_10-17_LBR_ECON,WT,Child labour thresholds (economic activity),none,
+WT_ADLS_10-17_LBR_HC,WT,Child labour thresholds (household chores),none,
+WT_ADLS_10-17_TIME_ECON,WT,Time spent in economic activities,none,
+WT_ADLS_10-17_TIME_HC,WT,Time spent in household chores,none,
+WT_ADLS_ED_NEET,WT,"Percentage of adolescents not in education, employment or training",none,
+WT_ADLS_LAB_FRC_UNEMP,WT,Percentage of adolescents in the labour force who are unemployed,none,

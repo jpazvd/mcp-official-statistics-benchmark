@@ -1,0 +1,53 @@
+sid,step,tool,args,alt_args,target,iso3
+S01,search,data360_search_indicators,"{""query"": ""Stillbirths""}","{""query"": ""Stillbirths""}",WB_HNP_SH_DTH_STLB,
+S01,metadata,data360_get_metadata,"{""database_id"": ""WB_HNP"", ""indicator_id"": ""WB_HNP_SH_DTH_STLB""}",,WB_HNP_SH_DTH_STLB,
+S01,data,data360_get_data,"{""database_id"": ""WB_HNP"", ""indicator_id"": ""WB_HNP_SH_DTH_STLB"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_HNP_SH_DTH_STLB,NGA
+S04,search,data360_search_indicators,"{""query"": ""Life expectancy""}","{""query"": ""Life expectancy""}",WB_WDI_SP_DYN_LE00_IN,
+S04,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SP_DYN_LE00_IN""}",,WB_WDI_SP_DYN_LE00_IN,
+S04,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SP_DYN_LE00_IN"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SP_DYN_LE00_IN,NGA
+S09,search,data360_search_indicators,"{""query"": ""Youth literacy rate for 15-24 years""}","{""query"": ""Literacy rate""}",WB_WDI_SE_ADT_1524_LT_ZS,
+S09,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SE_ADT_1524_LT_ZS""}",,WB_WDI_SE_ADT_1524_LT_ZS,
+S09,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SE_ADT_1524_LT_ZS"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SE_ADT_1524_LT_ZS,NGA
+S17,search,data360_search_indicators,"{""query"": ""Percentage of females who received the last dose of human papillomavirus (HPV) vaccine per national schedule""}","{""query"": ""Proportion of females who received the last dose of human papillomavirus (HPV) vaccine per national schedule""}",WB_HCP_HPV_VAC,
+S17,metadata,data360_get_metadata,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_HPV_VAC""}",,WB_HCP_HPV_VAC,
+S17,data,data360_get_data,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_HPV_VAC"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_HCP_HPV_VAC,NGA
+S19,search,data360_search_indicators,"{""query"": ""International migrants, by country of destination""}","{""query"": ""International migrants, by country of destination""}",WB_WDI_SM_POP_TOTL,
+S19,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_TOTL""}",,WB_WDI_SM_POP_TOTL,
+S19,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_TOTL"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SM_POP_TOTL,NGA
+S19,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_TOTL"", ""country_code"": ""BRA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SM_POP_TOTL,BRA
+S19,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_TOTL"", ""country_code"": ""SOM"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SM_POP_TOTL,SOM
+S20,search,data360_search_indicators,"{""query"": ""Internally displaced persons (IDPs)""}","{""query"": ""Internally displaced persons (IDPs)""}",WB_WDI_SM_POP_IDPC,
+S20,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_IDPC""}",,WB_WDI_SM_POP_IDPC,
+S20,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_IDPC"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SM_POP_IDPC,NGA
+S20,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_IDPC"", ""country_code"": ""BRA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SM_POP_IDPC,BRA
+S20,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SM_POP_IDPC"", ""country_code"": ""SOM"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SM_POP_IDPC,SOM
+S21,search,data360_search_indicators,"{""query"": ""Coverage of essential health services""}","{""query"": ""Coverage of essential health services""}",WB_WDI_SH_UHC_SCI,
+S21,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_UHC_SCI""}",,WB_WDI_SH_UHC_SCI,
+S21,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_UHC_SCI"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SH_UHC_SCI,NGA
+S22,search,data360_search_indicators,"{""query"": ""Careseeking for diarrhoea - percentage of children (under age 5) with diarrhoea for whom advice or treatment was sought from a health facility or provider""}","{""query"": ""Proportion of children with diarrhoea for whom advice or treatment was sought from a health facility or provider""}",WB_HCP_DIARRHOEA,
+S22,metadata,data360_get_metadata,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_DIARRHOEA""}",,WB_HCP_DIARRHOEA,
+S22,data,data360_get_data,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_DIARRHOEA"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_HCP_DIARRHOEA,NGA
+S23,search,data360_search_indicators,"{""query"": ""Weight-for-height >+2 SD (overweight), Modeled Estimates""}","{""query"": ""Proportion of children with overweight (modeled estimates)""}",WB_WDI_SH_STA_OWGH_ME_ZS,
+S23,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_STA_OWGH_ME_ZS""}",,WB_WDI_SH_STA_OWGH_ME_ZS,
+S23,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_STA_OWGH_ME_ZS"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SH_STA_OWGH_ME_ZS,NGA
+S24,search,data360_search_indicators,"{""query"": ""Minimum acceptable diet (children aged 6-23 months)""}","{""query"": ""Minimum acceptable diet (children aged 6-23 months)""}",WB_HNP_SH_STA_IYCF_ZS,
+S24,metadata,data360_get_metadata,"{""database_id"": ""WB_HNP"", ""indicator_id"": ""WB_HNP_SH_STA_IYCF_ZS""}",,WB_HNP_SH_STA_IYCF_ZS,
+S24,data,data360_get_data,"{""database_id"": ""WB_HNP"", ""indicator_id"": ""WB_HNP_SH_STA_IYCF_ZS"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_HNP_SH_STA_IYCF_ZS,NGA
+S26,search,data360_search_indicators,"{""query"": ""Percentage of ever-partnered girls aged 15 to 19 years who have experienced physical and/or sexual violence by a current or former intimate partner in the last 12 months""}","{""query"": ""Proportion of ever-partnered girls and women who have experienced physical and/or sexual violence by a current or former intimate partner in the last 12 months""}",WB_WDI_SG_VAW_1549_ZS,
+S26,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SG_VAW_1549_ZS""}",,WB_WDI_SG_VAW_1549_ZS,
+S26,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SG_VAW_1549_ZS"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SG_VAW_1549_ZS,NGA
+S29,search,data360_search_indicators,"{""query"": ""Gini Coefficient""}","{""query"": ""Gini coefficient of income inequality""}",WB_WDI_SI_POV_GINI,
+S29,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SI_POV_GINI""}",,WB_WDI_SI_POV_GINI,
+S29,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SI_POV_GINI"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SI_POV_GINI,NGA
+S29,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SI_POV_GINI"", ""country_code"": ""BRA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SI_POV_GINI,BRA
+S29,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SI_POV_GINI"", ""country_code"": ""SOM"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SI_POV_GINI,SOM
+S31,search,data360_search_indicators,"{""query"": ""Proportion of population practising open defecation""}","{""query"": ""Proportion of population practising open defecation""}",WB_WDI_SH_STA_ODFC_ZS,
+S31,metadata,data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_STA_ODFC_ZS""}",,WB_WDI_SH_STA_ODFC_ZS,
+S31,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_STA_ODFC_ZS"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SH_STA_ODFC_ZS,NGA
+S31,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_STA_ODFC_ZS"", ""country_code"": ""BRA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SH_STA_ODFC_ZS,BRA
+S31,data,data360_get_data,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_STA_ODFC_ZS"", ""country_code"": ""SOM"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_WDI_SH_STA_ODFC_ZS,SOM
+S32,search,data360_search_indicators,"{""query"": ""Proportion of schools with basic sanitation services""}","{""query"": ""Proportion of schools with sanitation services""}",WB_HCP_B_SANITATION_SCH,
+S32,metadata,data360_get_metadata,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_B_SANITATION_SCH""}",,WB_HCP_B_SANITATION_SCH,
+S32,data,data360_get_data,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_B_SANITATION_SCH"", ""country_code"": ""NGA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_HCP_B_SANITATION_SCH,NGA
+S32,data,data360_get_data,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_B_SANITATION_SCH"", ""country_code"": ""BRA"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_HCP_B_SANITATION_SCH,BRA
+S32,data,data360_get_data,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_B_SANITATION_SCH"", ""country_code"": ""SOM"", ""start_year"": 2000, ""end_year"": 2025, ""limit"": 100}",,WB_HCP_B_SANITATION_SCH,SOM

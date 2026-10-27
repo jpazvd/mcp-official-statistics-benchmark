@@ -1,0 +1,15 @@
+R1 Reproducible query & M & P & P & echoes queryURL with flow, key and period \\
+R2 Retrieval stamp & -- & -- & -- & no timestamp or server version in responses \\
+R3 Completeness statement & M & -- & P & appliedDefaults, maxObs and the padded key are returned \\
+S1 Identifiers & P & P & P & custodian code and flow key; no SDG series link \\
+S2 Name and definition & P & -- & P & definition only from the discovery call; no methodology link \\
+S3 Unit & M & P & M & UNIT\_MEASURE code and UNIT\_MULTIPLIER; labels on request \\
+S4 Breakdown & M & P & P & full SDMX key with \_T totals \\
+S5 Custodian and provenance chain & P & -- & P & DATA\_SOURCE mixes custodian, survey and pipe; CUSTODIAN only in nutrition \\
+S6 Release and currency & P & -- & P & release named inside DATA\_SOURCE text for some flows; no date or series status \\
+S7 Licence and citation & -- & -- & P & no licence or citation in the payload \\
+O1 Source & P & -- & P & DATA\_SOURCE on 59\% of observations; MNCH as bare codes \\
+O2 Reference period & P & -- & -- & COVERAGE\_TIME filled in six flows, nutrition and HIV among them (9\% of observations); not in MNCH \\
+O3 Nature and status & P & -- & -- & OBS\_STATUS on 49\%; none in WASH, gender, education, economic flows \\
+O4 Uncertainty & P & -- & -- & bounds on 52\% of observations; interval level never stated \\
+O5 Footnote & M & -- & -- & observation, series and country notes passed through \\

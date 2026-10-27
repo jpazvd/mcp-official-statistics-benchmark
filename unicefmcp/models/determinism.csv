@@ -1,0 +1,69 @@
+server,tool,args,runs,responses,contents,chars
+un,mcp__UN_System_Data_Commons__get_observations,"{""date"": ""range"", ""date_range_end"": ""2025"", ""date_range_start"": ""2000"", ""place_dcid"": ""country/NGA"", ""variable_dcid"": ""undata/sdg/SH_DYN_MORT.AGE--Y0T4""}",8,1,1,1377
+un,mcp__UN_System_Data_Commons__get_observations,"{""date"": ""range"", ""date_range_end"": ""2025"", ""date_range_start"": ""2000"", ""place_dcid"": ""country/NGA"", ""variable_dcid"": ""undata/sdg/SH_STA_MORT.SEX--F""}",8,1,1,1311
+un,mcp__UN_System_Data_Commons__get_observations,"{""date"": ""range"", ""date_range_end"": ""2025"", ""date_range_start"": ""2000"", ""place_dcid"": ""country/NGA"", ""variable_dcid"": ""undata/sdg/SP_ACS_BSRVH2O""}",7,1,1,1341
+un,mcp__UN_System_Data_Commons__get_observations,"{""date"": ""range"", ""date_range_end"": ""2025"", ""date_range_start"": ""2000"", ""place_dcid"": ""country/NGA"", ""variable_dcid"": ""undata/unicef/MNCH_ANC4.AGE--Y15T49""}",8,1,1,782
+un,mcp__UN_System_Data_Commons__get_observations,"{""date"": ""range"", ""date_range_end"": ""2025"", ""date_range_start"": ""2000"", ""place_dcid"": ""country/NGA"", ""variable_dcid"": ""undata/unicef/MNCH_MMR.SEX--F""}",3,1,1,1286
+un,mcp__UN_System_Data_Commons__get_observations,"{""date"": ""range"", ""date_range_end"": ""2025"", ""date_range_start"": ""2000"", ""place_dcid"": ""country/NGA"", ""variable_dcid"": ""undata/unicef/WS_PPL_W_DW.WASH_SERVICE--DWS_ALB__WASH_SERVICE_TYPE--WAT""}",2,1,1,1605
+un,mcp__UN_System_Data_Commons__get_observations,"{""date_range_end"": ""2025"", ""date_range_start"": ""2000"", ""place_dcid"": ""country/NGA"", ""variable_dcid"": ""undata/sdg/SP_ACS_BSRVH2O""}",2,1,1,504
+un,mcp__UN_System_Data_Commons__get_variable_metadata,"{""entity_dcids"": [""country/NGA""], ""variable_dcids"": [""undata/sdg/SH_DYN_MORT.AGE--Y0T4""]}",8,7,1,811
+un,mcp__UN_System_Data_Commons__get_variable_metadata,"{""entity_dcids"": [""country/NGA""], ""variable_dcids"": [""undata/sdg/SH_STA_MORT.SEX--F"", ""undata/unicef/MNCH_MMR.SEX--F"", ""undata/undphdro/GII_mmr.SEX--F""]}",6,6,1,2413
+un,mcp__UN_System_Data_Commons__get_variable_metadata,"{""entity_dcids"": [""country/NGA""], ""variable_dcids"": [""undata/sdg/SP_ACS_BSRVH2O""]}",7,6,1,754
+un,mcp__UN_System_Data_Commons__get_variable_metadata,"{""entity_dcids"": [""country/NGA""], ""variable_dcids"": [""undata/unicef/MNCH_ANC4.AGE--Y15T49""]}",8,8,1,990
+un,mcp__UN_System_Data_Commons__get_variable_metadata,"{""entity_dcids"": [""country/NGA""], ""variable_dcids"": [""undata/unicef/WS_PPL_W_DW.WASH_SERVICE--DWS_ALB__WASH_SERVICE_TYPE--WAT""]}",2,2,1,1080
+un,mcp__UN_System_Data_Commons__search_indicators,"{""include_topics"": false, ""places"": [""Nigeria""], ""query"": ""antenatal care at least four visits""}",3,3,1,3305
+un,mcp__UN_System_Data_Commons__search_indicators,"{""include_topics"": false, ""places"": [""Nigeria""], ""query"": ""maternal mortality ratio""}",7,7,1,2558
+un,mcp__UN_System_Data_Commons__search_indicators,"{""include_topics"": false, ""places"": [""Nigeria""], ""query"": ""population using at least basic drinking water services""}",4,4,1,3010
+un,mcp__UN_System_Data_Commons__search_indicators,"{""include_topics"": false, ""places"": [""Nigeria""], ""query"": ""proportion of population using at least basic drinking water services""}",3,3,1,3010
+un,mcp__UN_System_Data_Commons__search_indicators,"{""include_topics"": false, ""places"": [""Nigeria""], ""query"": ""under-five mortality rate""}",7,7,1,1998
+un,mcp__UN_System_Data_Commons__search_indicators,"{""include_topics"": false, ""places"": [""Nigeria""], ""query"": ""women with at least four antenatal care visits""}",2,2,1,3305
+wb,mcp__World_Bank_Data360__data360_get_data,"{""country_code"": ""NGA"", ""database_id"": ""WB_HCP"", ""end_year"": 2025, ""indicator_id"": ""WB_HCP_ANTENATAL_CARE_4"", ""limit"": 100, ""start_year"": 2000}",4,1,1,1973
+wb,mcp__World_Bank_Data360__data360_get_data,"{""country_code"": ""NGA"", ""database_id"": ""WB_HCP"", ""end_year"": 2025, ""indicator_id"": ""WB_HCP_ANTENATAL_CARE_4"", ""start_year"": 2000}",2,1,1,1973
+wb,mcp__World_Bank_Data360__data360_get_data,"{""country_code"": ""NGA"", ""database_id"": ""WB_HNP"", ""end_year"": 2025, ""indicator_id"": ""WB_HNP_SH_STA_ANV4_ZS"", ""limit"": 100, ""start_year"": 2000}",2,1,1,4762
+wb,mcp__World_Bank_Data360__data360_get_data,"{""country_code"": ""NGA"", ""database_id"": ""WB_WDI"", ""end_year"": 2025, ""indicator_id"": ""WB_WDI_SH_DYN_MORT"", ""limit"": 100, ""start_year"": 2000}",7,1,1,5601
+wb,mcp__World_Bank_Data360__data360_get_data,"{""country_code"": ""NGA"", ""database_id"": ""WB_WDI"", ""end_year"": 2025, ""indicator_id"": ""WB_WDI_SH_H2O_BASW_ZS"", ""limit"": 100, ""start_year"": 2000}",6,1,1,5494
+wb,mcp__World_Bank_Data360__data360_get_data,"{""country_code"": ""NGA"", ""database_id"": ""WB_WDI"", ""end_year"": 2025, ""indicator_id"": ""WB_WDI_SH_STA_MMRT"", ""limit"": 100, ""start_year"": 2000}",7,1,1,5446
+wb,mcp__World_Bank_Data360__data360_get_data_api_url,"{""country_code"": ""NGA"", ""database_id"": ""WB_WDI"", ""end_year"": 2025, ""indicator_id"": ""WB_WDI_SH_DYN_MORT"", ""start_year"": 2000}",4,1,1,166
+wb,mcp__World_Bank_Data360__data360_get_data_api_url,"{""country_code"": ""NGA"", ""database_id"": ""WB_WDI"", ""end_year"": 2025, ""indicator_id"": ""WB_WDI_SH_STA_MMRT"", ""start_year"": 2000}",2,1,1,166
+wb,mcp__World_Bank_Data360__data360_get_metadata,"{""database_id"": ""WB_HCP"", ""indicator_id"": ""WB_HCP_ANTENATAL_CARE_4"", ""required_country"": ""NGA""}",6,1,1,10846
+wb,mcp__World_Bank_Data360__data360_get_metadata,"{""database_id"": ""WB_WDI"", ""fetch_disaggregation"": false, ""indicator_id"": ""WB_WDI_SH_DYN_MORT""}",4,1,1,18612
+wb,mcp__World_Bank_Data360__data360_get_metadata,"{""database_id"": ""WB_WDI"", ""fetch_disaggregation"": false, ""indicator_id"": ""WB_WDI_SH_H2O_BASW_ZS""}",2,1,1,20499
+wb,mcp__World_Bank_Data360__data360_get_metadata,"{""database_id"": ""WB_WDI"", ""fetch_disaggregation"": false, ""indicator_id"": ""WB_WDI_SH_STA_MMRT""}",4,1,1,18360
+wb,mcp__World_Bank_Data360__data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_DYN_MORT"", ""required_country"": ""NGA""}",4,1,1,19421
+wb,mcp__World_Bank_Data360__data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_H2O_BASW_ZS"", ""required_country"": ""NGA""}",4,1,1,21023
+wb,mcp__World_Bank_Data360__data360_get_metadata,"{""database_id"": ""WB_WDI"", ""indicator_id"": ""WB_WDI_SH_STA_MMRT"", ""required_country"": ""NGA""}",4,1,1,18987
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""limit"": 10, ""query"": ""antenatal care at least four visits women 15-49"", ""required_country"": ""NGA""}",2,1,1,220
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""limit"": 10, ""query"": ""antenatal care at least four visits"", ""required_country"": ""NGA""}",2,1,1,4993
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""limit"": 10, ""query"": ""basic drinking water services""}",4,1,1,4984
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""limit"": 10, ""query"": ""maternal mortality ratio"", ""required_country"": ""NGA""}",3,1,1,4812
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""limit"": 10, ""query"": ""under-five mortality rate"", ""required_country"": ""NGA""}",2,1,1,4732
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""limit"": 8, ""query"": ""antenatal care at least four visits"", ""required_country"": ""NGA""}",2,2,2,4018
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""query"": ""basic drinking water services""}",2,1,1,2529
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""query"": ""maternal mortality ratio"", ""required_country"": ""NGA""}",4,1,1,2509
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""query"": ""people using at least basic drinking water services"", ""required_country"": ""NGA""}",2,1,1,224
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""query"": ""population using at least basic drinking water services"", ""required_country"": ""NGA""}",2,1,1,228
+wb,mcp__World_Bank_Data360__data360_search_indicators,"{""query"": ""under-five mortality rate"", ""required_country"": ""NGA""}",6,1,1,2395
+wh,mcp__Unicef_MCP_Yves__describe_flow,"{""flowRef"": ""UNICEF/CME/1.0""}",5,1,1,1025
+wh,mcp__Unicef_MCP_Yves__describe_flow,"{""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0""}",3,1,1,1299
+wh,mcp__Unicef_MCP_Yves__find_indicator_candidates,"{""limit"": 5, ""query"": ""under-five mortality rate""}",2,1,1,4030
+wh,mcp__Unicef_MCP_Yves__find_indicator_candidates,"{""query"": ""antenatal care 4+ visits""}",2,1,1,10789
+wh,mcp__Unicef_MCP_Yves__find_indicator_candidates,"{""query"": ""antenatal care at least four visits""}",2,1,1,10652
+wh,mcp__Unicef_MCP_Yves__find_indicator_candidates,"{""query"": ""at least basic drinking water services""}",3,1,1,9617
+wh,mcp__Unicef_MCP_Yves__find_indicator_candidates,"{""query"": ""maternal mortality ratio""}",5,1,1,7363
+wh,mcp__Unicef_MCP_Yves__find_indicator_candidates,"{""query"": ""population using at least basic drinking water services""}",3,1,1,9692
+wh,mcp__Unicef_MCP_Yves__find_indicator_candidates,"{""query"": ""under-five mortality rate""}",3,1,1,6220
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""filters"": {""INDICATOR"": ""CME_MRY0T4"", ""REF_AREA"": ""NGA"", ""SEX"": ""_T"", ""WEALTH_QUINTILE"": ""_T""}, ""flowRef"": ""UNICEF/CME/1.0"", ""time"": ""2000:2025"", ""verbose"": true}",4,1,1,2671
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""filters"": {""INDICATOR"": ""CME_MRY0T4"", ""REF_AREA"": ""NGA"", ""SEX"": ""_T""}, ""flowRef"": ""UNICEF/CME/1.0"", ""time"": ""2000:2025"", ""verbose"": true}",2,1,1,3736
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""filters"": {""INDICATOR"": ""MNCH_ANC4"", ""REF_AREA"": ""NGA""}, ""flowRef"": ""UNICEF/MNCH/1.0"", ""time"": ""2000:2025"", ""verbose"": true}",2,1,1,6452
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""filters"": {""INDICATOR"": ""MNCH_MMR"", ""REF_AREA"": ""NGA""}, ""flowRef"": ""UNICEF/MNCH/1.0"", ""time"": ""2000:2025"", ""verbose"": true}",2,1,1,2211
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""filters"": {""INDICATOR"": ""WS_PPL_W-ALB"", ""REF_AREA"": ""NGA""}, ""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0"", ""time"": ""2000:2025"", ""verbose"": true}",2,1,1,4859
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""filters"": {""RESIDENCE"": ""_T""}, ""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0"", ""location"": ""NGA"", ""subject"": ""WS_PPL_W-ALB"", ""time"": ""2000:2025"", ""verbose"": true}",3,1,1,2039
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""filters"": {""SEX"": ""_T"", ""WEALTH_QUINTILE"": ""_T""}, ""flowRef"": ""UNICEF/CME/1.0"", ""location"": ""NGA"", ""subject"": ""CME_MRY0T4"", ""time"": ""2000:2025"", ""verbose"": true}",2,1,1,2671
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""flowRef"": ""UNICEF/CHILD_RELATED_SDG/1.0"", ""location"": ""NGA"", ""subject"": ""SH_STA_MMR"", ""time"": ""2000:2025"", ""verbose"": true}",2,1,1,111
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""flowRef"": ""UNICEF/CME/1.0"", ""location"": ""NGA"", ""subject"": ""CME_MRY0T4"", ""time"": ""2000:2025"", ""verbose"": true}",2,1,1,3721
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""flowRef"": ""UNICEF/CME/1.0"", ""location"": ""NGA"", ""subject"": ""MNCH_MMR"", ""time"": ""2000:2025"", ""verbose"": true}",3,1,1,468
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""flowRef"": ""UNICEF/MNCH/1.0"", ""location"": ""NGA"", ""subject"": ""MNCH_ANC4"", ""time"": ""2000:2025"", ""verbose"": true}",4,1,1,6452
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""flowRef"": ""UNICEF/MNCH/1.0"", ""location"": ""NGA"", ""subject"": ""MNCH_MMR"", ""time"": ""2000:2025"", ""verbose"": true}",6,1,1,2211
+wh,mcp__Unicef_MCP_Yves__get_time_series,"{""flowRef"": ""UNICEF/WASH_HOUSEHOLDS/1.0"", ""location"": ""NGA"", ""subject"": ""WS_PPL_W-ALB"", ""time"": ""2000:2025"", ""verbose"": true}",4,1,1,4859
+wh,mcp__Unicef_MCP_Yves__query_data,"{""endPeriod"": ""2025"", ""flowRef"": ""UNICEF/CME/1.0"", ""key"": ""NGA.CME_MRY0T4._T._T"", ""labels"": ""id"", ""startPeriod"": ""2010""}",2,1,1,2763
+wh,mcp__Unicef_MCP_Yves__search_indicators,"{""limit"": 5, ""query"": ""under-five mortality rate""}",2,1,1,4030

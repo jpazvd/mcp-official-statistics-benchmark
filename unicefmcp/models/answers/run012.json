@@ -1,0 +1,23 @@
+{
+ "found": true,
+ "server_indicator_id": "WB_HCP_ANTENATAL_CARE_4",
+ "series_label": "Percentage of women aged 15-49 years who attended at least four times during pregnancy by any provider (Human Capital Project, WB_HCP)",
+ "values": {
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "Percentage of women in the same subgroup",
+ "unit_multiplier": "0 (units)",
+ "source_or_custodian": "World Bank Human Capital Project; source: UNICEF, Maternal, child and newborn health (https://data.unicef.org/dv_index/)",
+ "release_or_vintage": "Version 2, version date 2026-10-14",
+ "uncertainty": null,
+ "status_or_notes": "The server returns data only for 2011, 2013, 2017, 2018, 2021 and 2024 for Nigeria. There are no values for the other years in 2000-2025; the series covers 2010-2024 and has survey-year gaps. Nothing was interpolated. Age group is Y15T49. The server returned no notes on series breaks or limitations.",
+ "definition": "Percentage of women ages 15\u201349 with a live birth in the last 2 or 5 years who were attended at least four times during their last pregnancy by any provider. This indicator is calculated as the total number of women in this age group who received at least four antenatal visits divided by the total number of women ages 15\u201349 with a live birth in the last 2 or 5 years, expressed as a percentage.",
+ "licence": "CC BY 4.0 (Creative Commons Attribution 4.0 International), with a mandatory addition on WIPO mediation and UNCITRAL arbitration for disputes",
+ "citation": null,
+ "query_or_url": "data360_get_data(database_id=WB_HCP, indicator_id=WB_HCP_ANTENATAL_CARE_4, country_code=NGA, start_year=2000, end_year=2025); API: https://data360api.worldbank.org/data360/data?top=1000&skip=0&DATABASE_ID=WB_HCP&INDICATOR=WB_HCP_ANTENATAL_CARE_4"
+}

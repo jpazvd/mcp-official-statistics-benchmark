@@ -1,0 +1,10 @@
+metric,value
+Data360 same-concept pairs,117
+pairs with overlapping years in the warehouse,98
+identical (within 1%),44
+rounding / minor,23
+different series or vintage,31
+paired observations,3371
+paired observations within 1%,2689
+pairs where the warehouse has a newer latest year,42
+pairs where Data360 has a newer latest year,6

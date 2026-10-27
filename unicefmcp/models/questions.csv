@@ -1,0 +1,5 @@
+qid,warehouse_code,question
+Q1,CME_MRY0T4,What was the under-five mortality rate in Nigeria in each year from 2000 to 2025?
+Q2,MNCH_MMR,What was the maternal mortality ratio in Nigeria in each year from 2000 to 2025?
+Q3,WS_PPL_W-ALB,What was the proportion of the population using at least basic drinking water services in Nigeria in each year from 2000 to 2025?
+Q4,MNCH_ANC4,What was the percentage of women (aged 15-49) who had at least four antenatal care visits in Nigeria in each year from 2000 to 2025?

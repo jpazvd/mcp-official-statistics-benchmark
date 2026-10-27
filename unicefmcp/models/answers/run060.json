@@ -1,0 +1,23 @@
+{
+ "found": true,
+ "server_indicator_id": "WB_HCP/WB_HCP_ANTENATAL_CARE_4",
+ "series_label": "Percentage of women aged 15-49 years who attended at least four times during pregnancy by any provider",
+ "values": {
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "Percentage of women in the same subgroup (PT_W_SUB)",
+ "unit_multiplier": "0",
+ "source_or_custodian": "UN Children's Fund (UNICEF), Maternal, child and newborn health (https://data.unicef.org/dv_index/); compiled by the World Bank Human Capital Project (HCP) database",
+ "release_or_vintage": "Version 2, 2026-10-14",
+ "uncertainty": null,
+ "status_or_notes": "Only survey years are available. Nigeria has no observations for any other year from 2000 to 2025, and this HCP series covers only 2010-2024. AGE=Y15T49. A related series on the same server, WB_HNP/WB_HNP_SH_STA_ANV4_ZS ('Pregnant women receiving prenatal care of at least four visits (% of pregnant women)', unit Percent), has the same values for 2011, 2013, 2017 and 2018, plus 2000=47.3, 2003=47.4 and 2008=44.8. That series has no data for Nigeria after 2018 within the range checked. Those HNP values are not included in 'values' because the series is labelled differently.",
+ "definition": "Percentage of women ages 15\u201349 with a live birth in the last 2 or 5 years who were attended at least four times during their last pregnancy by any provider. Calculated as the number of women in this age group who received at least four antenatal visits divided by the total number of women ages 15\u201349 with a live birth in the last 2 or 5 years, expressed as a percentage. Name in source: Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider.",
+ "licence": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), with a mandatory addition on WIPO mediation and UNCITRAL arbitration",
+ "citation": null,
+ "query_or_url": "https://data360api.worldbank.org/data360/data?top=1000&skip=0&DATABASE_ID=WB_HCP&INDICATOR=WB_HCP_ANTENATAL_CARE_4 (filtered REF_AREA=NGA, 2000-2025)"
+}

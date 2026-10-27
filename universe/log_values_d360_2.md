@@ -1,0 +1,131 @@
+# Log: Data360 extraction (pairs_d360_2.csv), countries NGA;IND;BRA, years 2000-2025
+
+## STEP A - data calls
+
+- MNCH_ITN | WB_WDI_SH_MLR_NETS_ZS (WB_WDI): get_data 1 call (offset 0, limit 100), count=11, has_more=false, no error; rows written=11
+- MNCH_ITNPREG | WB_HCP_ITN_PREGNANT (WB_HCP): get_data pages=1 [offset=0 count=8 has_more=False]; rows written=8
+- MNCH_LIFE_EXPECTANCY | WB_WDI_SP_DYN_LE00_FE_IN (WB_WDI): get_data pages=1 [offset=0 count=75 has_more=False]; rows written=75
+- MNCH_LTR_MATERNAL_DEATH | WB_WDI_SH_MMR_RISK (WB_WDI): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- MNCH_MATERNAL_DEATHS | WB_WDI_SH_MMR_DTHS (WB_WDI): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- MNCH_MLRACT | WB_HCP_MNCH_MLRACT (WB_HCP): get_data pages=1 [offset=0 count=10 has_more=False]; rows written=10
+- MNCH_MLRCARE | WB_HCP_CARE_FEBR_CHILD (WB_HCP): get_data pages=1 [offset=0 count=8 has_more=False]; rows written=8
+- MNCH_MLRDIAG | WB_HCP_MNCH_MLRDIAG (WB_HCP): get_data pages=1 [offset=0 count=9 has_more=False]; rows written=9
+- MNCH_MMR | WB_WDI_SH_STA_MMRT (WB_WDI): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- MNCH_PNCMOM | WB_HCP_CAREMOTHER (WB_HCP): get_data pages=1 [offset=0 count=8 has_more=False]; rows written=8
+- MNCH_PNCNB | WB_HCP_CARE (WB_HCP): get_data pages=1 [offset=0 count=7 has_more=False]; rows written=7
+- MNCH_PNEUCARE | WB_WDI_SH_STA_ARIC_ZS (WB_WDI): get_data pages=1 [offset=0 count=11 has_more=False]; rows written=11
+- MNCH_SAB | WB_WDI_SH_STA_BRTC_ZS (WB_WDI): get_data pages=1 [offset=0 count=34 has_more=False]; rows written=34
+- MNCH_UHC | WB_WDI_SH_UHC_SCI (WB_WDI): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- MNCH_UHC_RMNCH | WB_WDI_SH_UHC_SCI_RMNCH (WB_WDI): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- NT_ANE | WB_WDI_SH_ANM_ALLW_ZS (WB_WDI): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- NT_ANT_HAZ_NE2 | UNICEF_DW_NT_ANT_HAZ_NE2 (UNICEF_DW): get_data pages=1 [offset=0 count=15 has_more=False]; rows written=15
+- NT_ANT_HAZ_NE2_MOD | WB_WDI_SH_STA_STNT_ME_ZS (WB_WDI): get_data pages=1 [offset=0 count=75 has_more=False]; rows written=75
+- NT_ANT_WAZ_NE2 | WB_WDI_SH_STA_MALN_ZS (WB_WDI): get_data pages=1 [offset=0 count=15 has_more=False]; rows written=15
+- NT_ANT_WHZ_NE2 | UNICEF_DW_NT_ANT_WHZ_NE2 (UNICEF_DW): get_data pages=1 [offset=0 count=15 has_more=False]; rows written=15
+- NT_ANT_WHZ_NE3 | WB_WDI_SH_SVR_WAST_ZS (WB_WDI): get_data pages=1 [offset=0 count=15 has_more=False]; rows written=15
+- NT_ANT_WHZ_PO2 | WB_WDI_SH_STA_OWGH_ZS (WB_WDI): get_data pages=1 [offset=0 count=14 has_more=False]; rows written=14
+- NT_ANT_WHZ_PO2_MOD | WB_WDI_SH_STA_OWGH_ME_ZS (WB_WDI): get_data pages=1 [offset=0 count=75 has_more=False]; rows written=75
+- NT_BF_EXBF | WB_WDI_SH_STA_BFED_ZS (WB_WDI): get_data pages=1 [offset=0 count=15 has_more=False]; rows written=15
+- NT_BW_LBW | WB_WDI_SH_STA_BRTW_ZS (WB_WDI): get_data pages=1 [offset=0 count=42 has_more=False]; rows written=42
+- NT_CF_MAD | WB_HNP_SH_STA_IYCF_ZS (WB_HNP): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- NT_CF_MMF | WB_HCP_MEALFREQ (WB_HCP): get_data pages=1 [offset=0 count=0 has_more=False]; rows written=1 (no data row)
+- NT_DANT_BMI_G25_MOD | WB_HNP_SH_STA_OWAD_ZS (WB_HNP): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- NT_DANT_BMI_G30_MOD_ADJ | WB_HCP_OBESITY (WB_HCP): get_data pages=1 [offset=0 count=69 has_more=False]; rows written=69
+- NT_IOD_ANY_TH | UNICEF_DW_NT_IOD_ANY_TH (UNICEF_DW): get_data pages=1 [offset=0 count=10 has_more=False]; rows written=10
+- NT_IOD_ANY_TS | UNICEF_DW_NT_IOD_ANY_TS (UNICEF_DW): get_data pages=1 [offset=0 count=10 has_more=False]; rows written=10
+- NT_VAS_TWODOSE | WB_HNP_SN_ITK_VITA_ZS (WB_HNP): get_data pages=1 [offset=0 count=72 has_more=False]; rows written=72
+- PT_CHLD_LBR_ECON | WB_HCP_CHILD_LABOR (WB_HCP): get_data pages=1 [offset=0 count=3 has_more=False]; rows written=3
+- PT_CHLD_REG | WB_WDI_SP_REG_BRTH_ZS (WB_WDI): get_data pages=1 [offset=0 count=15 has_more=False]; rows written=15
+- PT_FGM_ELIM | WB_GS_SH_STA_FGMO_NO_ZS (WB_GS): get_data pages=1 [offset=0 count=7 has_more=False]; rows written=7
+- PT_F_FGM | WB_WDI_SH_STA_FGMS_ZS (WB_WDI): get_data pages=1 [offset=0 count=5 has_more=False]; rows written=5
+- PT_F_MRD_U15 | WB_WDI_SP_M15_2024_FE_ZS (WB_WDI): get_data pages=1 [offset=0 count=9 has_more=False]; rows written=9
+- PT_F_PS-SX_V_PTNR_12MNTH | WB_WDI_SG_VAW_1549_ZS (WB_WDI): get_data pages=1 [offset=0 count=2 has_more=False]; rows written=2
+- PT_MRD_U18 | WB_WDI_SP_M18_2024_FE_ZS (WB_WDI): get_data pages=1 [offset=0 count=9 has_more=False]; rows written=9
+- PT_SXV_AGE18 | WB_HCP_SEXUAL_VIOLENCE_F (WB_HCP): get_data pages=1 [offset=0 count=2 has_more=False]; rows written=2
+- PT_W_BTNG | WB_WDI_SG_VAW_REAS_ZS (WB_WDI): get_data pages=1 [offset=0 count=8 has_more=False]; rows written=8
+- SPP_DIST_SOC_PROT_BNFT | WB_WDI_PER_ALLSP_BEN_Q1_TOT (WB_WDI): get_data pages=1 [offset=0 count=16 has_more=False]; rows written=16
+- SPP_GDPPC | WB_WDI_NY_GDP_PCAP_CD (WB_WDI): get_data pages=1 [offset=0 count=78 has_more=False]; rows written=78
+- SPP_GINI | WB_WDI_SI_POV_GINI (WB_WDI): get_data pages=1 [offset=0 count=34 has_more=False]; rows written=34
+- SPP_HSLD_INCOME_SHARE | WB_WDI_SI_DST_FRST_20 (WB_WDI): get_data pages=1 [offset=0 count=34 has_more=False]; rows written=34
+- WS_HCF_H | WB_HCP_B_HYGIENE_HEALTH (WB_HCP): get_data pages=1 [offset=0 count=13 has_more=False]; rows written=13
+- WS_HCF_S | WB_HCP_B_SANIT_HEALTH (WB_HCP): get_data pages=1 [offset=0 count=25 has_more=False]; rows written=25
+- WS_HCF_W | WB_HCP_B_WATER_HEALTH (WB_HCP): get_data pages=1 [offset=0 count=20 has_more=False]; rows written=20
+- WS_PPL_HF_HANDWASH | WB_WDI_SH_STA_HYGN_ZS (WB_WDI): get_data pages=1 [offset=0 count=29 has_more=False]; rows written=29
+- WS_PPL_S | WB_WDI_SH_STA_BASS_ZS (WB_WDI): get_data pages=1 [offset=0 count=75 has_more=False]; rows written=75
+- WS_PPL_SF | WB_CLEAR_JMP_ST_ILO (WB_CLEAR): get_data pages=1 [offset=0 count=69 has_more=False]; rows written=69
+- WS_PPL_S_OD | WB_WDI_SH_STA_ODFC_ZS (WB_WDI): get_data pages=1 [offset=0 count=75 has_more=False]; rows written=75
+- WS_PPL_W_DW | WB_WDI_SH_H2O_BASW_ZS (WB_WDI): get_data pages=1 [offset=0 count=75 has_more=False]; rows written=75
+- WS_PPL_W_DWSR | WB_CLEAR_JMP_DW_NPI (WB_CLEAR): get_data pages=1 [offset=0 count=69 has_more=False]; rows written=69
+- WS_PPL_W_SW | WB_CLEAR_JMP_DW_SURWTR (WB_CLEAR): get_data pages=3 [offset=0 count=100 has_more=True; offset=100 count=100 has_more=True; offset=200 count=43 has_more=False]; rows written=243
+- WS_SCH_H | WB_HCP_B_HYGIENE_SCH (WB_HCP): get_data pages=1 [offset=0 count=34 has_more=False]; rows written=34
+- WS_SCH_S | WB_HCP_B_SANITATION_SCH (WB_HCP): get_data pages=1 [offset=0 count=42 has_more=False]; rows written=42
+- WS_SCH_W_DW | WB_HCP_B_WATER_SCHOOLS (WB_HCP): get_data pages=1 [offset=0 count=25 has_more=False]; rows written=25
+
+## STEP B - metadata calls
+
+- MNCH_ITN | WB_WDI_SH_MLR_NETS_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1999-2021, update=2026-07-01
+- MNCH_ITNPREG | WB_HCP_ITN_PREGNANT (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2024, update=2026-10-14 [version 2]
+- MNCH_LIFE_EXPECTANCY | WB_WDI_SP_DYN_LE00_FE_IN (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1960-2024, update=2026-07-01
+- MNCH_LTR_MATERNAL_DEATH | WB_WDI_SH_MMR_RISK (WB_WDI): get_metadata 1 call; name=yes, sources=4, time_periods=1985-2023, update=2026-07-01
+- MNCH_MATERNAL_DEATHS | WB_WDI_SH_MMR_DTHS (WB_WDI): get_metadata 1 call; name=yes, sources=4, time_periods=1985-2023, update=2026-07-01
+- MNCH_MLRACT | WB_HCP_MNCH_MLRACT (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2024, update=2026-10-14 [version 2]
+- MNCH_MLRCARE | WB_HCP_CARE_FEBR_CHILD (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2024, update=2026-10-14 [version 2]
+- MNCH_MLRDIAG | WB_HCP_MNCH_MLRDIAG (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2024, update=2026-10-14 [version 2]
+- MNCH_MMR | WB_WDI_SH_STA_MMRT (WB_WDI): get_metadata 1 call; name=yes, sources=4, time_periods=1985-2023, update=2026-07-01
+- MNCH_PNCMOM | WB_HCP_CAREMOTHER (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2024, update=2026-10-14 [version 2]
+- MNCH_PNCNB | WB_HCP_CARE (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2024, update=2026-10-14 [version 2]
+- MNCH_PNEUCARE | WB_WDI_SH_STA_ARIC_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=2000-2021, update=2026-07-01
+- MNCH_SAB | WB_WDI_SH_STA_BRTC_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1980-2022, update=2026-07-01
+- MNCH_UHC | WB_WDI_SH_UHC_SCI (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=2000-2023, update=2026-07-01
+- MNCH_UHC_RMNCH | WB_WDI_SH_UHC_SCI_RMNCH (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=2000-2023, update=2025-12-19
+- NT_ANE | WB_WDI_SH_ANM_ALLW_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=2000-2023, update=2026-07-01
+- NT_ANT_HAZ_NE2 | UNICEF_DW_NT_ANT_HAZ_NE2 (UNICEF_DW): get_metadata 1 call; name=yes, sources=1, time_periods=1983-2022, update=2024-10-02
+- NT_ANT_HAZ_NE2_MOD | WB_WDI_SH_STA_STNT_ME_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=2000-2024, update=2026-07-01
+- NT_ANT_WAZ_NE2 | WB_WDI_SH_STA_MALN_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1983-2024, update=2026-04-08
+- NT_ANT_WHZ_NE2 | UNICEF_DW_NT_ANT_WHZ_NE2 (UNICEF_DW): get_metadata 1 call; name=yes, sources=1, time_periods=1983-2022, update=2024-10-02
+- NT_ANT_WHZ_NE3 | WB_WDI_SH_SVR_WAST_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1983-2024, update=2026-04-08
+- NT_ANT_WHZ_PO2 | WB_WDI_SH_STA_OWGH_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1983-2024, update=2026-04-08
+- NT_ANT_WHZ_PO2_MOD | WB_WDI_SH_STA_OWGH_ME_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=2000-2024, update=2026-07-01
+- NT_BF_EXBF | WB_WDI_SH_STA_BFED_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1986-2020, update=2026-07-01
+- NT_BW_LBW | WB_WDI_SH_STA_BRTW_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2020, update=2026-07-01
+- NT_CF_MAD | WB_HNP_SH_STA_IYCF_ZS (WB_HNP): get_metadata 1 call; name=yes, sources=1, time_periods=1960-2023, update=2024-09-23 [version 1]
+- NT_CF_MMF | WB_HCP_MEALFREQ (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2023-2023, update=2026-10-14 [version 2]
+- NT_DANT_BMI_G25_MOD | WB_HNP_SH_STA_OWAD_ZS (WB_HNP): get_metadata 1 call; name=yes, sources=1, time_periods=1960-2023, update=2024-09-23 [version 1]
+- NT_DANT_BMI_G30_MOD_ADJ | WB_HCP_OBESITY (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=1990-2022, update=2026-10-14 [version 2]
+- NT_IOD_ANY_TH | UNICEF_DW_NT_IOD_ANY_TH (UNICEF_DW): get_metadata 1 call; name=yes, sources=1, time_periods=1994-2020, update=2024-10-02
+- NT_IOD_ANY_TS | UNICEF_DW_NT_IOD_ANY_TS (UNICEF_DW): get_metadata 1 call; name=yes, sources=1, time_periods=1994-2020, update=2024-10-02
+- NT_VAS_TWODOSE | WB_HNP_SN_ITK_VITA_ZS (WB_HNP): get_metadata 1 call; name=yes, sources=1, time_periods=1960-2023, update=2024-09-23 [version 1]
+- PT_CHLD_LBR_ECON | WB_HCP_CHILD_LABOR (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2023, update=2026-10-14 [version 2]
+- PT_CHLD_REG | WB_WDI_SP_REG_BRTH_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=2000-2022, update=2026-07-01
+- PT_FGM_ELIM | WB_GS_SH_STA_FGMO_NO_ZS (WB_GS): get_metadata 1 call; name=yes, sources=2, time_periods=1960-2023, update=2025-11-04 [version Version 1.0]
+- PT_F_FGM | WB_WDI_SH_STA_FGMS_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1990-2023, update=2024-12-13
+- PT_F_MRD_U15 | WB_WDI_SP_M15_2024_FE_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=1985-2023, update=2026-07-01
+- PT_F_PS-SX_V_PTNR_12MNTH | WB_WDI_SG_VAW_1549_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2017, update=2020-02-28
+- PT_MRD_U18 | WB_WDI_SP_M18_2024_FE_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=1985-2023, update=2026-07-01
+- PT_SXV_AGE18 | WB_HCP_SEXUAL_VIOLENCE_F (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2012-2024, update=2026-10-14 [version 2]
+- PT_W_BTNG | WB_WDI_SG_VAW_REAS_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=1999-2023, update=2026-07-01
+- SPP_DIST_SOC_PROT_BNFT | WB_WDI_PER_ALLSP_BEN_Q1_TOT (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=1998-2023, update=2025-03-24
+- SPP_GDPPC | WB_WDI_NY_GDP_PCAP_CD (WB_WDI): get_metadata 1 call; name=yes, sources=3, time_periods=1960-2024, update=2026-07-01
+- SPP_GINI | WB_WDI_SI_POV_GINI (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=1963-2024, update=2026-04-08
+- SPP_HSLD_INCOME_SHARE | WB_WDI_SI_DST_FRST_20 (WB_WDI): get_metadata 1 call; name=yes, sources=1, time_periods=1963-2024, update=2026-04-08
+- WS_HCF_H | WB_HCP_B_HYGIENE_HEALTH (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2023, update=2026-10-14 [version 2]
+- WS_HCF_S | WB_HCP_B_SANIT_HEALTH (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2023, update=2026-10-14 [version 2]
+- WS_HCF_W | WB_HCP_B_WATER_HEALTH (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2023, update=2026-10-14 [version 2]
+- WS_PPL_HF_HANDWASH | WB_WDI_SH_STA_HYGN_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2024, update=2026-07-01
+- WS_PPL_S | WB_WDI_SH_STA_BASS_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2024, update=2026-07-01
+- WS_PPL_SF | WB_CLEAR_JMP_ST_ILO (WB_CLEAR): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2022, update=2026-05-13 [version Version 1.0]
+- WS_PPL_S_OD | WB_WDI_SH_STA_ODFC_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2024, update=2026-07-01
+- WS_PPL_W_DW | WB_WDI_SH_H2O_BASW_ZS (WB_WDI): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2024, update=2026-07-01
+- WS_PPL_W_DWSR | WB_CLEAR_JMP_DW_NPI (WB_CLEAR): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2022, update=2026-05-13 [version Version 1.0]
+- WS_PPL_W_SW | WB_CLEAR_JMP_DW_SURWTR (WB_CLEAR): get_metadata 1 call; name=yes, sources=2, time_periods=2000-2022, update=2026-05-13 [version Version 1.0]
+- WS_SCH_H | WB_HCP_B_HYGIENE_SCH (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2023, update=2026-10-14 [version 2]
+- WS_SCH_S | WB_HCP_B_SANITATION_SCH (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2023, update=2026-10-14 [version 2]
+- WS_SCH_W_DW | WB_HCP_B_WATER_SCHOOLS (WB_HCP): get_metadata 1 call; name=yes, sources=1, time_periods=2010-2023, update=2026-10-14 [version 2]
+
+## Summary
+
+- Pairs processed: 58/58 (both steps). get_data calls: 60 (58 indicators; WS_PPL_W_SW needed 3 pages: offsets 0/100/200). get_metadata calls: 58 (fetch_disaggregation=false, select_fields used to keep responses compact; no server errors, error=null on every call).
+- values_unicef_d360_2.csv: 2216 data rows (NGA 831, IND 740, BRA 644, 1 no-data row). 114 rows carry literal "null" OBS_VALUE (NT_CF_MAD 63, NT_VAS_TWODOSE 30, NT_DANT_BMI_G25_MOD 21). 378 rows carry dimension codes (UNICEF_DW SEX/AGE/COMP_BREAKDOWN_1 cluster codes; WB_CLEAR wealth-quintile codes; WB_GS SEX). Year range 2000-2025 (SPP_GDPPC includes 2025).
+- No data: NT_CF_MMF (WB_HCP_MEALFREQ) -> one row with notes="no data" (metadata time_periods is 2023-2023).
+- metadata_unicef_d360_2.csv: 58 rows, one per pair, same order as pairs_d360_2.csv. Empty fields: authoring_entity 18, limitations 34, unit 3 (MNCH_ITN, MNCH_PNEUCARE, PT_CHLD_REG: measurement_unit null on server), periodicity 1 (PT_F_MRD_U15). date_last_update is null for every indicator on the server; update date column therefore holds version_statement.version_date (+ version label when present).
+- Note: every get_data response carried a harmless failed_validation message ("ref_area_filter=member_economies_only applies only when REF_AREA is unpinned ... filter was not applied"); it does not affect returned rows.

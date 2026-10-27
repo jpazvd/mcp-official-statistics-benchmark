@@ -1,0 +1,1 @@
+{"variable":{"dcid":"undata/unicef/PV_CHLD_DEPRV_M.NUMBER_OF_DEPRIVATIONS--E1","name":"Proportion of children suffering deprivations according to homogeneous moderate standards [Number of deprivations=Exactly one deprivation]","typeOf":["StatisticalVariable"]},"entityMetadata":{"columns":["dcid","name","typeOf"]},"data":{}}

@@ -1,0 +1,24 @@
+{
+ "found": true,
+ "server_indicator_id": "WB_HNP_SH_STA_ANV4_ZS",
+ "series_label": "Pregnant women receiving prenatal care of at least four visits (% of pregnant women)",
+ "values": {
+  "2000": 47.3,
+  "2003": 47.4,
+  "2008": 44.8,
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8
+ },
+ "unit": "Percentage",
+ "unit_multiplier": "0",
+ "source_or_custodian": "World Bank Health Nutrition and Population Statistics (WB_HNP)",
+ "release_or_vintage": null,
+ "uncertainty": null,
+ "status_or_notes": "Only years with values are listed. Other years from 2000 to 2023 came back null, and no data was returned for 2024-2025. The server also has a related series, WB_HCP_ANTENATAL_CARE_4 (women aged 15-49, ANC4+ by any provider, 2010-2024), but it was not queried.",
+ "definition": "Pregnant women receiving prenatal care, at least four times, are the percentage of women attended at... (definition cut short in the server response)",
+ "licence": null,
+ "citation": null,
+ "query_or_url": "data360_get_data database_id=WB_HNP indicator_id=WB_HNP_SH_STA_ANV4_ZS country_code=NGA start_year=2000 end_year=2025"
+}

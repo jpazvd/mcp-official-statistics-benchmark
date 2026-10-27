@@ -1,0 +1,23 @@
+{
+ "found": true,
+ "server_indicator_id": "WB_HCP_ANTENATAL_CARE_4",
+ "series_label": "Percentage of women aged 15-49 years who attended at least four times during pregnancy by any provider",
+ "values": {
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "Percentage of women in the same subgroup (PT_W_SUB)",
+ "unit_multiplier": "0 (UNIT_MULT 0, i.e. 10^0)",
+ "source_or_custodian": "UNICEF (Maternal, child and newborn health, per data.unicef.org); database WB_HCP, Human Capital Project, World Bank",
+ "release_or_vintage": "Indicator version 2, version date 2026-10-14; periodicity annual; metadata time period 2010-2024",
+ "uncertainty": null,
+ "status_or_notes": "Server returned observations only for 2011, 2013, 2017, 2018, 2021 and 2024. No values were returned for 2000-2010, 2012, 2014-2016, 2019, 2020, 2022, 2023 or 2025. Values are the 'any provider' series for women 15-49 with a live birth in the last 2 or 5 years; the question's 'women aged 15-49' matches this age subgroup (AGE Y15T49). Reference area filter was set to none; the NGA rows are the only ones used. Other antenatal-care indicators exist on this server (e.g. WB_HNP_SH_STA_ANV4_ZS, pregnant women with at least four visits, latest 2023), but they were not used because they measure a different population and were not checked against this question's wording.",
+ "definition": "Percentage of women ages 15-49 with a live birth in the last 2 or 5 years who were attended at least four times during their last pregnancy by any provider. Calculated as the number of women in this age group who received at least four antenatal visits divided by the number of women ages 15-49 with a live birth in the last 2 or 5 years, times 100.",
+ "licence": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), with an additional mandatory dispute-resolution clause stated in the server metadata",
+ "citation": null,
+ "query_or_url": "data360_get_data(database_id=WB_HCP, indicator_id=WB_HCP_ANTENATAL_CARE_4, country_code=NGA, start_year=2000, end_year=2025, ref_area_filter=none); csv_link https://data360files.worldbank.org/data360-data/data/WB_HCP/WB_HCP_ANTENATAL_CARE_4.csv"
+}

@@ -1,0 +1,915 @@
+id,name,description,parent,first_flow_seen,codelist_id,codelist_version
+CME,Child mortality,Child mortality,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_ARR_10T19,Annual Rate of Reduction in Mortality Rate Age 10-19,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_ARR_SBR,Annual rate of reduction in stillbirth rate,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_ARR_U5MR,Annual rate of reduction in under-five mortality rate,Annual rate of reduction in under-five mortality rate,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_COVID_CASES,Covid cases,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_COVID_CASES_SHARE,Covid cases share,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_COVID_DEATHS,Covid deaths,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_COVID_DEATHS_SHARE,Covid deaths share,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRM0,Neonatal mortality rate,"Probability of dying during the first 28 days of life, expressed per 1,000 live births",CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRM1T11,Mortality rate age 1-11 months,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRM1T59,Mortality rate 1-59 months,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY0,Infant mortality rate,"Probability of dying between birth and exactly 1 year of age, expressed per 1,000 live births",CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY0T4,Under-five mortality rate,"Probability of dying between birth and exactly 5 years of age, expressed per 1,000 live births",CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY10T14,Mortality rate age 10-14,Mortality rate age 10-14,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY10T19,Mortality rate age 10-19,Mortality rate age 10-19,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY15T19,Mortality rate age 15-19,Mortality rate age 15-19,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY15T24,Mortality rate age 15-24,Mortality rate age 15-24,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY1T4,Child mortality rate (aged 1-4 years),Child mortality rate (aged 1-4 years),CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY20T24,Mortality rate age 20-24,Mortality rate age 20-24,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY5T14,Mortality rate (children aged 5 to 14 years),"Probability of dying at age 5-14 years expressed per 1,000 children aged 5",CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY5T24,Mortality rate age 5-24,Mortality rate age 5-24,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_MRY5T9,Mortality rate age 5-9,Mortality rate age 5-9,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_PND,Neonatal deaths as a percentage of under-five deaths,Neonatal deaths as a percentage of under-five deaths,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_SB,Stillbirths,Stillbirths,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_SBR,Stillbirth rate,Stillbirth rate,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMM0,Neonatal deaths,Number of neonatal deaths in the first 28 days of life,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMM1T11,Deaths age 1-11 months,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMM1T59,Deaths age 1-59 months,,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY0,Infant deaths,Number of deaths under 1 year of age,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY0T4,Under-five deaths,Number of deaths among children under 5 years of age,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY10T14,Deaths aged 10 to 14,Deaths aged 10 to 14,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY10T19,Deaths aged 10 to 19,Deaths aged 10 to 19,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY15T19,Deaths aged 15 to 19,Deaths aged 15 to 19,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY15T24,Deaths aged 15 to 24,Deaths aged 15 to 24,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY1T4,Child deaths (aged 1-4 years),Child deaths (aged 1-4 years),CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY20T24,Deaths aged 20 to 24,Deaths aged 20 to 24,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY5T14,Deaths (children aged 5-14),Number of deaths among children aged 5 to 14,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY5T24,Deaths aged 5 to 24,Deaths aged 5 to 24,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+CME_TMY5T9,Deaths aged 5 to 9,Deaths aged 5 to 9,CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ACUTE_HEPATITIS_A,Acute hepatitis A,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ACUTE_HEPATITIS_B,Acute hepatitis B,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_AFRICAN_TRYPANOSOMIASIS,African trypanosomiasis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ALCOHOL_USE_DISORDERS,Alcohol use disorders,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ALZHEIMER_DISEASE_AND_OTHER_DEMENTIAS,Alzheimer disease and other dementias,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_APPENDICITIS,Appendicitis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ASTHMA,Asthma,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_BLADDER_CANCER,Bladder cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_BRAIN_AND_NERVOUS_SYSTEM_CANCERS,Brain and nervous system cancers,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_BREAST_CANCER,Breast cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_CARDIOMYOPATHY_MYOCARDITIS_ENDOCARDITIS,"Cardiomyopathy, myocarditis, endocarditis",,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_CERVIX_UTERI_CANCER,Cervix uteri cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_CHLAMYDIA,Chlamydia,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_CHRONIC_OBSTRUCTIVE_PULMONARY_DISEASE,Chronic obstructive pulmonary disease,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_CIRRHOSIS_OF_THE_LIVER,Cirrhosis of the liver,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_COLLECTIVE_VIOLENCE_AND_LEGAL_INTERVENTION,Collective violence and legal intervention,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_COLON_AND_RECTUM_CANCERS,Colon and rectum cancers,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_CONGENITAL_ANOMALIES,Congenital anomalies,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_CYSTICERCOSIS,Cysticercosis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_DENGUE,Dengue,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_DIABETES_MELLITUS,Diabetes mellitus,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_DIARRHOEAL_DISEASES,Diarrhoeal diseases,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_DIPHTHERIA,Diphtheria,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_DROWNING,Drowning,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_DRUG_USE_DISORDERS,Drug use disorders,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ECHINOCOCCOSIS,Echinococcosis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ENCEPHALITIS,Encephalitis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_EPILEPSY,Epilepsy,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_EXPOSURE_TO_MECHANICAL_FORCES,Exposure to mechanical forces,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_FALLS,Falls,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_FIRE_HEAT_AND_HOT_SUBSTANCES,"Fire, heat and hot substances",,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_GALLBLADDER_AND_BILIARY_DISEASES,Gallbladder and biliary diseases,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_GENITAL_HERPES,Genital herpes,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_GONORRHOEA,Gonorrhoea,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_HIV_AIDS,HIV/AIDS,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_HYPERTENSIVE_HEART_DISEASE,Hypertensive heart disease,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_IDIOPATHIC_INTELLECTUAL_DISABILITY,Idiopathic intellectual disability,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_INFLAMMATORY_BOWEL_DISEASE,Inflammatory bowel disease,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_INTERPERSONAL_VIOLENCE,Interpersonal violence,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_IRON_DEFICIENCY_ANAEMIA,Iron-deficiency anaemia,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ISCHAEMIC_HEART_DISEASE,Ischaemic heart disease,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_KIDNEY_CANCER,Kidney cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_KIDNEY_DISEASES,Kidney diseases,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_LEISHMANIASIS,Leishmaniasis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_LEUKAEMIA,Leukaemia,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_LIVER_CANCER,Liver cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_LOWER_RESPIRATORY_INFECTIONS,Lower respiratory infections,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_LYMPHOMAS_MULTIPLE_MYELOMA,"Lymphomas, multiple myeloma",,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_MALARIA,Malaria,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_MATERNAL_CONDITIONS,Maternal conditions,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_MEASLES,Measles,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_MELANOMA_AND_OTHER_SKIN_CANCERS,Melanoma and other skin cancers,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_MENINGITIS,Meningitis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_MESOTHELIOMA,Mesothelioma,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_MOUTH_AND_OROPHARYNX_CANCERS,Mouth and oropharynx cancers,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_NATURAL_DISASTERS,Natural disasters,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_OESOPHAGUS_CANCER,Oesophagus cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_OVARY_CANCER,Ovary cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_PANCREAS_CANCER,Pancreas cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_PANCREATITIS,Pancreatitis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_PARALYTIC_ILEUS_AND_INTESTINAL_OBSTRUCTION,Paralytic ileus and intestinal obstruction,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_PEPTIC_ULCER_DISEASE,Peptic ulcer disease,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_POISONINGS,Poisonings,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_PROTEIN_ENERGY_MALNUTRITION,Protein-energy malnutrition,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_RABIES,Rabies,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_RHEUMATIC_HEART_DISEASE,Rheumatic heart disease,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_ROAD_INJURY,Road injury,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_SELF_HARM,Self-harm,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_SICKLE_CELL_DISORDERS_AND_TRAIT,Sickle cell disorders and trait,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_SKIN_DISEASES,Skin diseases,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_STOMACH_CANCER,Stomach cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_STROKE,Stroke,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_SYPHILIS,Syphilis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_TESTICULAR_CANCER,Testicular cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_TETANUS,Tetanus,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_THALASSAEMIAS,Thalassaemias,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_THYROID_CANCER,Thyroid cancer,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_TRACHEA_BRONCHUS_LUNG_CANCERS,"Trachea, bronchus, lung cancers",,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_TRICHOMONIASIS,Trichomoniasis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_TUBERCULOSIS,Tuberculosis,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_UPPER_RESPIRATORY_INFECTIONS,Upper respiratory infections,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_WHOOPING_COUGH,Whooping cough,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+COD_YELLOW_FEVER,Yellow fever,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM,Demography,Demography,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_AVG_HH_SIZE,Average household size,Average household size,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_BRTS,Number of births,Number of births,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_DPR_CHD,Child dependency ratio,Ratio of the population under age 15 to the number of persons of working age (15-64),DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_DPR_OLD,Old age dependency ratio,Ratio of the population aged 65+ to the number of persons of working age (15-64),DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_DPR_TOT,Total dependency ratio,Number of children (0-14 years old) and older persons (65 years or over) to the working-age population (15-64 years old),DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_FRATE_TOT,Total fertility rate,Average number of live births a hypothetical cohort of women would have at the end of their reproductive period if they were subject during their whole lives to the fertility rates of a given period and if they were not subject to mortality,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_HH_INTERNET,Households with Internet access,Households with Internet access,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_HH_O65,Share of households with at least one member age 65+,Share of households with at least one member age 65+,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_HH_PC,Households with personal computer,Households with personal computer,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_HH_U18,Share of households with at least one member under age 18,Share of households with at least one member under age 18,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_LIFE_EXP,Life expectancy,Number of years newborn children would live if subject to the mortality risks prevailing for the cross section of population at the time of their birth,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_NET_MG_RATE,"Net migration rate (per 1,000 population)",,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_OVERCR3,Overcrowding +3,Overcrowding +3,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_OVERCR5,Overcrowding +5,Overcrowding +5,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_15TO24,Youth population from 15 to 24,,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_ADLCNT,Adolescent population (10-19),Adolescent population aged 10-19,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_ADLCNT_PROP,Adolescent population as proportion of total population (%),,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_GRT,Population annual growth rate,Average exponential rate of growth of the population over one year,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_TOT,Total population,Total population,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_U18,Population under age 18,Population under age 18,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_U5,Population under age 5,Population under age 5,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_URBN,Percentage of population by urban-rural national definitions at mid-year,سكان الحضر كنسبة مئوية من مجموع السكان,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_U_GRT,Annual rate of change of the population by urban-rural national definitions,متوسط ​​معدل النمو الأسي لسكان الحضر خلال فترة معينة,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_24-59M_ADLT_SRC,Percentage of children (aged 24-59 months) with whom any adult household member has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days,Percentage of children (aged 24-59 months) with whom any adult household member has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_24-59M_FHR-SPT-LNG,Percentage of children (aged 24-59 months) whose father has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days,Percentage of children (aged 24-59 months) whose father has engaged in 4 or more activities to provide early stimulation and responsive care in the last 3 days,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_36-59M_EDU-PGM,Percentage of children aged 36-59 months attending an early childhood education programme,Percentage of children aged 36-59 months attending an early childhood education programme,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_U5_BKS-HM,Percentage of children under age 5 who have 3 or more children's books,Percentage of children under age 5 who have 3 or more children's books,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_U5_LFT-ALN,Percentage of children under age 5 left alone or under the supervision of another child younger than 10 years of age for more than 1 hour at least once in the last week,Percentage of children under age 5 left alone or under the supervision of another child younger than 10 years of age for more than 1 hour at least once in the last week,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_U5_PLYTH-HM,Percentage of children under age 5 who play with 2 or more types of playthings,Percentage of children under age 5 who play with 2 or more types of playthings,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON,Economic,,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_GVT_EDU_EXP_PTEXP,government expenditure on education (% government budget),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_GVT_EDU_EXP_PTGDP,government expenditure on education (% GDP),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_GVT_EXP_PTGDP,government expenditure (% GDP),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_GVT_HLTH_EXP_PTEXP,government expenditure on health (% government budget),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_GVT_HLTH_EXP_PTGDP,government expenditure on health (% GDP),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_GVT_REV_PTGDP,government revenue (%GDP),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_ODA_INFLOW_PTGNI,ODA inflow (%GNI),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_ODA_INFLOW_USD,ODA inflow (USD),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_ODA_OUTFLOW_PTGNI,ODA outflow (%GNI),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_ODA_OUTFLOW_USD,ODA outflow (USD),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_SOC_PRO_EXP_PTEXP,government expenditure on social protection (% government budget),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECON_SOC_PRO_EXP_PTGDP,government expenditure on social protection (% GDP),,ECON,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+EDUCATION,Education,Education,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_15-24_LR,Youth literacy rate for 15-24 years,Youth literacy rate for 15-24 years,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ANAR_L02,"Adjusted net attendance rate, one year before the official primary entry age",Percentage of children aged 36-59 months who are attending an early childhood education programme,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ANAR_L1,Adjusted net attendance rate for children of primary school age,Percentage of students of the official primary school age group who attended primary or secondary education at any time during the reference academic year,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ANAR_L2,Adjusted net attendance rate for adolescents of lower secondary school age,Percentage of children of lower secondary school age attending secondary school or higher,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ANAR_L3,Adjusted net attendance rate for youth of upper secondary school age,Percentage of children of upper secondary school age attending secondary school or higher,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ATTND_FRML_INST,Percentage of population aged 6-17 attending a formal educational institution (%),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_CR_L1,Completion rate for children of primary school age,Percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of primary education who have completed primary education,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_CR_L2,Completion rate for adolescents of lower secondary school age,Percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of lower secondary education who have completed lower secondary education,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_CR_L3,Completion rate for youth of upper secondary education school age,Percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of upper secondary education who have completed upper secondary education,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LN_M_G2_3,Proportion of children and young people a) in grade 2 or 3 achieving at least a minimum proficiency level in (ii) mathematics,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LN_M_L1,Proportion of children and young people b) at the end of primary education achieving at least a minimum proficiency level in (ii) mathematics,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LN_M_L2,Proportion of children and young people c) at the end of lower secondary educationachieving at least a minimum proficiency level in (ii) mathematics,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LN_R_G2_3,Proportion of children and young people a) in grade 2 or 3 achieving at least a minimum proficiency level in (i) reading,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LN_R_L1,Proportion of children and young people b) at the end of primary education achieving at least a minimum proficiency level in (i) reading,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LN_R_L2,Proportion of children and young people c) at the end of lower secondary education achieving at least a minimum proficiency level in (i) reading,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_MAT_G23,Proportion of students in Grade 2 or 3 achieving at least a minimum proficiency level in mathematics,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_MAT_L1,Proportion of students at the end of primary achieving at least a minimum proficiency level in mathematics,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_MAT_L2,Proportion of students at the end of lower secondary achieving at least a minimum proficiency level in mathematics,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_NERA_L02,"Adjusted net enrolment rate, one year before the official primary entry age",Percentage of children aged one year before the official entry age to primary education who are participating in organized learning,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_PUP_PER_MATH_BOOK,Average number of pupils per mathematics textbook in primary education,Average number of pupils per mathematics textbook in primary education,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_PUP_PER_READ_BOOK,Average number of pupils per reading textbook in primary education,Average number of pupils per reading textbook in primary education,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_READ_G23,Proportion of students in Grade 2 or 3 achieving at least a minimum proficiency level in reading,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_READ_L1,Proportion of students at the end of primary achieving at least a minimum proficiency level in reading,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_READ_L2,Proportion of students at the end of lower secondary achieving at least a minimum proficiency level in reading,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_RLRI,Remote Learning Readiness Index,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_RLRI_L02,"Remote learning readiness index, one year before the official primary entry age",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_RLRI_L1,Remote learning readiness index for children of primary school age,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_RLRI_L2,Remote learning readiness index for adolescents of lower secondary school age,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_RLRI_L3,Remote learning readiness index for youth of upper secondary school age,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L0,Out-of-school rate for children one year younger than official entry age,"Number of children of pre-primary school age who are not enrolled in pre-primary, expressed as a percentage of the population of official pre-primary school age",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L02_ADM,Out-of-school rate for children one year younger than official entry age (administrative data),"Proportion of children and young people in the official age range for the given level of education who are not enrolled in pre-primary, primary, secondary or higher levels of education",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L1,Out-of-school rate for children of primary school age,"Number of children of official primary school age who are not enrolled in primary or secondary school, expressed as a percentage of the population of official primary school age",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L1_ADM,Out-of-school rate for children of primary school age (administrative data),"Proportion of children and young people in the official age range for the given level of education who are not enrolled in pre-primary, primary, secondary or higher levels of education",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L2,Out-of-school rate for adolescents of lower secondary school age,"Number of children of lower secondary school age who are not enrolled in primary or secondary school, expressed as a percentage of the population of official lower secondary school age",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L2_ADM,Out-of-school rate for adolescents of lower secondary school age (administrative data),"Proportion of children and young people in the official age range for the given level of education who are not enrolled in pre-primary, primary, secondary or higher levels of education",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L3,Out-of-school rate for youth of upper secondary school age,"Number of children of upper secondary school age who are not enrolled in primary or secondary school or higher education, expressed as a percentage of the population of official upper secondary school age",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L3_ADM,Out-of-school rate for youth of upper secondary school age (administrative data),"Proportion of children and young people in the official age range for the given level of education who are not enrolled in pre-primary, primary, secondary or higher levels of education",EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_ANAR,Adjusted net attendance rate (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_EARLY_CH_EDU,Early childhood education (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_EARLY_STIM,Early stimulation and responsive care (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_FOUNDATIONAL_LEARNING,Foundational learning skills (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_FUNC_DIFFICULTY,Children with disabilities (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_NEVER_ATTENDED,Never attended school (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_OOS,Out of school (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_SANITATION_FACILITIES,Sanitation facilities on premises (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_SEVER_PHY_PUNISH,Severe physical punishment (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_SOCIAL_TRANSFERS,Social transfers (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_STUNTING,Moderate and severe stunting (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FD_UNDERWEIGHT,Moderate and severe underweight (Functional difficulties),,FUNCTIONAL_DIFF,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+FUNCTIONAL_DIFF,Functional difficulties,,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GENDER,Gender,Gender,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_ANEMIA_ADOL_GRL,adolescent girls with any anaemia,,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_ED_ATTN,Educational attainment of the population (aged 25 years and older),Percentage of the population aged 25 years and older that completed at least upper secondary education (ISCED 3),GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_FB_BNK_ACCSS,Proportion of adolescents and adults (aged 15 years and older) with an account at a financial institution or mobile money service provider,The percentage of adults (ages 15+) who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or personally using a mobile money service in the past 12 months,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_IDX,Social Institutions and Gender Index (SIGI),"Level of gender discrimination in social institutions defined as discrimination in the family, restricted physical integrity, restricted access to reproductive and financial resources, and restricted liberties",GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_IDX_CAT,Social Institutions and Gender Index Categorical (SIGI),"Categorical level of gender discrimination in social institutions defined as discrimination in the family, restricted physical integrity, restricted access to reproductive and financial resources, and restricted liberties",GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_IT_MOB_OWN,Proportion of individuals who own a mobile telephone,Proportion of individuals who own a mobile telephone,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_LF_PTCPN,Labour force participation rate,The labour force participation rate is calculated as the labour force during a given reference period expressed as a percentage of the working-age population in the same reference period. The labour force (formerly known as currently active population) comprises all persons of working age who furnish the supply of labour for the production of goods and services (as defined by the United Nations System of National Accounts (SNA) production boundary) during a specified time-reference period. It is measured in relation to a short reference period such as one week or one day. It refers to the sum of all persons of working age who are employed and those who are unemployed,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_MTNTY_LV_BNFTS,Maternity leave benefits,Whether the law provides for 14 weeks or more of paid maternity leave in accordance with the International Labour Organization standards,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_PTNTY_LV_BNFTS,Paternity leave benefits,Whether the law provides for paid paternity leave (of any length),GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_SG_LGL_GENARCH,"Legal frameworks that promote, enforce, and monitor gender equality- Area 1: Overarching legal frameworks and public life",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_SG_LGL_GENEQEMP,"Legal frameworks that promote, enforce, and monitor gender equality- Area 3: Employment and economic benefits",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_SG_LGL_GENMARFAM,"Legal frameworks that promote, enforce, and monitor gender equality- Area 4: Marriage and family",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_SG_LGL_GENVAW,"Legal frameworks that promote, enforce, and monitor gender equality- Area 2: Violence against women",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_STUNT_ADOL_GRL,stunting among adolescent girls,,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_TIMEUSE,Time use,,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_UNMPLY,Labour force unemployment rate,The percentage of persons in the labour force who are unemployed,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HIV_AIDS,HIV/AIDS,HIV/AIDS,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_ADOL_ART_RECEIVE,Reported number of adolescents receiving ART,,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_ADOL_ART_RECEIVE_LIVING_HIV,Per cent of adolescents living with HIV receiving ART,,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_DTH_ANN_0-19,Estimated number of annual AIDS-related deaths (children aged 0-19 years),Estimated number of annual AIDS-related deaths (children aged 0-19 years),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_DTH_ANN_15-24,Estimated number of annual AIDS-related deaths (adolescents and young people aged 15-24 years),Estimated number of annual AIDS-related deaths (adolescents and young people aged 15-24 years),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_DTH_RT,"Estimated rate of annual AIDS-related deaths (per 100,000 population)","Number of AIDS-related deaths per 100,000 people",HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_DTH_RT_0-14,"Estimated rate of annual AIDS-related deaths (per 100,000 population, children aged 0-14 years)","Number of AIDS-related deaths per 100,000 children aged 0-14",HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_DTH_RT_10-19,"Estimated rate of annual AIDS-related deaths (per 100,000 population, adolescents aged 10-19 years)","Number of AIDS-related deaths per 100,000 adolescents aged 10-19",HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_INF_ANN_0-19,Estimated number of new HIV infections (children aged 0-19 years),Estimated number of new HIV infections (children aged 0-19 years),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_INF_ANN_15-24,Estimated number of new HIV infections (adolescents and young people aged 15-24 years),Estimated number of new HIV infections (adolescents and young people aged 15-24 years),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_INF_RT,"Estimated incidence rate (new HIV infection per 1,000 uninfected population)","Annual number of new HIV infections per 1,000 uninfected population.",HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_LHIV_0-19,Estimated number of children (aged 0-19 years) living with HIV,Number of children age 0-19 living with HIV in a given year,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_LHIV_15-24,Estimated number of adolescents and young people (aged 15-24 years) living with HIV,Number of adolescents and young people age 15-24 living with HIV in a given year,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PED_ART_CVG,Per cent of children (aged 0-14 years) living with HIV and receiving antiretroviral therapy (ART),Per cent of children (aged 0-14 years) living with HIV and receiving antiretroviral therapy (ART),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PED_ART_NUM,Reported number of children (aged 0-14 years) receiving antiretroviral treatment (ART),Reported number of children (aged 0-14 years) receiving antiretroviral treatment (ART),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PED_EID_CVG,Per cent of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,Per cent of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PED_EID_NUM,Reported number of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,Reported number of infants born to pregnant women living with HIV who received a virological test for HIV within 2 months of birth,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PED_LOST,Estimated number of children (aged 0-17 years) who have lost one or both parents due to all causes,Estimated number of children (aged 0-17 years) who have lost one or both parents due to all causes,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PED_LOST_AIDS,Estimated number of children (aged 0-17 years) who have lost one or both parents due to AIDS,Estimated number of children (aged 0-17 years) who have lost one or both parents due to AIDS,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_ART_CVG,Per cent of pregnant women living with HIV receiving lifelong ART,Per cent of pregnant women living with HIV receiving lifelong antiretroviral treatment (ART),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_ART_NUM,Reported number of pregnant women living with HIV receiving lifelong antiretroviral treatment (ART),Reported number of pregnant women living with HIV receiving lifelong antiretroviral treatment (ART),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_ARV_CVG,Per cent of pregnant women living with HIV receiving effective ARVs for PMTCT (excludes single-dose nevirapine),Per cent of pregnant women living with HIV receiving effective antiretroviral medicines (ARVs) for PMTCT (excludes single-dose nevirapine),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_ARV_NUM,Reported number of pregnant woment living with HIV receiving anitretroviral treatments (ARVs) for prevention of mother to child transmission programmes (PMTCT),Reported number of pregnant woment living with HIV receiving anitretroviral treatments (ARVs) for prevention of mother to child transmission programmes (PMTCT) (excludes single-dose nevirapine),HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_MTCT,Mother-to-child HIV transmission rate,Estimated number of children aged 0-4 newly infected with HIV from mother-to-child transmission for every 100 women living with HIV delivering in the past 12 months,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_PWLHIV,Estimated number of pregnant women living with HIV,Estimated number of pregnant women living with HIV,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_STAT_CVG,Per cent of pregnant women presenting at ANC who were tested for HIV or already knew their HIV positive status,Per cent of pregnant women presenting at ANC who were tested for HIV or already knew their HIV positive status,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_STAT_NUM,Reported number of pregnant women presenting at antenatal clinics (ANC) who were tested for HIV or already knew their HIV positive status,Reported number of pregnant women presenting at antenatal clinics (ANC) who were tested for HIV or already knew their HIV positive status,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_TEST_CVG,Per cent of pregnant women presenting at ANC who were tested for HIV or already knew their HIV positive status,Per cent of pregnant women presenting at antenatal care who were tested for HIV or already knew their HIV positive status,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PMTCT_TEST_NUM,Reported number of pregnant women presenting at antenatal clinics (ANC) who were tested for HIV or already knew their HIV positive status,"Number of pregnant women attending antenatal clinics and/or having a facility-based delivery who were tested for HIV during pregnancy, or already knew they were HIV-positive",HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PREV_CNDM_MULT,Per cent of young people (aged 15-24 years) who had more than one sexual partner in the past 12 months reporting the use of a condom during their last sexual intercourse,Per cent of young people (aged 15-24 years) who had more than one sexual partner in the past 12 months reporting the use of a condom during their last sexual intercourse,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PREV_CNDM_REG,"Per cent of young people (aged 15-24 years) who had sex with a non-marital, non-cohabitating partner in the past 12 months reporting the use of a condom during their last sexual intercourse","Per cent of young people (aged 15-24 years) who had sex with a non-marital, non-cohabitating partner in the past 12 months reporting the use of a condom during their last sexual intercourse",HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PREV_KNOW,"Per cent of young people (aged 15-24 years) with comprehensive, correct knowledge of HIV","Per cent of young women and men 15-24 years old who correctly identify both ways of preventing the sexual transmission of HIV, know that a healthy-looking person can be HIV-positive and reject two most common misconceptions about HIV transmission",HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PREV_KNOW_TEST,Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,Per cent of young people (aged 15-24 years) who know a place to get tested for HIV,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PREV_STIGMA,Per cent of people (aged 15-49 years) expressing discriminatory attitudes towards people living with HIV,Per cent of people (aged 15-49) who respond no to either of two questions relating to HIV stigma: 1) Would you buy fresh vegetables from a shopkeeper or vendor if you knew that this person had HIV? 2) Do you think that children living with HIV should be able to attend school with children who are HIV negative?,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PREV_TEST_RES,Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,Per cent of young people (aged 15-24 years) who have ever been tested for HIV and received the result of the last test,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_PREV_TEST_RES_12,Per cent of young people (aged 15-24 years) who were tested for HIV in the last 12 months and received the result of the last test,Per cent of young people (aged 15-24 years) who were tested for HIV in the last 12 months and received the result of the last test,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IMMUNISATION,Immunization,Immunization,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_BCG,Percentage of live births who received bacille Calmette-Guerin (vaccine against tuberculosis),Percentage of live births who received bacille Calmette-Guerin (vaccine against tuberculosis),IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_DTP1,Percentage of surviving infants who received the first dose of DTP-containing vaccine,"Percentage of surviving infants who received the first dose of diphtheria, pertussis and tetanus vaccine",IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_DTP3,Percentage of surviving infants who received the third dose of DTP-containing vaccine,"Percentage of surviving infants who received three doses of diphtheria, pertussis and tetanus vaccine",IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_HEPB3,Percentage of surviving infants who received the third dose of hep B-containing vaccine,Percentage of surviving infants who received the third dose of hep B-containing vaccine,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_HEPBB,Percentage of live births who received hepatitis-B-containing vaccine within 24 hours of birth,Percentage of live births who received hepatitis-B-containing vaccine within 24 hours of birth,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_HIB3,Percentage of surviving infants who received the third dose of Hib-containing vaccine,Percentage of surviving infants who received three doses of Haemophilus influenzae type b vaccine,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_HPV,Percentage of females who received the last dose of human papillomavirus (HPV) vaccine per national schedule,,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_IPV1,Percentage of surviving infants who received the first dose of inactivated polio-containing vaccine,Percentage of surviving infants who received the first dose of inactivated polio-containing vaccine,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_MCV1,Percentage of surviving infants who received the first dose of measles-containing vaccine,Percentage of surviving infants who received the first dose of measles-containing vaccine,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_MCV2,"Percentage of children who received the 2nd dose of measles-containing vaccine, as per administered in the national schedule","Percentage of children who received the 2nd dose of measles-containing vaccine, as per administered in the national schedule",IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_PAB,Percentage of newborns protected at birth against tetanus with tetanus toxoid,,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_PCV3,Percentage of surviving infants who received the third dose of pneumococcal conjugate-containing vaccine (PCV),Percentage of surviving infants who received the third dose of pneumococcal conjugate-containing vaccine (PCV),IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_POL3,Percentage of surviving infants who received the third dose of inactivated polio-containing vaccine,Percentage of surviving infants who received the third dose of inactivated polio-containing vaccine,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_RCV1,Percentage of surviving infants who received the first dose of rubella-containing vaccine,Percentage of surviving infants who received the first dose of rubella-containing vaccine,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_ROTAC,Percentage of surviving infants who received the last dose of rotavirus-containing vaccine (2nd or 3rd dose depending on vaccine used),Percentage of surviving infants who received the last dose of rotavirus-containing vaccine (2nd or 3rd dose depending on vaccine used),IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_YFV,Percentage of surviving infants who received yellow fever- containing vaccine (for countries at risk and where the vaccine is in the national schedule),Percentage of surviving infants who received yellow fever- containing vaccine (for countries at risk and where the vaccine is in the national schedule),IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG,Migration,Migration,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_ASYLM,Asylum seekers,Persons who have filed an application for asylum in a country other than their own and whose claims have not yet been determined. These include those filing primary applications or subsequent applications following an appeal,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_ASYLM_CNTRY_ASYLM,"Asylum seekers, by country of asylum",Persons who have filed an application for asylum in a country other than their own and whose claims have not yet been determined. These include those filing primary applications or subsequent applications following an appeal. Country where application got filed,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_ASYLM_CNTRY_DEST,"Asylum seekers, by country of destination",Persons who have filed an application for asylum in a country other than their own and whose claims have not yet been determined. These include those filing primary applications or subsequent applications following an appeal. Country where application got filed,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTERNAL_DISP_PERS,Internally displaced persons (IDPs),,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTNL-MG-NUM_U18_IN_HOST,Number of child migrants (under age 18) in host countries,Number of child migrants (under age 18) in host countries,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTNL-MG-PCNT_T-POP,International migrants as a percentage of total population of country/area,Share of foreign born population of total national population,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTNL-MG-PCT_U18,Percentage of under 18 among total international migrants,Foreign born population under the age of 18,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTNL_MG,International migrants,Foreign born population,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTNL_MG_CNTRY_DEST,"International migrants, by country of destination",Foreign born population,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTNL_MG_CNTRY_ORIGIN,"International migrants, by country of origin",Foreign born population,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_NEW_INTERNAL_DISP,New internal displacements,,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS,Refugees,"Persons who have current refugee status, granted either before arrival or upon arrival in the receiving country. Those with status granted before arrival in the receiving country include resettled refugees, and those who were living abroad at the time of application and whose application for permanent residence was considered concurrently with that of the protected person already living in the country. Refugee status can be granted on the basis of the 1951 Convention and the 1967 Protocol or pertinent regional instruments. The group may also include persons who qualify as refugees under national legal systems. Only refugees under the UNHCR mandate are covered here",MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS-PCT_U18,Percentage of under 18 among total refugees,"Persons who have current refugee status, granted either before arrival or upon arrival in the receiving country. Those with status granted before arrival in the receiving country include resettled refugees, and those who were living abroad at the time of application and whose application for permanent residence was considered concurrently with that of the protected person already living in the country. Refugee status can be granted on the basis of the 1951 Convention and the 1967 Protocol or pertinent regional instruments. The group may also include persons who qualify as refugees under national legal systems. Only refugees under the UNHCR mandate are covered here",MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_CAMP,Number of refugees in camps or collective accommodation,Number of refugees in camps or collective accommodation,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_CAMP_U18,Number of child refugees in camps (under age 18),Number of child refugees in camps (under age 18),MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_CNTRY_ASYLM,"Refugees, by country of asylum","Persons who have current refugee status, granted either before arrival or upon arrival in the receiving country. Those with status granted before arrival in the receiving country include resettled refugees, and those who were living abroad at the time of application and whose application for permanent residence was considered concurrently with that of the protected person already living in the country. Refugee status can be granted on the basis of the 1951 Convention and the 1967 Protocol or pertinent regional instruments. The group may also include persons who qualify as refugees under national legal systems. Only refugees under the UNHCR mandate are covered here",MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_CNTRY_ASYLM_PER1000,"Refugees by host country, per 1000 population",,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_CNTRY_ASYLM_PER_USD_GNI,"Refugees by host country, per 1 USD GNI per capita",,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_CNTRY_ORIGIN,"Refugees, by country of origin","Persons who have current refugee status, granted either before arrival or upon arrival in the receiving country. Those with status granted before arrival in the receiving country include resettled refugees, and those who were living abroad at the time of application and whose application for permanent residence was considered concurrently with that of the protected person already living in the country. Refugee status can be granted on the basis of the 1951 Convention and the 1967 Protocol or pertinent regional instruments. The group may also include persons who qualify as refugees under national legal systems. Only refugees under the UNHCR mandate are covered here",MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_INDIV_ACC,Number of refugees in individual accommodation,Number of refugees in individual accommodation,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_INDIV_ACC_U18,Number of child refugees in individual accommodation (under age 18),Number of child refugees in individual accommodation (under age 18),MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_UNK_ACC,Number of refugees in unknown type of accommodation,Number of refugees in unknown type of accommodation,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RFGS_UNK_ACC_U18,Number of child refugees in unknown type of accommodation (under age 18),Number of child refugees in unknown type of accommodation (under age 18),MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_RTCN_RGHTS,Ratification of human rights instruments,"Number of legal instruments related to children and international migration ratified by each country. The legal instruments refer to: (a) the 1989 Convention on the Rights of the Child; (b) the 1951 Convention relating to the Status of Refugees and the 1967 Protocol Relating to the Status of Refugees; (c) the 2000 Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children; (d) the 2000 Protocol against the Smuggling of Migrants by Land, Sea and Air; and (e) the 1990 International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families.",MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_UNRWA_RFGS_CNTRY_ASYLM,"Refugees under UNRWA mandate, by host country",,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH,"Maternal, child and newborn health","Maternal, child and newborn health",,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ABR,"Adolescent birth rate (number of live births to adolescent women per 1,000 adolescent women)","Adolescent birth rate (number of live births to adolescent women per 1,000 adolescent women)",MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ADO_ALCOHOL,Percentage of adolescents (aged 15-19 years) who had at least one alcoholic drink at any time during the last 12 months,Percentage of adolescents (aged 15-19 years) who had at least one alcoholic drink at any time during the last 12 months,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ADO_INSUFF_PHYS,Insufficient physical activity among school going adolescents,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ADO_TOBACCO,Percentage of adolescents (aged 13-15 years) who smoked cigarettes or used smoked or smokeless tobacco products at any time during the last month,Percentage of adolescents (aged 13-15 years) who smoked cigarettes or used smoked or smokeless tobacco products at any time during the last month,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ANC1,Antenatal care 1+ visit - percentage of women (aged 15-49 years) attended at least once during pregnancy by skilled health personnel,Antenatal care 1+ visit - percentage of women (aged 15-49 years) attended at least once during pregnancy by skilled health personnel,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ANC4,Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider,Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_BIRTH18,Early childbearing - percentage of women (aged 20-24 years) who gave birth before age 18,Early childbearing - percentage of women (aged 20-24 years) who gave birth before age 18,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_CSEC,C-section rate - percentage of deliveries by cesarean section,C-section rate - percentage of deliveries by cesarean section,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_DEMAND_FP,Demand for family planning satisfied with modern methods - percentage of women (aged 15-49 years),Demand for family planning satisfied with modern methods - percentage of women (aged 15-49 years),MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_DIARCARE,Careseeking for diarrhoea - percentage of children (under age 5) with diarrhoea for whom advice or treatment was sought from a health facility or provider,Careseeking for diarrhoea - percentage of children (under age 5) with diarrhoea for whom advice or treatment was sought from a health facility or provider,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_INFDEC,"Proportion of women aged 15-19 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_INSTDEL,Institutional deliveries - percentage of deliveries in a health facility,Institutional deliveries - percentage of deliveries in a health facility,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_IPTP,IPTp for pregnant women - percentage of women (aged 15-49 years) who received three or more doses of intermittent preventive treatment during antenatal care visits during their last pregnancy,IPTp for pregnant women - percentage of women (aged 15-49 years) who received three or more doses of intermittent preventive treatment during antenatal care visits during their last pregnancy,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ITN,ITN use by children - percentage of children (under age 5) who slept under an insecticide-treated mosquito net the night prior to the survey,ITN use by children - percentage of children (under age 5) who slept under an insecticide-treated mosquito net the night prior to the survey,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ITN2,Household with insecticide treated net (ITN) and/or indoor residual spraying (IRS) - percentage of households with at least one ITN for every two persons and/or IRS in the past 12 months,Household with insecticide treated net (ITN) and/or indoor residual spraying (IRS) - percentage of households with at least one ITN for every two persons and/or IRS in the past 12 months,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ITNOWN,Percentage of households with at least one insecticide-treated mosquito net (ITN),Percentage of households with at least one insecticide-treated mosquito net (ITN),MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ITNPREG,Pregnant women sleeping under ITN - percentage of pregnant women (aged 15-49 years) who slept under an insecticide-treated net the previous night,Pregnant women sleeping under ITN - percentage of pregnant women (aged 15-49 years) who slept under an insecticide-treated net the previous night,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_LIFE_EXPECTANCY,Life expectancy at birth - number of years newborn female children would live if subject to the mortality risks prevailing for the cross section of population at the time of their birth (estimated),Life expectancy at birth - number of years newborn female children would live if subject to the mortality risks prevailing for the cross section of population at the time of their birth (estimated),MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_LTR_MATERNAL_DEATH,Lifetime risk of maternal death (probability (1 in X) that a 15-year-old girl (in the year of the estimate) will eventually die from a maternal cause),Lifetime risk of maternal death (probability (1 in X) that a 15-year-old girl (in the year of the estimate) will eventually die from a maternal cause),MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_MATERNAL_DEATHS,Maternal deaths (estimated),Maternal deaths (estimated),MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_MLRACT,"Malaria, first line treatment - percentage of febrile children (under age 5) receiving ACT (first line antimalarial drug), among those receiving any antimalarial drugs","Malaria, first line treatment - percentage of febrile children (under age 5) receiving ACT (first line antimalarial drug), among those receiving any antimalarial drugs",MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_MLRCARE,Careseeking for febrile children - percentage of children (under age 5) with fever for whom advice or treatment was sought from a health facility or provider,Careseeking for febrile children - percentage of children (under age 5) with fever for whom advice or treatment was sought from a health facility or provider,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_MLRDIAG,Malaria diagnostics - percentage of febrile children (under age 5) who had a finger or heel stick for malaria testing,Malaria diagnostics - percentage of febrile children (under age 5) who had a finger or heel stick for malaria testing,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_MMR,"Maternal mortality ratio (number of maternal deaths per 100,000 live births)","Maternal mortality ratio (number of maternal deaths per 100,000 live births)",MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ORS,Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received ORS (packets or pre-packaged fluids),Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received ORS (packets or pre-packaged fluids),MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ORSZINC,Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received ORS and zinc,Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received ORS and zinc,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ORTCF,Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received ORT (oral rehydration salts or recommended homemade fluids or increased fluids) and continued feeding,Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received ORT (oral rehydration salts or recommended homemade fluids or increased fluids) and continued feeding,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_PNCMOM,Postnatal care for mothers - percentage of women (aged 15-49 years) who received postnatal care within 2 days of giving birth,Postnatal care for mothers - percentage of women (aged 15-49 years) who received postnatal care within 2 days of giving birth,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_PNCNB,Postnatal care for newborns - percentage of newborns who have a postnatal contact with a health provider within 2 days of delivery,Postnatal care for newborns - percentage of newborns who have a postnatal contact with a health provider within 2 days of delivery,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_PNEUCARE,Careseeking for ARI - percentage of children (under age 5) with acute respiratory infection symptoms whom advice or treatment was sought from a health facility or provider,Careseeking for ARI - percentage of children (under age 5) with acute respiratory infection symptoms whom advice or treatment was sought from a health facility or provider,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_PNEUMORT,Percentage deaths of children under 5 years of age due to pneumonia,Percentage deaths of children under 5 years of age due to pneumonia,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_SAB,Skilled birth attendant - percentage of deliveries attended by skilled health personnel,Skilled birth attendant - percentage of deliveries attended by skilled health personnel,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_UHC,Coverage of essential health services,,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_UHC_RMNCH,"Universal health coverage index for reproductive, maternal, newborn and child-health interventions",,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_ZINC,Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received zinc,Diarrhoea treatment - percentage of children (under age 5) with diarrhoea who received zinc,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANE_WOM_15_19,Anaemia prevalence in women aged 15-19,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_AVG,Mean BMI-for-age,Mean BMI-for-age,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_NE1,BMI-for-age <-1 SD,BMI-for-age <-1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_NE1_T_NE2,"BMI-for-age <-1 SD and ≥ -2 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_NE2,BMI-for-age <-2 SD,BMI-for-age <-2 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_NE2_T_NE3,"BMI-for-age <-2 SD and ≥ -3 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_NE3,BMI-for-age <-3 SD,BMI-for-age <-3 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_PO1,BMI-for-age >+1 SD,BMI-for-age >+1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_PO1_T_PO2,"BMI-for-age >+1 SD and ≤+2 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_PO2,BMI-for-age >+2 SD,BMI-for-age >+2 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_PO2_T_PO3,"BMI-for-age >+2 SD and ≤+3 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_PO3,BMI-for-age >+3 SD,BMI-for-age >+3 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_BAZ_SD,BMI-for-age (Standard Deviation),BMI-for-age (Standard Deviation),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_COMB,"Wasted, Overweight or Stunted","Wasted, Overweight or Stunted",NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_FREE,"No Wasting, Overweight, Stunting","No Wasting, Overweight, Stunting",NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZWHZ_NE2_NE2,Height-for-age <-2SD & Weight-for-height <-2SD,Height-for-age <-2SD & Weight-for-height <-2SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZWHZ_NE2_PO2,Height-for-age <-2SD & Weight-for-height >+2SD,Height-for-age <-2SD & Weight-for-height >+2SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZWHZ_NE3_NE2,Height-for-age <-3SD & Weight-for-height <-2SD,Height-for-age <-3SD & Weight-for-height <-2SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZWHZ_NE3_PO2,Height-for-age <-3SD & Weight-for-height >+2SD,Height-for-age <-3SD & Weight-for-height >+2SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_AVG,Mean Height-for-age,Mean Height-for-age,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE1,Height-for-age <-1 SD,Height-for-age <-1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE1_T_NE2,"Height-for-age <-1 SD and ≥ -2 SD (Mild Stunting only), Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE2,Height-for-age <-2 SD (stunting),Percentage of under-fives falling below minus 2 standard deviations (moderate and severe) from the median height-for-age of the reference population,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE2_MOD,"Height-for-age <-2 SD (stunting), Modeled Estimates",Percentage of under-fives falling below minus 2 standard deviations (moderate and severe) from the median height-for-age of the reference population,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE2_MOD_NUMTH,"Height-for-age <-2 SD (Stunting) Modeled Estimates, Numbers Affected",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE2_ONLY,Height-for-age <-2SD but weight-for-height ≥-2SD and weight-for-height ≤2SD,Height-for-age <-2SD but weight-for-height ≥-2SD and weight-for-height ≤2SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE2_T_NE3,"Height-for-age <-2 SD and ≥ -3 SD (Moderate Stunting only), Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_NE3,Height-for-age <-3 SD (Severe Stunting),Height-for-age <-3 SD (Severe Stunting),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_PO1,Height-for-age >+1 SD,Height-for-age >+1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_PO1_T_PO2,"Height-for-age >+1 SD and ≤+2 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_PO2,Height-for-age >+2 SD,Height-for-age >+2 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_PO2_T_PO3,"Height-for-age >+2 SD and ≤+3 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_PO3,Height-for-age >+3 SD,Height-for-age >+3 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_HAZ_SD,Height-for-age (Standard Deviation),Height-for-age (Standard Deviation),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_SAM_T,Total number of children with SAM admitted for treatment,Total number of children with SAM admitted for treatment,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZWHZ_NE2_NE2,Weight-for-age <-2SD & Weight-for-height <-2SD,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZWHZ_NE3_NE2,Weight-for-age <-3SD & Weight-for-height <-2SD,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_AVG,Weight-for-age (Mean),Weight-for-age (Mean),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_NE1,Weight-for-age <-1 SD,Weight-for-age <-1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_NE1_T_NE2,"Weight-for-age <-1 SD and ≥ -2 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_NE2,Weight-for-age <-2 SD (Underweight),Weight-for-age <-2 SD (Underweight),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_NE2_T_NE3,"Weight-for-age <-2 SD and ≥ -3 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_NE3,Weight-for-age <-3 SD (Severe Underweight),Weight-for-age <-3 SD (Severe Underweight),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_PO1,Weight-for-age >+1 SD,Weight-for-age >+1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_PO1_T_PO2,"Weight-for-age >+1 SD and ≤+2 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_PO2,Weight-for-age (>+2 SD),Weight-for-age (>+2 SD),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_PO2_T_PO3,"Weight-for-age >+2 SD and ≤+3 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_PO3,Weight-for-age (>+3 SD),Weight-for-age (>+3 SD),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WAZ_SD,Weight-for-age (Standard Deviation),Weight-for-age (Standard Deviation),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_AVG,Mean Weight-for-height,Mean Weight-for-height,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_NE1,Weight-for-height <-1 SD,Weight-for-height <-1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_NE1_T_NE2,"Weight-for-height <-1 SD and ≥ -2 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_NE2,Weight-for-height <-2 SD (wasting),Percentage of children under 5 years of age falling below -2 standard deviations (moderate and severe) from the median weight-for-height of the reference population,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_NE2_ONLY,Weight-for-height <-2SD but height-for-age ≥-2SD,Weight-for-height <-2SD but height-for-age ≥-2SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_NE2_T_NE3,"Weight-for-height <-2 SD and ≥ -3 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_NE3,Weight-for-height <-3 SD (severe wasting),Percentage of children under 5 years of age falling below -3 standard deviations (severe) from the median weight-for-height of the reference population,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO1,Weight-for-height >+1 SD,Weight-for-height >+1 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO1_T_PO2,"Weight-for-height >+1 SD and ≤+2 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO2,Weight-for-height >+2 SD (overweight),Percentage of children under 5 years of age falling above 2 standard deviations (moderate and severe) from the median weight-for-height of the reference population,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO2_MOD,"Weight-for-height >+2 SD (overweight), Modeled Estimates",Prevalence of overweight (weight for height >+2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO2_MOD_NUMTH,"Weight-for-height >+2 SD (Overweight) Modeled Estimates, Numbers Affected",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO2_ONLY,Weight-for-height >+2SD but height-for-age ≥-2SD,Weight-for-height >+2SD but height-for-age ≥-2SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO2_T_PO3,"Weight-for-height >+2 SD and ≤+3 SD, Survey Estimates",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_PO3,Weight-for-height >+3 SD,Weight-for-height >+3 SD,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANT_WHZ_SD,Weight-for-height (Standard Deviation),Weight-for-height (Standard Deviation),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_CBF_12_15,Continued breastfeeding (12-15 months),Percentage of children 12-15 months of age who are fed breast milk,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_CBF_12_23,Continued breastfeeding (12-23 months),Percentage of children 12-23 months of age who are fed breast milk,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_CBF_20_23,Continued breastfeeding (20-23 months),Percentage of children 20-23 months of age who are fed breast milk,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_EBF,Ever breastfed (0-23 months),Percentage of newborns ever breastfed,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_EIBF,Early initiation of breastfeeding,Percentage of newborns put to the breast within one hour of birth,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_EXBF,Exclusive breastfeeding (0-5 months),Percentage of infants 0-5 months of age who are fed exclusively with breast milk,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_EXBF_2D,Exclusively Breastfed for the First Two Days After Birth,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_MIXMF,Mixed Milk Feeding (0-5 months),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BF_PRED_BF,Predominantly breastfeeding (children aged 0 to 5 months),Percentage of infants 0-5 months of age who are predominantly breastfed,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BW_LBW,Prevalence of low birth weight among new-borns,Percentage of live births under 2500 g out of the total number of live births during the same period.,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BW_LBW_MOD,Number (in thousands) of live births that weighed less than 2500 g (Modeled Estimates),Number (in thousands) of live births that weighed less than 2500 g (Modeled Estimates),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BW_LBW_MOD_NUMTH,Number (in thousands) of live births that weighed less than 2500 g (Modeled Estimates),Number (in thousands) of live births that weighed less than 2500 g (Modeled Estimates),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BW_UNW,Percentage of births without a birth weight in the data source,The percentage of birthweights not covered in the data source reflect newborns who were unweighed and those who were weighed but whose birthweights were not captured by key data sources,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_ASF,Egg and/or flesh foods consumption (6-23months),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_BREASTMILK,Food group- Breastmilk (6-23months),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_DAIRY,"Food group- Dairy (milk, infant formula, yogurt, cheese) (6-23months)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_EGGS,Food group- Eggs (6-23months),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_FF,"Food group- Flesh foods (meat, poultry, fish and organ meats) (6-23months)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_GRAINS,"Food group- Grains, roots, tubers and plantains (6-23months)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_ISSSF_FL,"Introduction to solid, semi-solid foods (6-8 months)","Percentage of infants 6-8 months of age who receive solid, semi-solid or soft foods",NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_LEGUMES,"Food group- Pulses (beans, peas, lentils), nuts and seeds (6-23months)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_MAD,Minimum acceptable diet (children aged 6-23 months),Percentage of children 6-23 months of age who received a minimum acceptable diet,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_MDD,Minimum diet diversity (children aged 6 to 23 months),Percentage of children 6-23 months of age who received a minimum diet diversity,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_MMF,Minimum meal frequency (children aged 6 to 23 months),Percentage of children 6-23 months of age who received a minimum meal frequency,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_OTHER_FV,Food group- Other fruits and vegetables (6-23months),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_VITA,Food group- Vitamin-A rich fruits and vegetables (6-23months),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_ZEROFV,Zero vegetable or fruit consumption (6-23months),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_FOOD_INSEC_HH,Prevalence of moderate + severe food insecurity in the adult population,Prevalence of moderate + severe food insecurity in the adult population,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_IOD_ANY_TH,Iodized salt consumption (>0 ppm) among all tested households,Percentage of tested households which have salt they used for cooking that tested positive (>0ppm) for presence of iodine,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_IOD_ANY_TS,Iodized salt consumption (>0 ppm) among all tested households with salt,Iodized salt consumption (>0 ppm) among all tested households with salt,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_OVERWEIGHT,Overweight,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_SANT_10_19_BAZ_NE2_MOD,"Prevalence of thinness among children aged 10-19 years, BMI < -2 standard deviations below the median (Crude estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_SANT_10_19_BAZ_PO1_MOD,"Prevalence of overweight among children aged 10-19 years, BMI > +1 standard deviations above the median (Crude estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_THINNESS,Thinness,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_VAS_S1,"Vitamin A Supplementation, Semester 1 Coverage",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_VAS_S2,"Vitamin A Supplementation, Semester 2 Coverage",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_VAS_TWODOSE,"Vitamin A Supplementation, two-dose coverage",Proportion of 6 to 59 month-olds receiving two high-dose vitamin A supplements in a calendar year (lower of semester 1 and semester 2 coverage),NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NUTRITION,Nutrition,Nutrition,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT,Child protection and development,Child protection and development,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_ADLS_10-14_LBR_HC,Percentage of adolescents (aged 10-14 years) engaged in household chores,"Percentage of adolescents aged 10-14 years who, during the reference week, spent at least 21 hours on unpaid household services",PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_ADLT_PS_NEC,Percentage of adults who think that physical punishment is necessary to raise/educate children,Percentage of adults who think that physical punishment is necessary to raise/educate children,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_1-14_PS-PSY-V_CGVR,Percentage of children (aged 1-14 years) who experienced any physical punishment and/or psychological aggression by caregivers,Percentage of children (aged 1-14 years) who experienced any physical punishment and/or psychological aggression by caregivers,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_5-17_LBR_ECON,Percentage of children (aged 5-17 years) engaged in child labour (economic activities),Percentage of children (aged 5-17 years) engaged in child labour (economic activities),PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_5-17_LBR_ECON-HC,Percentage of children (aged 5-17 years) engaged in child labour (economic activities and household chores),Percentage of children (aged 5-17 years) engaged in child labour (economic activities and household chores),PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_CONFLICT,Estimated number of children (aged 0-17 years) exposed to conflict,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_DN,Rate of children in detention,Rate of children in detention,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_RES-CARE,Rate of children in residential care,Rate of children in residential care,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_Y0T4_REG,Percentage of children under age 5 whose births are registered,Percentage of children under age 5 whose births are registered,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_BANK,"Percentage of women aged 20 to 24 years who have an account at a bank or other financial institution, by child marriage status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_BIRTHS18,"Percentage of women aged 20 to 24 years who gave birth before age 18, by child marriage status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_BIRTHS20,"Percentage of women aged 20 to 24 years who gave birth before age 20, by child marriage status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_DEC_FAMILY,"Percentage of women aged 20 to 24 years who usually decide (alone or with their spouses) about visits to the women's families, by child marriage status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_EMPLOY_12M,"Percentage of women aged 20 to 24 years who have had a job in the past 12 months, by child marriage status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_IPV_12M,"Percentage of women aged 20 to 24 years who experienced intimate partner violence in the past 12 months, by child marriage status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_MRD_SCHOOL,"Percentage of adolescent girls aged 15 to 17 years who are currently married or in union, by schooling status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_NM_SCHOOL,"Percentage of adolescent girls aged 15 to 17 years who were never married or in union, by schooling status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CM_W_BTNG,"Percentage of women aged 20 to 24 years who believe a husband is justified in beating his wife under certain circumstances, by child marriage status",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_FUNC_DIFFICULTY,Percentage of children aged 2-17 years  with any functional difficulty in at least one domain,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_0-14_FGM,Percentage of girls (aged 0-14 years) who have undergone female genital mutilation (FGM),Percentage of girls (aged 0-14 years) who have undergone female genital mutilation (FGM),PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-17_SX-V,Percentage of girls (aged 15-17 years) who have experienced sexual violence,Percentage of girls (aged 15-17 years) who have experienced sexual violence,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-17_SX-V_HLP,Percentage of girls (aged 15-17 years) who have ever experienced any sexual violence and sought help from a professional,Percentage of girls (aged 15-17 years) who have ever experienced any sexual violence and sought help from a professional,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-19_MRD,Percentage of girls aged 15-19 years who are currently married or in union,Percentage of girls aged 15-19 years who are currently married or in union,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-49_FGM,Percentage of girls and women (aged 15-49 years) who have undergone female genital mutilation (FGM),Percentage of girls and women (aged 15-49 years) who have undergone female genital mutilation (FGM),PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-49_FGM_ELIM,Percentage of women (aged 15-49 years) who think that FGM should be eliminated,Percentage of women (aged 15-49 years) who think that FGM should be eliminated,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-49_W-BTNG,Percentage of women (aged 15-49 years) who consider a husband to be justified in hitting or beating his wife for at least one of the specified reasons,Percentage of women (aged 15-49 years) who consider a husband to be justified in hitting or beating his wife for at least one of the specified reasons,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_18-29_SX-V_AGE-18,Percentage of women (aged 18-29 years) who experienced sexual violence by age 18,Percentage of women (aged 18-29 years) who experienced sexual violence by age 18,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_20-24_MRD_U15,Percentage of women (aged 20-24 years) married or in union before age 15,Percentage of women (aged 20-24 years) married or in union before age 15,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_20-24_MRD_U15_PRJ,Projected percentage of women aged 20 to 24 years who were first married or in union before age 15,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_20-24_MRD_U15_TND,"Percentage of women aged 20 to 24 years who were first married or in union before age 15 (UNICEF analysis, trend)",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_20-24_MRD_U18,Percentage of women (aged 20-24 years) married or in union before age 18,Percentage of women (aged 20-24 years) married or in union before age 18,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_20-24_MRD_U18_PRJ,Projected percentage of women aged 20 to 24 years who were first married or in union before age 18,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_20-24_MRD_U18_TND,"Percentage of women aged 20 to 24 years who were first married or in union before age 18 (UNICEF analysis, trend)",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_GE15_PS-SX-EM_V_PTNR_12MNTH,"Percentage of ever-partnered women and girls (aged 15 years and older) subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months","Percentage of ever-partnered women and girls (aged 15 years and older) subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months",PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_GE15_SX_V_PTNR_12MNTH,Women and girls aged 15 and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months,Women and girls aged 15 and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_TMRD15,Total number of girls and women of all ages who were first married or in union before age 15,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_TMRD18,Total number of girls and women of all ages who were first married or in union before age 18,PT,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_M_15-17_SX-V,Percentage of boys (aged 15-17 years) who have experienced sexual violence,Percentage of boys (aged 15-17 years) who have experienced sexual violence,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_M_15-17_SX-V_HLP,Percentage of boys (aged 15-17 years) who have ever experienced any sexual violence and sought help from a professional,Percentage of boys (aged 15-17 years) who have ever experienced any sexual violence and sought help from a professional,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_M_15-19_MRD,Percentage of boys aged 15-19 years who are currently married or in union,Percentage of boys aged 15-19 years who are currently married or in union,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_M_15-49_FGM_ELIM,Percentage of boys and men (aged 15-49 years) who think that FGM should be eliminated,Percentage of boys and men (aged 15-49 years) who think that FGM should be eliminated,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_M_15-49_W-BTNG,Percentage of men (aged 15-49 years) who consider a husband to be justified in hitting or beating his wife for at least one of the specified reasons,Percentage of men (aged 15-49 years) who consider a husband to be justified in hitting or beating his wife for at least one of the specified reasons,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_M_18-29_SX-V_AGE-18,Percentage of men (aged 18-29 years) who experienced sexual violence by age 18,Percentage of men (aged 18-29 years) who experienced sexual violence by age 18,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_M_20-24_MRD_U18,Percentage of men (aged 20-24 years) married or in union before age 18,Percentage of men (aged 20-24 years) married or in union before age 18,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_ST_13-15_BUL_30-DYS,Percentage of students (aged 13-15 years) who reported being bullied on 1 or more days in the past 30 days,Percentage of students (aged 13-15 years) who reported being bullied on 1 or more days in the past 30 days,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV,Child poverty,Child poverty,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_ADOLESCENT,Adolescent poverty,,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-AVG-HS,Average number of deprivations suffered per child. Homogeneous moderate standards,Average number of deprivations suffered per child. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-AVG-POV-HS,Average number of deprivations for children suffering at least one deprivation. Homogeneous moderate standards,Average number of deprivations for children suffering at least one deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-AVG-POV-S-HS,Average number of deprivations for children suffering at least one deprivation. Homogeneous severe standards,Average number of deprivations for children suffering at least one deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-AVG-S-HS,Average number of deprivations suffered per child. Homogeneous severe standards,Average number of deprivations suffered per child. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-E1-HS,Percentage Children suffering exactly one deprivation. Homogeneous moderate standards,Percentage Children suffering exactly one deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-E2-HS,Percentage Children suffering exactly two deprivation. Homogeneous moderate standards,Percentage Children suffering exactly two deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-E3-HS,Percentage Children suffering exactly three deprivation. Homogeneous moderate standards,Percentage Children suffering exactly three deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-E4-HS,Percentage Children suffering exactly four deprivation. Homogeneous moderate standards,Percentage Children suffering exactly four deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-E5-HS,Percentage Children suffering exactly five deprivation. Homogeneous moderate standards,Percentage Children suffering exactly five deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-L1-HS,Percentage children suffering at least one deprivation. Homogeneous moderate standards,Percentage children suffering at least one deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-L2-HS,Percentage children suffering at least two deprivation. Homogeneous moderate standards,Percentage children suffering at least two deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-L3-HS,Percentage children suffering at least three deprivation. Homogeneous moderate standards,Percentage children suffering at least three deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-L4-HS,Percentage children suffering at least four deprivation. Homogeneous moderate standards,Percentage children suffering at least four deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-L5-HS,Percentage children suffering at least five deprivation. Homogeneous moderate standards,Percentage children suffering at least five deprivation. Homogeneous moderate standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-E1-HS,Percentage Children suffering exactly one deprivation. Homogeneous severe standards,Percentage Children suffering exactly one deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-E2-HS,Percentage Children suffering exactly two deprivation. Homogeneous severe standards,Percentage Children suffering exactly two deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-E3-HS,Percentage Children suffering exactly three deprivation. Homogeneous severe standards,Percentage Children suffering exactly three deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-E4-HS,Percentage Children suffering exactly four deprivation. Homogeneous severe standards,Percentage Children suffering exactly four deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-E5-HS,Percentage Children suffering exactly five deprivation. Homogeneous severe standards,Percentage Children suffering exactly five deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-L1-HS,Percentage children suffering at least one deprivation. Homogeneous severe standards,Percentage children suffering at least one deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-L2-HS,Percentage children suffering at least two deprivation. Homogeneous severe standards,Percentage children suffering at least two deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-L3-HS,Percentage children suffering at least three deprivation. Homogeneous severe standards,Percentage children suffering at least three deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-L4-HS,Percentage children suffering at least four deprivation. Homogeneous severe standards,Percentage children suffering at least four deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_DPRV-S-L5-HS,Percentage children suffering at least five deprivation. Homogeneous severe standards,Percentage children suffering at least five deprivation. Homogeneous severe standards,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_HLD-SCL-TRNS,Percentage of children living in the households that received any type of social transfers,,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_CHLD_INCM-PL,Children living in households with income below the national poverty line (as a % of all children),Children living in households with income below the national poverty line (as a % of all children),PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_GAP,Poverty gap (%),,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_LEVEL,Poverty Level,Poverty Level,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_POP_SP,"Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_POP_TOT_PV,Population in total poverty (%),,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_POP_XTR_PV,Population in extreme poverty (%),,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS,Pro-poor public social spending,,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS_DIRECT_TRANSFER,"Pro-poor public social spending, direct transfers (%)",,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS_EDU,"Pro-poor public social spending, education (%)",,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS_HEALTH,"Pro-poor public social spending, health (%)",,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_SVRTY,Severity of total poverty (%),,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_VMIR,Vast Majority Income Ratio,Vast Majority Income Ratio,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP,Social Protection,,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_CHLD_POV_PROF,Child Poverty Profile,,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_CHLD_SOC_PROT,Proportion of children covered by social protection,,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_DIST_SOC_PROT_BNFT,Distribution of Social Protection Benefits (%),,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_GDPPC,GDP per capita (current US$),,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_GINI,Gini Coefficient,,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_HSLD_INCOME_SHARE,Share of household income (%),,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_MOTHERS_CASH_BNF,Mothers with newborns receiving cash benefit (%),,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_PALMA,Palma Index of income inequality,,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+SPP_VMI,VMI (vast majority index of income inequality),,SPP,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT,National Targets,,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2025_NT_ANE_WOM_15_49_MOD,National target (Year 2025) for Anaemia prevalence in women of reproductive age,National target (Year 2025) for Prevalence of anaemia in women aged 15-49 (Modeled Estimates),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2025_NT_ANT_HAZ_NE2_MOD,National target (Year 2025) for Stunting,National target (Year 2025) for Prevalence of stunting among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2025_NT_ANT_WHZ_NE2,National target (Year 2025) for Wasting,National target (Year 2025) for Prevalence of wasting among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2025_NT_ANT_WHZ_NE3,National target (Year 2025) for Severe Wasting,National target (Year 2025) for Prevalence of severe wasting among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2025_NT_ANT_WHZ_PO2_MOD,National target (Year 2025) for Overweight,National target (Year 2025) for Prevalence of overweight among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2025_NT_BF_EXBF,National target (Year 2025) for Exclusive Breastfeeding,National target (Year 2025) for Exclusive Breastfeeding (0-5 months),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2025_NT_BW_LBW,National target (Year 2025) for low birth weight,National target (Year 2025) for Prevalence of low birth weight among new-borns,TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_CME_MRM0,National target (Year 2030) for Neonatal mortality rate,National target (Year 2030) for Neonatal mortality rate,TRGT_CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_CME_MRY0T4,National target (Year 2030) for Under-five mortality rate,National target (Year 2030) for Under-five mortality rate,TRGT_CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_CME_SBR,National target (Year 2030) for stillbirth rate,"National target (Year 2030) for stillbirth rate (SBR) - the number of babies born with no sign of life at 28 weeks or more of gestation per 1,000 total births.",TRGT_CME,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ECD_CHLD_36-59M_LMPSL,National target (Year 2030) for Early Childhood Development Index,"National target (Year 2030) for Proportion of children aged 36-59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development, and learning (% of children aged 36-59 months)",TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_ANAR_L02,National target (Year 2030) for School atendance (pre-primary),"National target (Year 2030) for Adjusted net attendance rate, one year before the official primary entry age",TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_CR_L1,National target (Year 2030) for Completion rate (primary),National target (Year 2030) for Completion rate for children of primary school age,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_CR_L2,National target (Year 2030) for Completion rate (lower secondary),National target (Year 2030) for Completion rate for adolescents of lower secondary school age,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_CR_L3,National target (Year 2030) for Completion rate (upper secondary),National target (Year 2030) for Completion rate for youth of upper secondary education school age,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_MAT_G23,National target (Year 2030) for Math proficiency (grade 2/3),National target (Year 2030) for Proportion of students in Grade 2 or 3 achieving at least a minimum proficiency level in mathematics,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_MAT_L1,National target (Year 2030) for Math proficiency (primary),National target (Year 2030) for Proportion of students at the end of primary achieving at least a minimum proficiency level in mathematics,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_MAT_L2,National target (Year 2030) for Math proficiency (lower secondary),National target (Year 2030) for Proportion of students at the end of lower secondary achieving at least a minimum proficiency level in mathematics,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_READ_G23,National target (Year 2030) for Reading proficiency (grade 2/3),National target (Year 2030) for Proportion of students in Grade 2 or 3 achieving at least a minimum proficiency level in reading,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_READ_L1,National target (Year 2030) for Reading proficiency (primary),National target (Year 2030) for Proportion of students at the end of primary achieving at least a minimum proficiency level in reading,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_READ_L2,National target (Year 2030) for Reading proficiency (lower secondary),National target (Year 2030) for Proportion of students at the end of lower secondary achieving at least a minimum proficiency level in reading,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_ROFST_L1,National target (Year 2030) for Out-of-school (primary),National target (Year 2030) for Out-of-school rate for children of primary school age,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_ROFST_L2,National target (Year 2030) for Out-of-school (lower secondary),National target (Year 2030) for Out-of-school rate for adolescents of lower secondary school age,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ED_ROFST_L3,National target (Year 2030) for Out-of-school (upper secondary),National target (Year 2030) for Out-of-school rate for youth of upper secondary school age,TRGT_ED,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_GN_SG_LGL_GENEQEMP,National target (Year 2030) for Gender Legal frameworks,"National target (Year 2030) for Legal frameworks that promote, enforce, and monitor gender equality- Area 3: Employment and economic benefits",TRGT_GN,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_HVA_EPI_INF_RT_0-14,"National target (Year 2030) for HIV Infections (0-14y/o, both Sexes)","National target (Year 2030) for Number of new HIV infections per 1,000 uninfected population, both sexes 0-14",TRGT_HVA,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_HVA_EPI_INF_RT_15-19,"National target (Year 2030) for HIV Infections (15-19y/o, both Sexes)","National target (Year 2030) for Number of new HIV infections per 1,000 uninfected population, both sexes 15-19",TRGT_HVA,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_IM_DTP3,National target (Year 2030) for DTP3 coverage,National target (Year 2030) for Proportion of the target population covered by all vaccines included in their national programme - DTP3 (%),TRGT_IM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_IM_HPV,National target (Year 2030) for HPVc coverage,National target (Year 2030) for Proportion of the target population covered by all vaccines included in their national programme - HPVc (%),TRGT_IM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_IM_MCV1,National target (Year 2030) for MCV1 coverage,National target (Year 2030) for Proportion of the target population covered by all vaccines included in their national programme - MCV1 (%),TRGT_IM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_IM_MCV2,National target (Year 2030) for MCV2 coverage,National target (Year 2030) for Proportion of the target population covered by all vaccines included in their national programme - MCV2 (%),TRGT_IM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_IM_PCV3,National target (Year 2030) for PCV3 coverage,National target (Year 2030) for Proportion of the target population covered by all vaccines included in their national programme - PCV3 (%),TRGT_IM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_MNCH_ABR,National target (Year 2030) for Adolescent birth rate (15-19),"National target (Year 2030) for Adolescent birth rate (number of live births to adolescent women per 1,000 adolescent women)",TRGT_MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_MNCH_INFDEC,National target (Year 2030) for Reproductive health agency,National target (Year 2030) for Informed decision making_reproductive health,TRGT_MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_MNCH_MMR,National target (Year 2030) for Maternal mortality ratio,"National target (Year 2030) for Maternal mortality ratio (number of maternal deaths per 100,000 live births)",TRGT_MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_MNCH_SAB,National target (Year 2030) for Skilled birth attendant,National target (Year 2030) for Skilled birth attendant - percentage of deliveries attended by skilled health personnel,TRGT_MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_MNCH_UHC,National target (Year 2030) for Coverage of essential health services,National target (Year 2030) for Coverage of essential health services,TRGT_MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_NT_ANE_WOM_15_49_MOD,National target (Year 2030) for Anaemia prevalence in women of reproductive age,National target (Year 2030) for Prevalence of anaemia in women aged 15-49 (Modeled Estimates),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_NT_ANT_HAZ_NE2_MOD,National target (Year 2030) for Stunting,National target (Year 2030) for Prevalence of stunting among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_NT_ANT_WHZ_NE2,National target (Year 2030) for Wasting,National target (Year 2030) for Prevalence of wasting among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_NT_ANT_WHZ_NE3,National target (Year 2030) for Severe Wasting,National target (Year 2030) for Prevalence of severe wasting among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_NT_ANT_WHZ_PO2_MOD,National target (Year 2030) for Overweight,National target (Year 2030) for Prevalence of overweight among children under 5 (%),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_NT_BF_EXBF,National target (Year 2030) for Exclusive Breastfeeding,National target (Year 2030) for Exclusive Breastfeeding (0-5 months),TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_NT_BW_LBW,National target (Year 2030) for low birth weight,National target (Year 2030) for Prevalence of low birth weight among new-borns,TRGT_NT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_CHLD_1-14_PS-PSY-V_CGVR,National target (Year 2030) for Violent discipline,National target (Year 2030) for Proportion of children aged 1-14 years who experienced physical punishment and/or psychological aggression by caregivers in last month (% of children aged 1-14 years),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_CHLD_5-17_LBR_ECON,National target (Year 2030) for Child labour,National target (Year 2030) for Proportion of children engaged in economic activity and household chores (%),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_CHLD_5-17_LBR_ECON-HC,National target (Year 2030) for Child labour,National target (Year 2030) for Proportion of children engaged in economic activity and household chores (%),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_CHLD_Y0T4_REG,National target (Year 2030) for Birth registration,National target (Year 2030) for Proportion of children under 5 years of age whose births have been registered with a civil authority (% of children under 5 years of age),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_F_15-49_FGM,National target (Year 2030) for Female genital mutilation,National target (Year 2030) for Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting (%),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_F_18-29_SX-V_AGE-18,National target (Year 2030) for Sexual violence in childhood (Female),National target (Year 2030) for Proportion of population aged 18-29 years who experienced sexual violence by age of 18 (% of women aged 18-29),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_F_20-24_MRD_U15,National target (Year 2030) for Child Marriage,National target (Year 2030) for Proportion of women aged 20-24 years who were married or in a union before age 18 (%),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_F_20-24_MRD_U18,National target (Year 2030) for Child Marriage,National target (Year 2030) for Proportion of women aged 20-24 years who were married or in a union before age 18 (%),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_F_GE15_PS-SX-EM_V_PTNR_12MNTH,National target (Year 2030) for Intimate partner violence,National target (Year 2030) for Proportion of ever-partnered women and girls aged 15-49 years subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months (WHO modelled estimates),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PT_M_18-29_SX-V_AGE-18,National target (Year 2030) for Sexual violence in childhood (Male),National target (Year 2030) for Proportion of population aged 18-29 years who experienced sexual violence by age of 18 (% of men aged 18-29),TRGT_PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PV_CHLD_AllPOP_NATPOVL,National target (Year 2030) for Population in poverty,"National target (Year 2030) for Proportion of population living below the national poverty line, both sexes (%)",TRGT_PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PV_CHLD_DPRV-S-L1-HS,National target (Year 2030) for Child poverty,"National target (Year 2030) for Proportion of children living in multidimensional poverty, internationally comparable indicators and thresholds, both sexes",TRGT_PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PV_CHLD_INCM-PL,National target (Year 2030) for Children in poor households,"National target (Year 2030) for Projected Children living in households with income below the national poverty line, both sexes (as a % of all children), Covid projections",TRGT_PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_PV_CHLD_SP,National target (Year 2030) for Children covered by Social Protection,"National target (Year 2030) for Proportion of child population covered by social protection floors/systems, both sexes (%)",TRGT_PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_SDG111_215,National target (Year 2030) for Children in HH below PPPU$ 2.15,"National target (Year 2030) for Children living in households with less than PPPU$1.90 updated to 2.15, both sexes (%)",TRGT_PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_WS_PPL_H-B,National target (Year 2030) for Basic hygiene,National target (Year 2030) for Proportion of population with a handwashing facility with soap and water available at home,TRGT_WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_WS_PPL_S-ALB,National target (Year 2030) for At least basic sanitation,National target (Year 2030) for Proportion of population using at least basic sanitation services,TRGT_WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_WS_PPL_S-OD,National target (Year 2030) for Open defecation,National target (Year 2030) for Proportion of population practicing open defecation,TRGT_WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_WS_PPL_S-SM,National target (Year 2030) for Safely managed sanitation,National target (Year 2030) for Proportion of population using safely managed sanitation services,TRGT_WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_WS_PPL_W-ALB,National target (Year 2030) for At least basic drinking water,National target (Year 2030) for Proportion of population using at least basic drinking water services,TRGT_WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_WS_PPL_W-SM,National target (Year 2030) for Safely managed drinking water,National target (Year 2030) for Proportion of population using safely managed drinking water services,TRGT_WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_CME,Child mortality National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_ED,Education National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_GN,Gender National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_HVA,HIV/AIDS National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_IM,Immunization National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_MNCH,Maternal and child health National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_NT,Nutrition National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_PT,Child protection National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_PV,Child poverty National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_WS,WASH National Targets,,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS,"Water, sanitation and hygiene","Water, sanitation and hygiene",,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_C-B,Proportion of health care facilities with basic cleaning services,"Proportion of health care facilities where basic protocols for cleaning are available, and staff with cleaning responsibilities have all received training",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_C-L,Proportion of health care facilities with limited cleaning services,Proportion of health care facilities where there are cleaning protocols and/or at least some staff have received training on cleaning,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_C-N,Proportion of health care facilities with no cleaning service,Proportion of health care facilities where no cleaning protocols are available and no staff have received training on cleaning,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_H-B,Proportion of health care facilities with basic hygiene services,"Percentage of health care facilities with functional hand hygiene facilities (with water and soap and/or alcohol-based hand rub) available at points of care, and within 5 metres of toilets",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_H-L,Proportion of health care facilities with limited hygiene services,Proportion of health care facilities with functional hand hygiene facilities available either at points of care or toilets but not both,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_H-N,Proportion of health care facilities with no hygiene service,Proportion of health care facilities with no functional hand hygiene facilities available either at points of care or toilets,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_S-B,Proportion of health care facilities with basic sanitation services,"Percentage of health care facilities with improved sanitation facilities which are usable with at least one toilet dedicated for staff, at least one sex-separated toilet with menstrual hygiene facilities, and at least one toilet accessible for people with limited mobility",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_S-L,Proportion of health care facilities with limited sanitation services,"Proportion of health care facilities with at least one improved sanitation facility, but not all requirements for basic service are met",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_S-N,Proportion of health care facilities with no sanitation service,Proportion of health care facilities without improved sanitation facilities,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_W-B,Proportion of health care facilities with basic water services,Percentage of health care facilities with water available from an improved source located on premises,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_W-L,Proportion of health care facilities with limited water services,"Proportion of health care facilities with an improved water source within 500 metres of the premises, but not all requirements for basic service are met",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_W-N,Proportion of health care facilities with no water service,Proportion of health care facilities without an improved water source within 500 metres of the premises,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_WM-B,Proportion of health care facilities with basic health care waste management services,"Percentage of health care facilities where waste is safely segregated into at least three bins, and sharps and infectious waste are treated and disposed of safely",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_WM-L,Proportion of health care facilities with limited health care waste management services,"Proportion of health care facilities where there is limited separation and/or treatment and disposal of sharps and infectious waste, but not all requirements for basic service are met",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_HCF_WM-N,Proportion of health care facilities with no health care waste management service,"Proportion of health care facilities where there are no separate bins for sharps or infectious waste, and sharps and/or infectious waste are not treated/disposed of safely",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_H-B,Proportion of population with a handwashing facility with soap and water available at home,Percentage of the population with a handwashing facility with water and soap available on premises,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_H-L,Proportion of population with a limited handwashing facility,Proportion of the population with a handwashing facility on premises lacking water and/or soap,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_H-N,Proportion of population with no handwashing facility at home,Proportion of the population with no handwashing facility on premises,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_M-NPART_AGE_15_19,"Percentage of adolescent girls aged 15-19 years who did not participate in school, work, or social activities during their last menstrual period",,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-ALB,Proportion of population using at least basic sanitation services,"Percentage of the population using an improved sanitation facility that is not shared with other households (improved facilities include: flush/pour flush to piped sewerage systems, septic tanks or pit latrines; ventilated improved pit latrines; composting toilets or pit latrines with slabs)",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-B,Proportion of population using basic sanitation services,"Proportion of the population using an improved sanitation facility that is not shared with other households (improved facilities include: flush/pour flush to piped sewerage systems, septic tanks or pit latrines; ventilated improved pit latrines; composting toilets or pit latrines with slabs)",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-DIS,Proportion of population using on-site sanitation facilities with human waste disposed in situ,Proportion of population using on-site sanitation facilities with human waste disposed in situ,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-FST,Proportion of population using of on-site sanitation facilities with human waste treated off-site,Proportion of population using of on-site sanitation facilities with human waste treated off-site,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-I,Proportion of population using improved sanitation facilities,"Proportion of the population using an improved sanitation facility (improved facilities include: flush/pour flush to piped sewerage systems, septic tanks or pit latrines; ventilated improved pit latrines; composting toilets or pit latrines with slabs)",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-L,Proportion of population using limited sanitation services,"Proportion of the population using an improved sanitation facility shared with other households (improved facilities include: flush/pour flush to piped sewerage systems, septic tanks or pit latrines; ventilated improved pit latrines; composting toilets or pit latrines with slabs)",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-LAT,Proportion of population using improved latrines and other improved facilities,Proportion of the population using improved latrines and other improved sanitation facilities not connected to septic tanks or sewer networks,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-OD,Proportion of population practising open defecation,Proportion of the population practising open defecation,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-SEP,Proportion of population using sanitation facilities connected to septic tanks,Proportion of population using sanitation facilities connected to septic tanks,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-SEW,Proportion of population using sanitation facilities connected to sewer networks,Proportion of population using sanitation facilities connected to sewer networks,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-SM,Proportion of population using safely managed sanitation services,Proportion of the population using improved sanitation facilities with excreta transported and treated offsite,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-UI,Proportion of population using unimproved sanitation facilites,Proportion of the population using unimproved sanitation facilities,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_S-WWT,Proportion of population using sanitation facilities connected to sewer networks and with sewage treated to at least secondary levels,Proportion of population using sanitation facilities connected to sewer networks and with sewage treated to at least secondary levels,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-ALB,Proportion of population using at least basic drinking water services,"Percentage of the population using an improved drinking water source, where collection time is not more than 30 minutes for a round trip including queuing (improved sources include: piped water; boreholes or tubewells; protected dug wells; protected springs; rainwater; and packaged or delivered water)",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-AVA,Proportion of population using improved drinking water sources available when needed,Proportion of population using improved drinking water sources available when needed,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-B,Proportion of population using basic drinking water services,"Proportion of the population using an improved drinking water source, where collection time is not more than 30 minutes for a round trip including queuing (improved sources include: piped water; boreholes or tubewells; protected dug wells; protected springs; rainwater; and packaged or delivered water)",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-I,Proportion of population using improved drinking water sources,Proportion of the population using an improved drinking water source (improved sources include: piped water; boreholes or tubewells; protected dug wells; protected springs; rainwater; and packaged or delivered water),WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-L,Proportion of population using limited drinking water services,"Proportion of the population using an improved drinking water source, where collection time is more than 30 minutes for a round trip including queuing",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-NP,Proportion of population using non-piped improved drinking water sources,Proportion of population using non-piped improved drinking water sources,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-P,Proportion of population using piped drinking water sources,Proportion of population using piped drinking water sources,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-PRE,Proportion of population using improved drinking water sources located on premises,Proportion of population using improved drinking water sources located on premises,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-QUA,Proportion of population using of improved drinking water sources free from faecal and priority chemical contamination,Proportion of the population using drinking water from an improved source which is free from contamination,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-SM,Proportion of population using safely managed drinking water services,"Proportion of the population using drinking water from an improved source which is accessible on premises, available when needed and free from contamination",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-SW,Proportion of population using surface water,Proportion of the population using surface water,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_PPL_W-UI,Proportion of population using unimproved drinking water sources,Proportion of the population using unimproved drinking water sources,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_H-B,Proportion of schools with basic hygiene services,Percentage of schools with handwashing facilities with water and soap available,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_H-L,Proportion of schools with limited hygiene services,Proportion of schools with handwashing facilities lacking soap and water at the time of the survey,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_H-N,Proportion of schools with no hygiene service,Proportion of schools without handwashing facilities,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_S-B,Proportion of schools with basic sanitation services,"Percentage of schools with improved sanitation facilities, which are single-sex and usable",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_S-L,Proportion of schools with limited sanitation services,Proportion of schools with improved sanitation facilities which are not useable and/or single-sex,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_S-N,Proportion of schools with no sanitation service,Proportion of schools without improved sanitation facilities,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_W-B,Proportion of schools with basic drinking water services,Percentage of schools with drinking water from an improved source available at the time of the survey,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_W-L,Proportion of schools with limited drinking water services,"Proportion of schools with an improved source of drinking water, without water at the time of the survey",WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_W-N,Proportion of schools with no drinking water service,Proportion of schools without an improved source,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WT,Transition to work,Transition to work,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WT_ADLS_10-17_LBR_ECON,Child labour thresholds (economic activity),,WT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WT_ADLS_10-17_LBR_HC,Child labour thresholds (household chores),,WT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WT_ADLS_10-17_TIME_ECON,Time spent in economic activities,,WT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WT_ADLS_10-17_TIME_HC,Time spent in household chores,,WT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WT_ADLS_15-19_ED_NEET,"Percentage of adolescents (aged 15-19 years) not in education, employment or training","Percentage of adolescents (aged 15-19 years) not in education, employment or training",WT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WT_ADLS_15-19_LAB_FRC_UNEMP,Percentage of adolescents (aged 15-19 years) in the labour force who are unemployed,Percentage of adolescents (aged 15-19 years) in the labour force who are unemployed,WT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_H-F,Proportion of schools with handwashing facilities,,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_S-I,Proportion of schools with improved sanitation facilities,,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+WS_SCH_W-I,Proportion of schools with improved drinking water sources,,WS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_IPV2,Percentage of surviving infants who received the second dose of inactivated polio-containing vaccine,,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_MENGA,Percentage of surviving infants who received Meningococcal A conjugate vaccine,,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_LHIV,Estimated number of children living with HIV,,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_DTH_ANN,Estimated number of annual AIDS-related deaths,,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HVA_EPI_INF_ANN,Estimated number of new HIV infections,,HIV_AIDS,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_CHILD_PROP,Children population as proportion of total population (%),,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_PS-SX_V_PTNR_12MNTH,Percentage of ever-partnered girls aged 15 to 19 years who have experienced physical and/or sexual violence by a current or former intimate partner in the last 12 months,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS_HEALTH_BOTTOM20,"Pro-poor public social spending, health - Bottom quintile (%)",,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS_EDU_BOTTOM20,"Pro-poor public social spending, education - Bottom quintile (%)",,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS_DIRECT_TRANSFER_BOTTOM20,"Pro-poor public social spending, direct transfers - Bottom quintile (%)",,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PV_PRO_PSS_BOTTOM20,Pro-poor public public social spending - Bottom quintile,,PV,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+TRGT_2030_ECD_CHLD_LMPSL,"Proportion of children aged 24-59 months of age who are developmentally on track in health, learning and psychosocial well-being, by sex",,TRGT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_FG_0_T_2,Severe food poverty,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_CF_FG_3_T_4,Moderate food poverty,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_DANT_BMI_L18_MOD,"Prevalence of underweight among adults, BMI < 18.5 (Crude estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_SANT_5_19_BAZ_NE2_MOD,"Percentage of thinness among children aged 5-19 years, BMI < -2 standard deviations below the median (crude estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_SANT_5_19_BAZ_PO1_MOD,"Percentage of overweight among children aged 5-19 years, BMI > +1 standard deviations above the median (crude estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_ANE_WOM_15_49_MOD,Prevalence of anaemia in women aged 15-49 (Modeled Estimates),,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_LMPSL,"Proportion of children aged 24-59 months of age who are developmentally on track in health, learning and psychosocial well-being, by sex",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_CR_L1_UIS_MOD,Completion rate for children of primary school age (Modeled),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_CR_L2_UIS_MOD,Completion rate for adolescents of lower secondary school age (Modeled),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_CR_L3_UIS_MOD,Completion rate for youth of upper secondary education school age (Modeled),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_FLS_NUM,Foundational Numeracy Skills,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_FLS_READ,Foundational Reading Skills,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L3_UIS,Out-of-school rate for youth of upper secondary school age (Modeled),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_SE_LPV_PRIM,Learning Poverty Rate,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L1_UIS,Out-of-school rate for children of primary school age (Modeled),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L2_UIS,Out-of-school rate for adolescents of lower secondary school age (Modeled),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ANAR_L01,"Net enrolment rate, early childhood education",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_SE_LPV_PRIM_LD,Learning Deprivation,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_SE_LPV_PRIM_SD,Schooling Deprivation,,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_PRYA_AG15T24,"Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, 15-24 years old (%)",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L02,Out-of-school rate for children one year before the official primary entry age (%),,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L1_UIS_MOD,"Out-of-school rate for children of primary school age (%), (modelled data)",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L2_UIS_MOD,"Out-of-school rate for adolescents of lower secondary school age (%), (modelled data)",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_ROFST_L3_UIS_MOD,"Out-of-school rate for youth of upper secondary school age (%), (modelled data)",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_CHLD_1-14_PS-PSY-V_CGVR_TND,"Percentage of children (aged 1-14 years) who experienced any physical punishment and/or psychological aggression by caregivers (UNICEF analysis, trend)",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_BRTS_SURVIVING_1,Live Births Surviving to Age 1,,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-49_FGM_TND,"Percentage of girls and women (aged 15-49 years) who have undergone female genital mutilation (FGM) (UNICEF analysis, trend)",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_BW_WEI,Children with a birth weight,,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_DANT_BMI_G25_MOD,"Prevalence of overweight among adults, BMI ≥ 25 (Crude estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_DANT_BMI_G30_MOD_ADJ,"Prevalence of obesity among adults, BMI ≥ 30 (Age-standardized estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+NT_SANT_5_19_BAZ_PO2_MOD,"Prevalence of obesity among children aged 5-19 years, BMI > +2 standard deviations above the median (Crude estimate)",,NUTRITION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_LMPSL_PRXY,"Percentage of children aged 36-59 months who are developmentally on track in at least three of the following four domains: literacy-numeracy, physical, social-emotional and learning",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_CSEC_TND,C-section rate - percentage of deliveries by cesarean section (trends),,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MNCH_INSTDEL_TND,Institutional deliveries - percentage of deliveries in a health facility (trends),,MNCH,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-19_FGM_TND,Trend in FGM prevalence among girls aged 15-19,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_PS_URBN,Population by urban-rural national definitions,,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_DOU,Percentage of population by degree of urbanization at mid-year,,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_PS_DOU,Population by degree of urbanization at mid-year,,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_POP_DOU_GRT,Annual rate of change of the population by degree of urbanization,,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DM_BU_PC_DOU,Built-up area per capita by degree of urbanization (m2),,DM,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD,Hazard,,,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_READ_GRD_WTD,"Reading, by grade, weighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_READ_GRD_UWTD,"Reading, by grade, unweighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_NUM_GRD_WTD,"Numeracy, by grade, weighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_NUM_GRD_UWTD,"Numeracy, by grade, unweighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_READ_GRD_BND_WTD,"Reading, by grade band, weighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_READ_GRD_BND_UWTD,"Reading, by grade band, unweighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_NUM_GRD_BND_WTD,"Numeracy, by grade band, weighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ED_LG_NUM_GRD_BND_UWTD,"Numeracy, by grade band, unweighted",,EDUCATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_45-49_MRD_U15,Percentage of women (aged 45-49 years) married or in union before age 15,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_45-49_MRD_U18,Percentage of women (aged 45-49 years) married or in union before age 18,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+ECD_CHLD_LMPSL_MERGE,"[TEMP] Proportion of children aged 24-59 months of age who are developmentally on track in health, learning and psychosocial well-being, by sex",,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+MG_INTNL_ORIG_DEST,International migrant stock by destination and origin,,MG,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+PT_F_15-19_FGM_PRJ,Projections in FGM prevalence among girls aged 15-19,,PT,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_IPVC,IPV last dose,,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+IM_PCVC,PCV last dose,,IMMUNISATION,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_RIVER_FLOOD,Riverine flood hazard,Riverine (fluvial) flood hazard: inundation from the 100-year return-period river flood. Areas are flagged as hazardous where flood water depth exceeds 0.01 m.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_RIVER_FLOOD,Riverine flood exposed population,"Total and child population exposed to riverine flooding, living in areas affected by the 100-year river flood (flood depth > 0.01 m).",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_COASTAL_FLOOD,Coastal flood hazard,Coastal flood hazard: inundation from the 100-year return-period coastal flood. Areas are flagged as hazardous where flood water depth exceeds 0 m.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_COASTAL_FLOOD,Coastal flood exposed population,Total and child population exposed to coastal flooding living in areas affected by the 100-year coastal flood (flood depth > 0 m).,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_WIND_SPEED,Tropical cyclone wind hazard,Tropical cyclone wind hazard: mean wind speed (m/s) of the 100-year return-period storm. Areas are flagged as hazardous where wind speed exceeds 17.5 m/s.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_WIND_SPEED,Tropical cyclone wind exposed population,Total and child population exposed to tropical cyclone winds living in areas where the 100-year storm wind speed exceeds 17.5 m/s.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_AGRICULTURAL_STRESS,Agricultural drought hazard,"Agricultural drought hazard: Agricultural Stress Index (ASI) at the 100-year return level, expressed as the percentage of cropland affected by drought. Areas are flagged as hazardous where ASI exceeds 30%.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_AGRICULTURAL_STRESS,Agricultural drought exposed population,Total and child population exposed to agricultural drought: children living in areas where the 100-year Agricultural Stress Index exceeds 30%.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_HEATWAVE_FREQUENCY,Heatwave frequency hazard,Heatwave frequency hazard: number of heatwave events per year at the 100-year return level. Areas are flagged as hazardous where frequency exceeds ~16 events.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_HEATWAVE_FREQUENCY,Heatwave frequency exposed population,"Total and child population exposed to frequent heatwaves, living in areas where the 100-year heatwave frequency exceeds ~16 events per year.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_HEATWAVE_DURATION,Heatwave duration hazard,Heatwave duration hazard: length (days) of the longest heatwave per year at the 100-year return level. Areas are flagged as hazardous where duration exceeds ~94 days.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_HEATWAVE_DURATION,Heatwave duration exposed population,"Total and child population exposed to long heatwaves, living in areas where the 100-year heatwave duration exceeds ~94 days.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_HEATWAVE_SEVERITY,Heatwave severity hazard,Heatwave severity hazard: heatwave magnitude/intensity at the 100-year return level. Areas are flagged as hazardous where severity exceeds ~3.66 °C.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_HEATWAVE_SEVERITY,Heatwave severity exposed population,"Total and child population exposed to severe heatwaves, living in areas where the 100-year heatwave severity exceeds ~3.66 °C.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXTREME_HOT_DAYS,Extreme heat hazard,Extreme heat hazard: number of extreme hot days per year (temperature > 35°C) at the 100-year return level. Areas are flagged as hazardous where the count exceeds 35 days.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_EXTREME_HOT_DAYS,Extreme heat exposed population,"Total and child population exposed to extreme heat, living in areas where the 100-year count of extreme hot days exceeds 35 days per year.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_FIRE_INTENSITY,Wildfire intensity hazard,Wildfire intensity hazard: 90th-percentile fire radiative power (MW) from FIRMS satellite detections. Areas are flagged as hazardous where intensity exceeds ~37.9 MW.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_FIRE_INTENSITY,Wildfire intensity exposed population,Total and child population exposed to intense wildfires: children living in areas where the 90th-percentile fire radiative power exceeds ~37.9 MW.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_FIRE_FREQUENCY,Wildfire frequency hazard,Wildfire frequency hazard: 90th-percentile count of fire detections (FIRMS). Areas are flagged as hazardous where the detection count exceeds ~4.9 km?² · yr?¹ .,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_FIRE_FREQUENCY,Wildfire frequency exposed population,"Total and child population exposed to frequent wildfires, living in areas where the 90th-percentile fire detection count exceeds ~4.9 km?² · yr?¹ .",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_SDS_SUSCEPTIBILITY,Sand and dust storm hazard,Sand and dust storm hazard: annual susceptibility to sand and dust storms (index 0-1). Areas are flagged as hazardous where susceptibility exceeds 0.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_SDS_SUSCEPTIBILITY,Sand and dust storm exposed population,Child population exposed to sand and dust storms: children living in areas with annual sand-and-dust-storm susceptibility above 0.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_PM25,Air pollution (PM2.5) hazard,"Air pollution hazard: fine particulate matter (PM2.5) concentration (µg/m³), 90th percentile over 1998-2023. Areas are flagged as hazardous where PM2.5 exceeds 5 µg/m³ (WHO annual guideline).",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_PM25,Air pollution (PM2.5) exposed population,Total and child population exposed to PM2.5 air pollution: children living in areas where the 90th-percentile PM2.5 concentration exceeds 5 µg/m³ (WHO annual guideline).,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_MALARIA_VIVAX,Malaria hazard (Plasmodium vivax),"Malaria hazard (Plasmodium vivax): mean malaria incidence (cases per 1,000 people) over 2013–2022. Areas are flagged as hazardous where the value exceeds 0.001.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_MALARIA_VIVAX,Malaria exposed population (Plasmodium vivax),"Total and child population exposed to P. vivax malaria, living in areas where the mean malaria incidence (cases per 1,000 people) > 0.001.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_MALARIA_FALCIPARUM,Malaria hazard (Plasmodium falciparum),"Malaria hazard (Plasmodium falciparum): mean malaria incidence (cases per 1,000 people) over 2013–2022. Areas are flagged as hazardous where the value exceeds 0.001.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_MALARIA_FALCIPARUM,Malaria exposed population (Plasmodium falciparum),"Total and child population exposed to P. falciparum malaria: children living in areas where the 2013–2022 mean malaria incidence (cases per 1,000 people) exceeds 0.001.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EARTHQUAKE_0P09,Earthquake hazard (lower threshold),"Earthquake hazard (lower threshold): peak ground acceleration (PGA, g) with a 475-year return period on rock (v2023). Areas are flagged as hazardous where PGA exceeds 0.09 g.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_EARTHQUAKE_0P09,Earthquake exposed population (lower threshold),"Total and child population exposed to earthquakes (lower threshold), living in areas where the 475-year PGA exceeds 0.09 g.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EARTHQUAKE_0P34,Earthquake hazard (higher threshold),"Earthquake hazard (higher threshold): peak ground acceleration (PGA, g) with a 475-year return period on rock (v2023). Areas are flagged as hazardous where PGA exceeds 0.34 g.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_EARTHQUAKE_0P34,Earthquake exposed population (higher threshold),Total and child population exposed to strong earthquakes (higher threshold): children living in areas where the 475-year PGA exceeds 0.34 g.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_VOLCANOES_100KM_BUFFER,Holocene volcanic hazard,Volcanic hazard: proximity to Holocene volcanoes. Areas are flagged as hazardous when within a 100 km buffer of a volcano.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_VOLCANOES_100KM_BUFFER,Holocene volcanoes exposed population,Total and child population exposed to volcanic hazard living within 100 km of a Holocene volcano.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_LANDSLIDES_0P1,Landslide hazard (higher threshold),Landslide hazard (higher threshold): mean rainfall-triggered landslide susceptibility (1980-2018). Areas are flagged as hazardous where susceptibility exceeds 0.01.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_LANDSLIDES_0P1,Landslide exposed population (higher threshold),Total and child population exposed to landslides (higher threshold): children living in areas where landslide susceptibility exceeds 0.01.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_LANDSLIDES_0P01,Landslide hazard (lower threshold),Landslide hazard (lower threshold): mean rainfall-triggered landslide susceptibility (1980-2018). Areas are flagged as hazardous where susceptibility exceeds 0.01.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_LANDSLIDES_0P01,Landslide exposed population (lower threshold),Total and child population exposed to landslides (lower threshold): children living in areas where landslide susceptibility exceeds 0.01.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_METEOROLOGICAL_DROUGHT_SPI,Meteorological drought (SPI) hazard,"Meteorological drought hazard (SPI): frequency of drought based on the 12-month Standardized Precipitation Index (TerraClimate, 1958-2025). Areas are flagged as hazardous where the probability of SPI < -1.5 exceeds ~0.091.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_METEOROLOGICAL_DROUGHT_SPI,Meteorological drought (SPI) exposed population,Total and child population exposed to meteorological drought (SPI) living in areas where the probablity of  SPI < -1.5 exceeds ~0.091 for the 100-year return period.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_METEOROLOGICAL_DROUGHT_SPEI,Meteorological drought (SPEI) hazard,"Meteorological drought hazard (SPEI): frequency of drought based on the 12-month Standardized Precipitation-Evapotranspiration Index (TerraClimate, 1958-2025). Areas are flagged as hazardous where the value exceeds ~0.065.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_METEOROLOGICAL_DROUGHT_SPEI,Meteorological drought (SPEI) exposed population,Total and child population exposed to meteorological drought (SPEI) living in areas where the probability of SPEI < -1.5 exceeds ~0.065 for the 100-year return period.,HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_COMPLEX_EMERGENCIES_ACLED,Conflict / complex-emergencies hazard,"Conflict / complex-emergencies hazard: intensity of armed conflict and political violence from ACLED event data, gridded from event buffers. Areas are flagged as hazardous where conflict intensity is at or above 0 (conflict with no fatalities).",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_EXPOSURE_COMPLEX_EMERGENCIES_ACLED,Conflict / complex-emergencies exposed population,"Total and child population exposed to conflict / complex emergencies, living in areas affected by ACLED-recorded armed conflict and political violence.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+HAZARD_POPULATION,Total population (Worldpop 2025),"Total resident population used as the denominator/base for exposure, derived from WorldPop 2025 (constrained, 100 m). Broken down by sex (total/male/female) and by under-18 age group.",HAZARD,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_PTNTY_LV_AVL,"WBL: Legal Framework, Parenthood, There is paid leave available to fathers",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_SG_LGL_GENEQLFP,"Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_SG_LGL_GENEQMAR,"Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 4: marriage and family",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+GN_SG_LGL_GENEQVAW,"Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 2: violence against women",,GENDER,UNICEF/CME/1.0,CL_UNICEF_INDICATOR,1.0
+DEATHS,Deaths,,,UNICEF/CME_CAUSE_OF_DEATH/1.0,CL_CME_CAUSE_OF_DEATH_SER_TYPE,1.0
+FRACTION,Fraction,,,UNICEF/CME_CAUSE_OF_DEATH/1.0,CL_CME_CAUSE_OF_DEATH_SER_TYPE,1.0
+RATE,Rate,,,UNICEF/CME_CAUSE_OF_DEATH/1.0,CL_CME_CAUSE_OF_DEATH_SER_TYPE,1.0
+DM_WOM_REPROD_AGE,Women of reproductive age,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+MNCH_ARR_MMR,Annual reduction rate of maternal mortality rate,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_ENAP_YEAR_ACHIEVED,ENAP target year achieved,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_SBR_2030,SBR_2030,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_REL_OBS_REQ,Required annual rate of reduction,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_SBR_CURR_TRENDS,Stillbirth rate current trends,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_ENAP_TARGET_MET,ENAP target met stillbirth rate,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_PRJ_CURR_TREND_TOT_SB,Stillbirth maintained projection,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_PRJ_ENAP_MET_TOT_SB,Stillbirth ENAP 2030 target met projection,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_PRJ_HIC_AVG_TOT_SB,Stillbirth high-income country average rate matched projection,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_DATA_QUALITY,Data source quality,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_ANTEPARTUM,Antepartum stillbirths,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_INTRAPARTUM,Intrapartum stillbirths,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_PRJ_CONST_SB,Stillbirths remain constant projection,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_CONST_SB,Constant stillbirth,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_CONST_SBR,Constant stillbirth rate,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_ENAP_TARGET_MET_SB,ENAP target met stillbirth,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_HIC_SB,Stillbirth high-income country,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_HIC_SBR,Stillbirth rate high-income country,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_PRJ_CONST_SB_TOT_SB,Constant stillbirth total sb,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_SB_CURR_TRENDS,Stillbirth current trends,,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRM0_CONSTANT_CM,Neonatal mortality rate - Remains constant (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRM0_CURRENT_CM,Neonatal mortality rate - Current trends maintained (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRM0_HICMET_CM,Neonatal mortality rate - High-income country average rate matched (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRM0_IGME_CM,Neonatal mortality rate - UN IGME estimates (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRM0_TARGETMET_CM,Neonatal mortality rate - SDG target met (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY0T4_CONSTANT_CM,Under 5 mortality rate - Remains constant (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY0T4_CURRENT_CM,Under 5 mortality rate - Current trends maintained (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY0T4_HICMET_CM,Under 5 mortality rate - High-income country average rate matched (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY0T4_IGME_CM,Under 5 mortality rate - UN IGME estimates (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY0T4_TARGETMET_CM,Under 5 mortality rate - SDG target met (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY10T19_CONSTANT_CM,Mortality rate age 10-19 - Remains constant (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY10T19_CURRENT_CM,Mortality rate age 10-19 - Current trends maintained (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY10T19_HICMET_CM,Mortality rate age 10-19 - High-income country average rate matched (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_MRY10T19_IGME_CM,Mortality rate age 10-19 - UN IGME estimates (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMM0_CONSTANT_CM,Neonatal deaths - Remains constant (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMM0_CURRENT_CM,Neonatal deaths - Current trends maintained (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMM0_HICMET_CM,Neonatal deaths - High-income country average rate matched (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMM0_IGME_CM,Neonatal deaths - UN IGME estimates (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMM0_TARGETMET_CM,Neonatal deaths - SDG target met (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY0T4_CONSTANT_CM,Under-five deaths - Remains constant (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY0T4_CURRENT_CM,Under-five deaths - Current trends maintained (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY0T4_HICMET_CM,Under-five deaths - High-income country average rate matched (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY0T4_IGME_CM,Under-five deaths - UN IGME estimates (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY0T4_TARGETMET_CM,Under-five deaths - SDG target met (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY10T19_CONSTANT_CM,Deaths age 10 to 19 - Remains constant (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY10T19_CURRENT_CM,Deaths age 10 to 19 - Current trends maintained (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY10T19_HICMET_CM,Deaths age 10 to 19 - High-income country average rate matched (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+CME_TMY10T19_IGME_CM,Deaths age 10 to 19 - UN IGME estimates (projection),,,UNICEF/CME_COUNTRY_PROFILES_DATA/1.0,CL_CME_COUNTRY_PROFILES_INDICATORS,1.0
+MRY0T4,Under-five mortality rate,"Under-five mortality rate (U5MR): the probability of dying between birth and exact age 5, expressed per 1,000 live births",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY0,Infant mortality rate,"Infant mortality rate (IMR): the probability of dying between birth and exact age 1, expressed per 1,000 live births",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRM0,Neonatal mortality rate,"Neonatal mortality rate (NMR): the probability of dying within the first 28 days of life, expressed per 1,000 live births",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRM1T59,Mortality rate 1-59 months,"The probability of dying between exact age of 1 month and exact age of 60 months, expressed per 1,000 children aged 1 one month",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRM1T11,Mortality rate age 1-11 months,"The probability of dying between exact age of 1 month and exact age of 12 months, expressed per 1,000 children aged 1 month",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY1T4,Child Mortality rate age 1-4,"Child mortality rate (CMR): the probability of dying between exact age 1 and exact age 5, expressed per 1,000 children aged 1 year",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+SBR,Stillbirth rate,"Stillbirth rate (SBR) is defined as the number of babies born with no sign of life at 28 weeks or more of gestation per 1,000 total births.",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY0T4,Under-five deaths,Number of under-five deaths,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY0,Infant deaths,Number of infant deaths,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMM0,Neonatal deaths,Number of neonatal deaths,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMM1T59,Deaths age 1-59 months,Number of deaths aged 1 to 59 months,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMM1T11,Deaths age 1-11 months,,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY1T4,Child deaths age 1 to 4,Number of deaths aged 1 to 4 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+SB,Stillbirths,Number of stillbirths,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY5T14,Mortality rate age 5-14,"Mortality rate age 5 to 14 (10q5): the probability of dying between exact age 5 and exact age 15, expressed per 1,000 children aged 5",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY5T9,Mortality rate age 5-9,"Mortality rate age 5 to 9 (5q5): the probability of dying between exact age 5 and exact age 10, expressed per 1,000 children aged 5",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY10T14,Mortality rate age 10-14,"Mortality rate age 10-14 (5q10): the probability of dying between exact age 10 and exact age 15, expressed per 1,000 children aged 10",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY15T24,Mortality rate age 15-24,"Mortality rate age 15-24 (10q15): the probability of dying between exact age 5 and exact age 25, expressed per 1,000 youths aged 15",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY15T19,Mortality rate age 15-19,"Mortality rate age 15-19 (5q15): the probability of dying between exact age 15 and exact age 20, expressed per 1,000 youths aged 15",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY20T24,Mortality rate age 20-24,"Mortality rate age 20-24 (5q20): the probability of dying between exact age 20 and exact age 25, expressed per 1,000 youths aged 20",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY5T24,Mortality rate age 5-24,"Mortality rate age 5-24 (20q5): the probability of dying between exact age 5 and exact age 25, expressed per 1,000 children aged 5",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+MRY10T19,Mortality rate age 10-19,"Mortality rate age 10-19 (10q10): the probability of dying between exact age 10 and exact age 20, expressed per 1,000 children aged 10",,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY5T14,Deaths age 5 to 14,Number of deaths aged 5 to 14 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY5T9,Deaths age 5 to 9,Number of deaths aged 5 to 9 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY10T14,Deaths age 10 to 14,Number of deaths aged 10 to 14 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY15T24,Deaths age 15 to 24,Number of deaths aged 15 to 24 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY15T19,Deaths age 15 to 19,Number of deaths aged 15 to 19 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY20T24,Deaths age 20 to 24,Number of deaths aged 20 to 24 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY5T24,Deaths age 5 to 24,Number of deaths aged 5 to 24 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+TMY10T19,Deaths age 10 to 19,Number of deaths aged 10 to 19 years,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+PR_MRY0T4,Progress towards SDG in under-five mortality rate,Progress towards SDG in under-five mortality rate,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+PR_MRM0,Progress towards SDG in neonatal mortality rate,Progress towards SDG in Neonatal Mortality Rate,,UNICEF/CME_DF_2021_WQ/1.0,CL_INDICATOR_CME,1.0
+CCRI_WATER_SCARCITY,Water scarcity,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_FLOODS_RIVERINE,Riverine floods,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_FLOODS_COASTAL,Coastal floods,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_TROPICAL_CYCLONES,Tropical cyclones,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_MALARIA,Malaria,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_ZIKA,Zika,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_DENGUE,Dengue,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_AEDES,Aedes,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_VECTOR_BORNE_DISEASE,Vector borne diseases,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_HEATWAVES,Heatwaves,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_POLLUTION_AIR,Air pollution,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_POLLUTION_LEAD,Lead pollution,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_POLLUTION_PESTICIDE,Pesticide pollution,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_POLLUTION_SOIL_WATER,Soil and water pollution,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_CLIMATE_ENV_SHOCKS,Climate and environmental shocks,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_CHLD_HEALTH,Child health,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_CHLD_NUTRITION,Child nutrition,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_MAT_HEALTH,Maternal health,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_CHLD_HEALTH_NUTRITION,Child health and nutrition,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_EDUCATION,Education,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_WASH,"Water, sanitation, and hygiene",,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_POV_INEQUITY,Poverty and Inequality,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_COMM_ASSETS,Communication assets,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_SOC_PROT_ECON_EMPOW,Social protection and economic empowerment,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_POV_COMM_ASSETS_SOC_PROT,"Poverty, communication assets, and social protection",,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_CHLD_VULNERABILITY,Child vulnerability,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0
+CCRI_CHLD_CLIMATE_ENV_RISK_INDEX,Children's Climate and Environment Risk Index,,,UNICEF/CCRI/1.0,CL_CCRI_INDICATORS,1.0

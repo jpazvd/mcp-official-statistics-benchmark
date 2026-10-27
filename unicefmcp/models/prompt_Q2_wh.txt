@@ -1,0 +1,12 @@
+Answer one data question using a single MCP server, as an analyst would.
+
+Question: What was the maternal mortality ratio in Nigeria in each year from 2000 to 2025?
+
+Rules:
+- Use only the UNICEF SDMX data warehouse MCP server (Unicef_MCP_Yves). Its tools are named mcp__Unicef_MCP_Yves__<tool name>. They are deferred: find and load the ones you need with ToolSearch (for example the query "+Unicef_MCP_Yves"). If the server asks you to read its instructions or resources first, do so.
+- Do not use any other MCP server, web search, web fetch, files, shell commands or your own knowledge for the data or the metadata.
+- Stop when you have the answer, or when you are confident this server does not have it.
+
+Reply with ONLY one JSON object and no other text, with these keys:
+{"found": true or false, "server_indicator_id": string or null, "series_label": string or null, "values": {"YYYY": number, ...} or null, "unit": string or null, "unit_multiplier": string or null, "source_or_custodian": string or null, "release_or_vintage": string or null, "uncertainty": {"YYYY": [lower, upper], ...} or null, "status_or_notes": string or null, "definition": string or null, "licence": string or null, "citation": string or null, "query_or_url": string or null}
+Use null for anything the server's responses did not give you. Never fill a field from your own knowledge.

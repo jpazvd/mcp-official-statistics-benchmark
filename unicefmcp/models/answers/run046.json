@@ -1,0 +1,25 @@
+{
+ "found": true,
+ "server_indicator_id": "MNCH_ANC4",
+ "series_label": "Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider (Nigeria, total: all wealth quintiles, residence, mother's education)",
+ "values": {
+  "2003": 47.4,
+  "2008": 44.8,
+  "2011": 56.6,
+  "2013": 51.1,
+  "2017": 49.1,
+  "2018": 56.8,
+  "2021": 60.4,
+  "2024": 52.4
+ },
+ "unit": "%",
+ "unit_multiplier": "Units",
+ "source_or_custodian": "UNICEF (dataflow UNICEF/MNCH/1.0). Data sources by year: DHS 2003, DHS 2008, MICS 2011, DHS 2013, MICS 2016-2017, DHS 2018, MICS 2021, DHS 2023-2024",
+ "release_or_vintage": null,
+ "uncertainty": null,
+ "status_or_notes": "Observation status: Reported for all values. Survey years only; no data for the other years in 2000-2025. Each value is placed at the end of fieldwork. The 2024 value (DHS 2023-2024) carries the footnote 'CRAVE 2024'.",
+ "definition": "Antenatal care 4+ visits - percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider",
+ "licence": null,
+ "citation": null,
+ "query_or_url": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,MNCH,1.0/NGA.MNCH_ANC4.......?startPeriod=2000&endPeriod=2025&format=csv&labels=name"
+}

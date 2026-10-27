@@ -1,0 +1,15 @@
+R1 & Reproducible query & the canonical request that returns the same data & SDMX REST query \\
+R2 & Retrieval stamp & server name and version; retrieval time (UTC) & MCP serverInfo; ISO 8601 \\
+R3 & Completeness statement & every default or filter applied; whether truncated & warehouse MCP appliedDefaults \\
+S1 & Identifiers & custodian code unchanged, server id, SDG series code & SDMX INDICATOR; SDG SERIES \\
+S2 & Name and definition & name, short definition, link to methodology & SDMX codelists; SDG metadata \\
+S3 & Unit & unit code and label, unit multiplier & SDMX UNIT\_MEASURE, UNIT\_MULT \\
+S4 & Breakdown & every dimension coded, explicit totals & SDMX dimensions, \_T totals \\
+S5 & Custodian and provenance chain & estimating agency and each republisher & SDG custodian role; CCSA principle 4 \\
+S6 & Release and currency & release, date, ingest date, current or replaced & SDMX dataflow version \\
+S7 & Licence and citation & licence and recommended citation & FAIR R1.1 \\
+O1 & Source & survey round, administrative system or model & SDMX DATA\_SOURCE; SDG SOURCE\_DETAIL \\
+O2 & Reference period$^{*}$ & the period the value refers to, if different & SDG TIME\_DETAIL; COVERAGE\_TIME \\
+O3 & Nature and status & reported, adjusted, modelled, projected; provisional & SDMX OBS\_STATUS; SDG NATURE \\
+O4 & Uncertainty$^{*}$ & lower and upper bounds, interval type and level & LOWER\_BOUND, UPPER\_BOUND \\
+O5 & Footnote$^{*}$ & the custodian's note, verbatim & SDG COMMENT\_OBS; OBS\_FOOTNOTE \\

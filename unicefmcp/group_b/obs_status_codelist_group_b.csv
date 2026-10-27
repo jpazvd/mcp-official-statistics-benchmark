@@ -1,0 +1,39 @@
+id,name,codelist_version,source_flow
+A,Normal value,1.0,UNICEF/MNCH/1.0
+B,Time series break,1.0,UNICEF/MNCH/1.0
+D,Definition differs,1.0,UNICEF/MNCH/1.0
+E,Estimated value,1.0,UNICEF/MNCH/1.0
+F,Forecast value,1.0,UNICEF/MNCH/1.0
+G,Experimental value,1.0,UNICEF/MNCH/1.0
+H,Missing value; holiday or weekend,1.0,UNICEF/MNCH/1.0
+I,Imputed value (CCSA definition),1.0,UNICEF/MNCH/1.0
+J,Derogation,1.0,UNICEF/MNCH/1.0
+K,Data included in another category,1.0,UNICEF/MNCH/1.0
+L,Missing value; data exist but were not collected,1.0,UNICEF/MNCH/1.0
+M,Missing value; data cannot exist,1.0,UNICEF/MNCH/1.0
+N,Not significant,1.0,UNICEF/MNCH/1.0
+O,Missing value,1.0,UNICEF/MNCH/1.0
+P,Provisional value,1.0,UNICEF/MNCH/1.0
+Q,Missing value; suppressed,1.0,UNICEF/MNCH/1.0
+S,Strike and other special events,1.0,UNICEF/MNCH/1.0
+U,Low reliability,1.0,UNICEF/MNCH/1.0
+V,Unvalidated value,1.0,UNICEF/MNCH/1.0
+W,Includes data from another category,1.0,UNICEF/MNCH/1.0
+RA,Reanalysed,1.0,UNICEF/MNCH/1.0
+RP,Reported,1.0,UNICEF/MNCH/1.0
+AD,Adjusted,1.0,UNICEF/MNCH/1.0
+MD,Modelled,1.0,UNICEF/MNCH/1.0
+ER,External Reanalysis,1.0,UNICEF/MNCH/1.0
+LT,Observation value is less than,1.0,UNICEF/MNCH/1.0
+PR,Projection,1.0,UNICEF/MNCH/1.0
+BE,Time series break; estimated value,1.0,UNICEF/MNCH/1.0
+BU,Time series break; low reliability,1.0,UNICEF/MNCH/1.0
+PU,Provisional value; low reliability,1.0,UNICEF/MNCH/1.0
+PA,Partial value,1.0,UNICEF/MNCH/1.0
+DP,Definition differs; provisional value,1.0,UNICEF/MNCH/1.0
+DE,Definition differs; estimated value,1.0,UNICEF/MNCH/1.0
+BP,Time series break; provisional value,1.0,UNICEF/MNCH/1.0
+EP,Estimated value; provisional value,1.0,UNICEF/MNCH/1.0
+EXCL,Excluded,1.0,UNICEF/MNCH/1.0
+BEP,Time series break; estimated value; provisional value,1.0,UNICEF/MNCH/1.0
+PRED,Predicted,1.0,UNICEF/MNCH/1.0

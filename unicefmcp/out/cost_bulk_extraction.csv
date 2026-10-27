@@ -1,0 +1,16 @@
+platform,task,subagent_tokens,tool_calls,observations_retrieved,tokens_per_call,tokens_per_observation
+UN System Data Commons,round 1 crosswalk values A,246866,130,705,1899.0,350.0
+UN System Data Commons,round 1 crosswalk values B,273291,179,645,1527.0,424.0
+UN System Data Commons,round 2 universe values 1,272209,256,1088,1063.0,250.0
+UN System Data Commons,round 2 universe values 2,283423,255,1443,1111.0,196.0
+UN System Data Commons,round 2 universe values 3,254995,170,1066,1500.0,239.0
+UN System Data Commons,round 2 remaining codes 1,267646,215,1272,1245.0,210.0
+UN System Data Commons,round 2 remaining codes 2,303349,199,1306,1524.0,232.0
+UN System Data Commons,round 2 remaining codes 3,272801,186,598,1467.0,456.0
+World Bank Data360,round 1 crosswalk values (+32 metadata calls),481381,126,1000,3820.0,481.0
+World Bank Data360,round 2 universe values 1 (+59 metadata),720579,167,2491,4315.0,289.0
+World Bank Data360,round 2 universe values 2 (+58 metadata),299510,267,2216,1122.0,135.0
+IHME GBD,round 1 crosswalk values,471322,115,2112,4098.0,223.0
+UNICEF SDMX MCP,"round 3 catalogue + series, flow group A (14 flows)",612112,145,41130,4221.0,15.0
+UNICEF SDMX MCP,round 3 flow group B (14 flows),634121,160,23723,3963.0,27.0
+UNICEF SDMX MCP,round 3 flow group C (13 flows),552146,134,19589,4120.0,28.0

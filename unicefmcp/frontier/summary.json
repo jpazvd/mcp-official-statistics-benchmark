@@ -1,0 +1,89 @@
+{
+ "questions": 58,
+ "questions_d360": 24,
+ "series": 34,
+ "calls_executed": 359,
+ "calls_used": 325,
+ "answered_both": 51,
+ "wh_share_min": 46.2,
+ "wh_share_max": 70.0,
+ "un_share_max": 20.8,
+ "wb_share_min": 20.0,
+ "wb_share_max": 29.2,
+ "wh_beats_un_on_standard": 51,
+ "un_cheaper": 43,
+ "median_chars": {
+  "warehouse": 13440.0,
+  "undc": 8857.5,
+  "d360": 4233.0
+ },
+ "median_share": {
+  "warehouse": 54.2,
+  "undc": 19.2,
+  "d360": 25.0
+ },
+ "discovery_share": {
+  "warehouse": 67.4,
+  "undc": 94.5,
+  "d360": 27.5
+ },
+ "structure_share": {
+  "warehouse": 10.2,
+  "undc": 0.0,
+  "d360": 0.0
+ },
+ "data_share": {
+  "warehouse": 22.4,
+  "undc": 5.5,
+  "d360": 72.5
+ },
+ "median_data_call": {
+  "warehouse": 1881.0,
+  "undc": 627.0,
+  "d360": 2932.0
+ },
+ "median_search_wh": 9627.5,
+ "d360_found": 4,
+ "d360_series": 14,
+ "answered_by_country": {
+  "warehouse": {
+   "NGA": 34,
+   "BRA": 10,
+   "SOM": 7
+  },
+  "undc": {
+   "NGA": 34,
+   "BRA": 10,
+   "SOM": 7
+  },
+  "d360": {
+   "NGA": 14,
+   "BRA": 5,
+   "SOM": 3
+  }
+ },
+ "questions_by_country": {
+  "NGA": 34,
+  "BRA": 12,
+  "SOM": 12
+ },
+ "nodata_median_chars": {
+  "warehouse": 12555.0,
+  "undc": 579.0
+ },
+ "rank_corr_variants": {
+  "undc": 0.36,
+  "warehouse": 0.6
+ },
+ "un_agree_full": 41,
+ "un_answered_common": 51,
+ "un_latest_same": 37,
+ "un_latest_earlier": 11,
+ "un_latest_later": 3,
+ "wb_agree_full": 12,
+ "wb_common": 19,
+ "wb_latest_same": 14,
+ "wb_latest_earlier": 6,
+ "wb_latest_n": 22,
+ "un_max_chars": 127929.0
+}
