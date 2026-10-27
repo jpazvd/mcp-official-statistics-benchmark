@@ -67,5 +67,42 @@
  "wh_get_time_series_calls": 54,
  "wh_query_data_calls": 17,
  "oversized": 1,
- "oversized_chars": 1301330
+ "oversized_chars": 1301330,
+ "effort_within_cell": {
+  "opus_tokens_sent": {
+   "high_gt_low": 12,
+   "n": 12,
+   "p": 0.00048828125,
+   "median_ratio": 1.331
+  },
+  "sonnet_tokens_sent": {
+   "high_gt_low": 12,
+   "n": 12,
+   "p": 0.00048828125,
+   "median_ratio": 1.056
+  },
+  "repeat_tokens_sent": {
+   "median_abs_change": 0.023,
+   "max_abs_change": 0.22
+  },
+  "opus_tokens_received": {
+   "high_gt_low": 12,
+   "n": 12,
+   "p": 0.00048828125,
+   "median_ratio": 1.375
+  },
+  "sonnet_tokens_received": {
+   "high_gt_low": 12,
+   "n": 12,
+   "p": 0.00048828125,
+   "median_ratio": 1.212
+  },
+  "repeat_tokens_received": {
+   "median_abs_change": 0.044,
+   "max_abs_change": 0.185
+  }
+ },
+ "error_bound_sessions_95": 0.0307,
+ "error_bound_values_95": 0.00153,
+ "sessions_with_wrong_value": 0
 }

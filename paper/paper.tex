@@ -45,7 +45,7 @@ We find four things.
 \item \textbf{The tool definitions a server loads cost more than its data.} In agentic use they are re-sent with every request and add \defMin{},000--\defMax{},000 tokens per question on average; all data responses and reasoning together add \respMin{},000--\respMax{},000.
 \end{itemize}
 
-Section~\ref{sec:motivation} motivates the problem. Section~\ref{sec:method} sets out the standard, the scoring and the cost measures. Section~\ref{sec:data} describes the servers, samples and data recorded. Section~\ref{sec:results} presents results, Section~\ref{sec:policy} draws policy implications and Section~\ref{sec:final} concludes with limitations.
+Section~\ref{sec:motivation} motivates the problem. Section~\ref{sec:method} sets out the standard, the scoring and the cost measures, and Section~\ref{sec:design} the design of the experiment. Section~\ref{sec:data} describes the servers, samples and data recorded. Section~\ref{sec:results} presents results, Section~\ref{sec:policy} draws policy implications and Section~\ref{sec:final} concludes with limitations.
 
 % ======================================================================
 \section{Motivation}\label{sec:motivation}
@@ -87,15 +87,92 @@ Cost is measured in characters of every MCP response, counted exactly from the a
 \subsection{Frontier, accuracy and grounding}
 A way of answering is on the \emph{efficiency frontier} if no other way delivers at least the same share of the standard for fewer characters. A value is \emph{correct} if it is within the larger of 0.5\% relative error and the rounding unit of the value reported (0.51 for integers, 0.051 otherwise) of the warehouse value for that year. A number is \emph{grounded} if it appears in the server's responses in that session, verbatim or rounded to the precision reported.
 
-\subsection{Three benchmark designs}
+% ======================================================================
+\section{Design of the experiment}\label{sec:design}
+
+The study is a set of controlled measurements, not a causal evaluation of any intervention. It asks four questions. Three designs answer them, and each design holds fixed what the others vary (Table~\ref{tab:designs}).
+\begin{enumerate}[label=\textbf{Q\arabic*}]
+\item Do the servers differ in the share of the standard they deliver, and is the ranking stable across sectors and countries?
+\item Does delivering the standard make an answer materially more expensive?
+\item What drives the cost of an answer: finding the series, its structure, or the data and metadata?
+\item Do the model and its effort level change the cost or the accuracy of an answer on a given server?
+\end{enumerate}
+
 \begin{table}[htbp]\centering\small
 \caption{Benchmark designs}\label{tab:designs}
-\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{2.4cm}LL@{}}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{2.2cm}LL>{\raggedright\arraybackslash}p{1.1cm}@{}}
 \toprule
-Design & Questions & Who chooses the calls & Measures & Purpose \\ \midrule
-Pilot & 2 series, Nigeria; \pilotPaths{} paths & analyst, scripted & characters, share & build and calibrate the scoring; first frontier \\
-Sector and country & \nSeries{} series $\times$ up to 3 countries; \nAnswers{} answers & fixed path per server, pre-registered & characters by component, share, discovery, agreement & test whether the pilot generalises \\
-Model and effort & 4 series, Nigeria $\times$ 3 servers $\times$ 8 runs; \sessions{} sessions & the agent & tokens sent and received, calls, accuracy, grounding, stability & separate the server from the model \\
+Design & Questions & Who chooses the calls & Measures & Purpose & Answers \\ \midrule
+Pilot & 2 series, Nigeria; \pilotPaths{} paths & analyst, scripted & characters, share & build and calibrate the scoring; first frontier & Q1--Q3 \\
+Sector and country & \nSeries{} series $\times$ up to 3 countries; \nAnswers{} answers & fixed path per server, pre-registered & characters by component, share, discovery, agreement & test whether the pilot generalises & Q1--Q3 \\
+Model and effort & 4 series, Nigeria $\times$ 3 servers $\times$ 8 runs; \sessions{} sessions & the agent & tokens sent and received, calls, accuracy, grounding, stability & separate the server from the model & Q4 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Units, factors and assignment}
+The unit of analysis is one \emph{answer}: one question (a series, a country and the window 2000--2025) answered on one server. In the agentic design it is one \emph{session}: one agent, one question, one server. Table~\ref{tab:factors} lists the factors and how their levels were assigned.
+
+\begin{table}[htbp]\centering\small
+\caption{Factors, levels and assignment}\label{tab:factors}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}p{4.3cm}L@{}}
+\toprule
+Factor & Levels & How assigned \\ \midrule
+Server & UNICEF SDMX warehouse, UN DC, Data360 & crossed with every question, so each question is answered on every server that holds it (paired comparison) \\
+Series & \nSeries{} (sector design); 4 (agentic design) & sector design: one code drawn at random in each of 34 strata (17 UN DC sectors $\times$ lower and upper half of breakdown richness), seed 20261027; agentic design: purposive, the series all three servers hold with agreeing values \\
+Country & Nigeria; Brazil and Somalia & Nigeria for every series; Brazil and Somalia for 12 series drawn at random \\
+Answer path & one per server; or the agent's own & sector design: fixed in advance (search with the custodian's name, one prescribed retry, structure call, data call); agentic design: chosen by the agent \\
+Model & Claude Haiku 5.5, Sonnet 5.5, Opus 5.5 & crossed with every question and server \\
+Effort & low, medium, high (Haiku: medium only) & crossed with Sonnet and Opus \\
+Repeat & Opus at medium effort, twice & the whole 12-session block run again \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Controls}
+Each control removes one alternative explanation for a difference between servers or settings.
+\begin{itemize}
+\item \textbf{Paired comparisons.} Every server answers the same questions, so differences in a series' difficulty, breakdowns or coverage cancel within a question.
+\item \textbf{Same window everywhere.} All requests cover 2000--2025. Data360's pilot calls, first made for longer windows, were re-run on that window; both runs are kept and the first is flagged.
+\item \textbf{Fixed discovery queries.} In the sector design, the search term is the custodian's indicator name, with one prescribed retry, so no server benefits from a query tuned to it.
+\item \textbf{Oracle fallback.} The data call always uses the target identifier, even when discovery fails. Retrieval cost is therefore measured on every question, and discovery failure is recorded separately rather than confounding it.
+\item \textbf{Isolation of the agent.} In the agentic design, each session uses one server, with no web search, files or prior knowledge, the same prompt, and a fixed answer form that asks for null where the server gave nothing. What an agent reports can then only come from the server.
+\item \textbf{A matched panel.} The four agentic series agree across the three servers, so differences in accuracy cannot come from the data themselves.
+\item \textbf{Exact measurement.} Characters are counted from the transcripts and tokens taken from the usage the API reported, never from what an agent says it did. Every call is counted, failures included.
+\item \textbf{Scoring fixed before use.} The automated scoring rules were validated against all ten hand-scored pilot paths before the sector benchmark was scored.
+\item \textbf{Pre-registration.} The sector design's question, sample, paths and measures were written into a protocol before the first call. The agentic design's panel, prompt and settings were fixed before its first session, but its hypotheses were not registered.
+\end{itemize}
+
+\subsection{Outcomes}
+The primary outcomes are the share of the standard delivered (Q1, Q2), characters per answer (Q2, Q3), tokens sent and received per question (Q4) and the accuracy of reported values against the warehouse (Q4). Secondary outcomes are cost by component, discovery success, agreement and latest year against the warehouse, grounding of reported numbers and metadata, the number of metadata fields reported, stability across the repeat, and the determinism of server responses to identical calls.
+
+\subsection{Inference}
+Because the comparisons are paired and the samples small, inference uses exact, distribution-free tests. Paired comparisons use two-sided sign tests; outcomes with no observed failures use one-sided 95\% upper bounds.
+\begin{itemize}
+\item \textbf{Standard (Q1).} The warehouse delivered more of the standard than UN DC on \tShareUnK{} of \tShareUnN{} questions both answered ($p$ \tShareUnP), and more than Data360 on \tShareDK{} of \tShareDN{} ($p$ \tShareDP).
+\item \textbf{Cost (Q2, Q3).} UN DC was cheaper than the warehouse on \tCostUnK{} of \tCostUnN{} questions ($p$ = \tCostUnP), and Data360 on \tCostDK{} of \tCostDN{} ($p$ \tCostDP); Data360's figure partly reflects failed searches (Section~\ref{sec:results}).
+\item \textbf{Effort (Q4).} Compared within each of the \effN{} question $\times$ server cells, high effort sent more tokens than low effort in \effOpusK{} of \effN{} cells for Opus and \effSonnetK{} of \effN{} for Sonnet ($p$ = \effP{} each). The median increase was \effOpusPct\% for Opus and \effSonnetPct\% for Sonnet. Running Opus at medium effort again changed a cell's tokens sent by a median of \repCellMed\% and at most \repCellMax\%. The direction of the effort effect is therefore clear; its size, from one run per setting, is approximate.
+\item \textbf{Accuracy (Q4).} No session reported a wrong value (\wrongSessions{} of \sessions{}). Because values within a session are not independent, the honest bound is per session: the one-sided 95\% upper bound on the share of sessions with any wrong value is \errBoundSess\%. Treating the \valuesOK{} values as independent would give \errBoundVal\%, which overstates the precision.
+\end{itemize}
+The sign tests treat questions and cells as independent. Series from the same dataflow share server code paths, so the $p$-values are indicative rather than exact.
+
+\subsection{Threats to validity}
+Table~\ref{tab:validity} lists the main threats, how the design addresses each, and what remains.
+
+\begin{table}[htbp]\centering\small
+\caption{Threats to validity}\label{tab:validity}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{1.6cm}LL@{}}
+\toprule
+Threat & Type & How the design addresses it & What remains \\ \midrule
+Agents are not deterministic & internal & fixed prompt; repeat of one setting & one repeat only \\
+Servers change during collection & internal & all collection on 26--27 October 2026; identical calls returned identical content in \sigsSame{} of \sigs{} cases & results are a snapshot \\
+Different time windows inflate cost & internal & same 2000--2025 window; Data360 re-run & -- \\
+The warehouse is also the reference & internal & matched panel; agreement analysis in the sector design & a value the warehouse has wrong is not detected \\
+Scoring involves judgement & construct & automated rules validated against hand scores; element-level status reported & borderline partial scores \\
+Characters stand in for cost & construct & the agentic design measures tokens directly & tokenisers differ across models \\
+The share weights elements equally & construct & every element's status is published, so other weights can be applied & -- \\
+The client's own overhead & external & tokens decomposed; only tool definitions and responses attributed to servers & other clients have other baselines \\
+One model family, Nigeria-centred panel, UNICEF indicators & external & 17 sectors and three countries in the sector design & other providers, domains and open-ended questions untested \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -192,7 +269,7 @@ Completeness depended on which series the agent picked. Data360 holds antenatal 
 
 Higher effort bought more calls, not better answers. For Opus, MCP calls rose from \callsOpusLow{} to \callsOpusMedium{} to \callsOpusHigh{} across low, medium and high effort, and tokens received from \recvOpusLow{} to \recvOpusMedium{} to \recvOpusHigh{} per question. Sonnet's tokens received rose in the same way (\recvSonnetLow{} to \recvSonnetHigh{}). Haiku made the most calls (\callsHaikuMedium{}) and generated the most tokens: \recvHaikuMedium{} per question, about \haikuRatio{} times Sonnet at medium effort.
 
-The values were stable; the cost and the metadata were not (Table~\ref{tab:consistency}). Repeating Opus at medium effort reproduced the series and values in all \repSeries{} cells, but tokens sent per question changed by up to \repMax\%, and the median fell \repMed\%: about half the gap between low and high effort for Opus (+\opusEffort\%). The servers behaved deterministically: on UN DC, \unByteDiff{} of \unSigs{} repeated calls were byte-different only because JSON keys came back in a different order. One warehouse call, \texttt{get\_flow\_structure} for the child-mortality flow, returned \oversizedM{} million characters; the client refused it and the agent answered without it.
+The values were stable; the cost and the metadata were not (Table~\ref{tab:consistency}). Repeating Opus at medium effort reproduced the series and values in all \repSeries{} cells. Tokens sent changed by a median of \repCellMed\% per cell and at most \repCellMax\%, much less than the effect of effort compared within the same cells (median +\effOpusPct\% for Opus; Section~\ref{sec:design}). The servers behaved deterministically: on UN DC, \unByteDiff{} of \unSigs{} repeated calls were byte-different only because JSON keys came back in a different order. One warehouse call, \texttt{get\_flow\_structure} for the child-mortality flow, returned \oversizedM{} million characters; the client refused it and the agent answered without it.
 
 \begin{table}[htbp]\centering\small
 \caption{Consistency and grounding}\label{tab:consistency}
@@ -220,7 +297,7 @@ Check & Result \\ \midrule
 \item \textbf{Make discovery compact.} Search should return a short ranked list of identifiers and names, filtered by country first, and leave definitions, units and flow lists to the data response; this is where \discWh\% of the warehouse's characters go, plus \structWh\% for structure.
 \item \textbf{Keep the tool list short and its descriptions tight.} Tool definitions are re-sent with every request and in agentic use cost more tokens than the data. A small core set with advanced tools behind it would cut the largest server-attributable cost.
 \item \textbf{Cap and page every response}, so that no single call can return \oversizedM{} million characters.
-\item \textbf{Declare the response schema} through \texttt{outputSchema} and return conforming \texttt{structuredContent}.
+\item \textbf{Declare the response schema} through \texttt{outputSchema} and return structured content that conforms to it.
 \item \textbf{Test conformance and cost continuously}, with the fixed query sets and scoring scripts used here, reporting share of the standard, characters, tokens sent and received, accuracy and stability across repeated runs.
 \end{enumerate}
 
@@ -231,7 +308,7 @@ Pass through, never drop: almost all of UN DC's gaps are attributes the warehous
 The standard reuses SDMX and SDG attributes, so it asks custodians for nothing new. It can be tabled at the CCS-UN as the minimum any server that republishes custodian data should meet, with S5, S6 and S7 first, and proposed to the UN System Data Commons under UN80 Workstream 16.
 
 \subsection{For evaluating agents on official data}
-Monitor tokens sent and received separately: they differ by two orders of magnitude and respond to different design choices. Do not assume a smaller model is cheaper per answer, or that higher effort improves accuracy on well-specified questions. Repeat runs: run-to-run noise in cost was about half the effect of effort.
+Monitor tokens sent and received separately: they differ by two orders of magnitude and respond to different design choices. Do not assume a smaller model is cheaper per answer, or that higher effort improves accuracy on well-specified questions. Compare settings within the same question and server, and repeat runs: one repeat moved a cell's cost by up to \repCellMax\%, so only paired comparisons separate the effect of a setting from noise.
 
 % ======================================================================
 \section{Final remarks}\label{sec:final}

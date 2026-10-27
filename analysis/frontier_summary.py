@@ -73,5 +73,22 @@ S = dict(
     wb_latest_same=int((wb_lat == 0).sum()), wb_latest_earlier=int((wb_lat < 0).sum()), wb_latest_n=int(len(wb_lat)),
     un_max_chars=float(un.chars.max()),
 )
+
+
+def sign_test(k, n):
+    """Exact two-sided binomial (sign) test of k successes in n paired comparisons, p = 0.5."""
+    from math import comb
+    pr = [comb(n, i) / 2 ** n for i in range(n + 1)]
+    return min(1.0, sum(x for x in pr if x <= pr[k] * (1 + 1e-12)))
+
+
+wbx = wb.answered & wh.answered.reindex(wb.index)
+k1 = int((wh[both].share > un.share.reindex(wh[both].index)).sum())
+k3 = int((wh.share.reindex(wb.index)[wbx] > wb.share[wbx]).sum())
+k4 = int((wb.chars < wh.chars.reindex(wb.index)).sum())
+S["tests"] = dict(share_wh_gt_un=dict(k=k1, n=int(both.sum()), p=sign_test(k1, int(both.sum()))),
+                  cheaper_un_than_wh=dict(k=S["un_cheaper"], n=int(len(un)), p=sign_test(S["un_cheaper"], int(len(un)))),
+                  share_wh_gt_d360=dict(k=k3, n=int(wbx.sum()), p=sign_test(k3, int(wbx.sum()))),
+                  cheaper_d360_than_wh=dict(k=k4, n=int(len(wb)), p=sign_test(k4, int(len(wb)))))
 (F / "summary.json").write_text(json.dumps(S, indent=1), encoding="utf-8")
 print(json.dumps(S, indent=1))

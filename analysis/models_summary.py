@@ -78,5 +78,30 @@ S = dict(
     wh_get_time_series_calls=int((tool.t == "get_time_series").sum()), wh_query_data_calls=int((tool.t == "query_data").sum()),
     oversized=int(C.oversized.sum()), oversized_chars=int(C[C.oversized].chars.max()),
 )
+
+
+def sign_test(k, n):
+    """Exact two-sided binomial (sign) test of k successes in n paired comparisons, p = 0.5."""
+    from math import comb
+    pr = [comb(n, i) / 2 ** n for i in range(n + 1)]
+    return min(1.0, sum(x for x in pr if x <= pr[k] * (1 + 1e-12)))
+
+
+# effort and repeat, compared within each question x server cell (the cell is the pair)
+eff = {}
+for v in ("tokens_sent", "tokens_received"):
+    p = R.pivot_table(index=["qid", "server"], columns="config", values=v)
+    for m in ("opus", "sonnet"):
+        kk = int((p[f"{m}-high"] > p[f"{m}-low"]).sum())
+        eff[f"{m}_{v}"] = dict(high_gt_low=kk, n=int(len(p)), p=sign_test(kk, int(len(p))),
+                               median_ratio=round(float((p[f"{m}-high"] / p[f"{m}-low"]).median()), 3))
+    rr = (p["opus-medium-rep2"] / p["opus-medium"] - 1).abs()
+    eff[f"repeat_{v}"] = dict(median_abs_change=round(float(rr.median()), 3), max_abs_change=round(float(rr.max()), 3))
+S["effort_within_cell"] = eff
+# no wrong value in any session: one-sided 95% upper bounds on the error rate (values are clustered within sessions,
+# so the session bound is the honest one; the per-value bound is shown for reference only)
+S["error_bound_sessions_95"] = round(1 - 0.05 ** (1 / S["sessions"]), 4)
+S["error_bound_values_95"] = round(1 - 0.05 ** (1 / S["values_matched"]), 5)
+S["sessions_with_wrong_value"] = int(R.wrong_years.notna().sum())
 (M / "summary.json").write_text(json.dumps(S, indent=1), encoding="utf-8")
 print(json.dumps(S, indent=1))

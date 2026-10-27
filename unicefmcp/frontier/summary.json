@@ -85,5 +85,27 @@
  "wb_latest_same": 14,
  "wb_latest_earlier": 6,
  "wb_latest_n": 22,
- "un_max_chars": 127929.0
+ "un_max_chars": 127929.0,
+ "tests": {
+  "share_wh_gt_un": {
+   "k": 51,
+   "n": 51,
+   "p": 8.881784197001252e-16
+  },
+  "cheaper_un_than_wh": {
+   "k": 43,
+   "n": 58,
+   "p": 0.0003069470155465659
+  },
+  "share_wh_gt_d360": {
+   "k": 22,
+   "n": 22,
+   "p": 4.76837158203125e-07
+  },
+  "cheaper_d360_than_wh": {
+   "k": 22,
+   "n": 24,
+   "p": 3.5881996154785156e-05
+  }
+ }
 }

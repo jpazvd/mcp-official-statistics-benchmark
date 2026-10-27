@@ -63,7 +63,7 @@ The paper's text, tables and figures take every result from the generated files,
 
 ## Known limitations
 
-These are discussed in Section 7 of the paper:
+These are discussed in Sections 4.5 and 8 of the paper:
 - **Panel size.** The agentic panel has four series for one country, and the repeat covers one setting only.
 - **Reference.** The warehouse is both a server under test and the accuracy reference.
 - **Client baseline.** The baseline of about 97,000 tokens per request belongs to the agent harness used.
