@@ -24,7 +24,8 @@ WAREHOUSE:= unicef_mcp_compare unicef_mcp_universe d360_vs_dw four_platform_tabl
 STANDARD := d360_same_window_raw metadata_standard_example metadata_standard_scoring
 FRONTIER := frontier_sample frontier_score frontier_extract frontier_analyse frontier_summary
 MODELS   := models_extract models_analyse models_summary
-STEPS    := $(ROUND1) $(UNIVERSE) $(WAREHOUSE) $(STANDARD) $(FRONTIER) $(MODELS)
+EFFECTS  := effects
+STEPS    := $(ROUND1) $(UNIVERSE) $(WAREHOUSE) $(STANDARD) $(FRONTIER) $(MODELS) $(EFFECTS)
 
 .PHONY: all analysis assets paper check clean
 

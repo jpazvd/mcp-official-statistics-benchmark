@@ -1,0 +1,21 @@
+design,outcome,contrast,cluster,estimate,se_cr1,se_hc1,clusters,n,t,p_cr1,ci95_low,ci95_high,p_wcr,pct_effect
+sector,Share of the standard (pp),Data360 - warehouse,series,-31.6403,2.13826,1.28471,34,124,-14.7972,3.99567e-16,-35.9907,-27.29,0,
+sector,Share of the standard (pp),Data360 - warehouse,question,-31.6403,1.68802,1.28471,51,124,-18.7441,2.91338e-24,-35.0308,-28.2499,0,
+sector,Share of the standard (pp),UN DC - warehouse,series,-37.9216,1.8907,1.01824,34,124,-20.0568,4.69188e-20,-41.7682,-34.0749,0,
+sector,Share of the standard (pp),UN DC - warehouse,question,-37.9216,1.39991,1.01824,51,124,-27.0886,1.52493e-31,-40.7334,-35.1098,0,
+sector,ln(characters),Data360 - warehouse,series,-1.41352,0.349736,0.190126,34,140,-4.04168,0.000298868,-2.12506,-0.701977,0,-75.6715
+sector,ln(characters),Data360 - warehouse,question,-1.41352,0.237797,0.190126,58,140,-5.94424,1.77475e-07,-1.8897,-0.93734,0,-75.6715
+sector,ln(characters),UN DC - warehouse,series,-0.434558,0.188947,0.134397,34,140,-2.29989,0.0279168,-0.818974,-0.0501416,0.00660066,-35.2449
+sector,ln(characters),UN DC - warehouse,question,-0.434558,0.17895,0.134397,58,140,-2.42838,0.0183449,-0.792898,-0.0762171,0.00120012,-35.2449
+model,ln(tokens sent),Opus high - Opus low,cell,0.311137,0.0691676,0.0646052,12,96,4.49831,0.000903725,0.1589,0.463374,0,36.4976
+model,ln(tokens sent),Sonnet high - Sonnet low,cell,0.118835,0.0467541,0.0459887,12,96,2.5417,0.0273968,0.01593,0.22174,0.00320032,12.6184
+model,ln(tokens sent),Haiku medium - Sonnet medium,cell,0.109219,0.055747,0.0572179,12,96,1.95918,0.0759203,-0.0134798,0.231917,0.0512051,11.5406
+model,ln(tokens sent),Opus medium repeat - Opus medium,cell,-0.0757817,0.0327173,0.0461431,12,96,-2.31626,0.040846,-0.147792,-0.00377148,0.0114011,-7.29814
+model,ln(tokens received),Opus high - Opus low,cell,0.327654,0.0545222,0.0602678,12,96,6.00955,8.80462e-05,0.207651,0.447656,0,38.7708
+model,ln(tokens received),Sonnet high - Sonnet low,cell,0.198794,0.0472563,0.0404867,12,96,4.20672,0.00146885,0.0947837,0.302804,0.00050005,21.9931
+model,ln(tokens received),Haiku medium - Sonnet medium,cell,0.573375,0.0705096,0.0638031,12,96,8.13187,5.58985e-06,0.418184,0.728565,0.00030003,77.4245
+model,ln(tokens received),Opus medium repeat - Opus medium,cell,-0.0550411,0.0285047,0.041892,12,96,-1.93095,0.0796579,-0.117779,0.00769728,0.0518052,-5.35537
+model,MCP calls,Opus high - Opus low,cell,1.58333,0.442156,0.459856,12,96,3.58094,0.00431157,0.610154,2.55651,0.00090009,
+model,MCP calls,Sonnet high - Sonnet low,cell,0.833333,0.300585,0.295888,12,96,2.77237,0.01815,0.171749,1.49492,0.00620062,
+model,MCP calls,Haiku medium - Sonnet medium,cell,1.33333,0.646132,0.540792,12,96,2.06356,0.0634742,-0.0887936,2.75546,0.0147015,
+model,MCP calls,Opus medium repeat - Opus medium,cell,-0.333333,0.208849,0.315364,12,96,-1.59605,0.138785,-0.793007,0.126341,0.106211,
